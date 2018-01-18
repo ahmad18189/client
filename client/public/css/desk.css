@@ -1,0 +1,50 @@
+
+
+.calendars-popup{
+    z-index: 5000000000000!important;
+}
+
+
+
+body[data-route=""] .navbar-default,
+body[data-route="desktop"] .navbar-default,
+.navbar-default {
+  background-color: rgb(255, 255, 255);
+  border-color: rgba(54, 65, 76, 0.1);
+}
+#page-desktop{
+	background-color: #21332C !important;
+}
+
+.timeline-items{
+	/*display: none !important;*/
+}
+
+img.erpnext-icon{
+	width: 35px;
+	border: 2px solid #eee;
+	border-radius: 5px;
+}
+
+.nav.navbar-nav.navbar-right .dropdown-help{
+  display:none !important;
+}
+
+[data-name="Explore"]{
+	display: none;
+}
+
+
+.navbar-nav>li>.dropdown-menu li:nth-child(4){
+	display: none;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: inherit;
+    background-color: #3D564D !important;
+}
+
+/*
+.layout-side-section ul li:nth-child(1){
+	display: none !important;
+}
+*/
