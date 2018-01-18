@@ -124,4 +124,4 @@ website_context = {
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "client.event.get_events"
 # }
-
+fixtures = ["Custom Script","Custom Field"]
