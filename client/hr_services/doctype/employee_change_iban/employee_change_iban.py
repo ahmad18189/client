@@ -12,10 +12,10 @@ class EmployeeChangeIBAN(Document):
 	def validate(self):
 		self.validate_IBAN()
 		self.validate_commitment_with_bank()
-		if self.workflow_state:
-			if "Rejected" in self.workflow_state:
-				self.docstatus = 1
-				self.docstatus = 2
+		# if self.workflow_state:
+		# 	if "Rejected" in self.workflow_state:
+		# 		self.docstatus = 1
+		# 		self.docstatus = 2
 
 	def validate_IBAN(self):		
 		#pattern = r"^[a-zA-Z]{2}[0-9]{2}[a-zA-Z0-9]{4}[0-9]{7}([a-zA-Z0-9]?){0,16}$"

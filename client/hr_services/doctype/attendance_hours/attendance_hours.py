@@ -14,8 +14,8 @@ class AttendanceHours(Document):
 
 	def validate_hours(self):
 		if self.attendance_hours:
-			if int(self.attendance_hours)<1 or int(self.attendance_hours)>24:
-				frappe.throw(_("Bad Value set value between 1 and 24 hours<br> {0}").format(self.attendance_hours))
+			if int(self.attendance_hours)<1 or int(self.attendance_hours)< 40:
+				frappe.throw(_("Bad Value set value higher than 40 , this is the number of weekly hours attendence <br> {0}").format(self.attendance_hours))
 
 		#~ if get_datetime(self.start_time) > get_datetime(self.end_time):
 			#~ frappe.throw(_("Start Time must be less than End Time"))

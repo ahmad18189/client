@@ -66,6 +66,7 @@ frappe.ui.form.on('Employee Loan', {
 		})
 	},
 	mode_of_payment: function(frm) {
+		if(cur_frm.doc.get_bank_cash_account){
 		frappe.call({
 			method: "erpnext.accounts.doctype.sales_invoice.sales_invoice.get_bank_cash_account",
 			args: {
@@ -77,26 +78,28 @@ frappe.ui.form.on('Employee Loan', {
 					frm.set_value("payment_account", r.message.account);
 				}
 			}
-		});
+		})}
 	},
 
 	employee_loan_application: function(frm) {
-		return frm.call({
-			method: "erpnext.hr.doctype.employee_loan.employee_loan.get_employee_loan_application",
-			args: {
-				"employee_loan_application": frm.doc.employee_loan_application
-			},
-			callback: function(r){
-				if(!r.exc && r.message) {
-					frm.set_value("loan_type", r.message.loan_type);
-					frm.set_value("loan_amount", r.message.loan_amount);
-					frm.set_value("repayment_method", r.message.repayment_method);
-					frm.set_value("monthly_repayment_amount", r.message.repayment_amount);
-					frm.set_value("repayment_periods", r.message.repayment_periods);
-					frm.set_value("rate_of_interest", r.message.rate_of_interest);
+		if(cur_frm.doc.employee_loan_application){
+			return frm.call({
+				method: "erpnext.hr.doctype.employee_loan.employee_loan.get_employee_loan_application",
+				args: {
+					"employee_loan_application": frm.doc.employee_loan_application
+				},
+				callback: function(r){
+					if(!r.exc && r.message) {
+						frm.set_value("loan_type", r.message.loan_type);
+						frm.set_value("loan_amount", r.message.loan_amount);
+						frm.set_value("repayment_method", r.message.repayment_method);
+						frm.set_value("monthly_repayment_amount", r.message.repayment_amount);
+						frm.set_value("repayment_periods", r.message.repayment_periods);
+						frm.set_value("rate_of_interest", r.message.rate_of_interest);
+					}
 				}
-			}
-		})
+			})
+	}
 	},
 
 	repayment_method: function(frm) {

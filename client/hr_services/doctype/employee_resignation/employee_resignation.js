@@ -15,5 +15,16 @@ frappe.ui.form.on('Employee Resignation', {
         }
 
 
+    },
+    validate: function(frm){
+        var start = Date.parse(cur_frm.doc.date_of_joining);
+        var end = Date.parse(cur_frm.doc.last_working_date);
+        if (end < start) {
+            frappe.throw("تاريخ اخر يوم عمل يجب أن يكون بعد تاريخ الانضمام للشركة");
     }
+        var end = Date.parse(cur_frm.doc.permission_date);
+        if (end < start) {
+            frappe.throw("تاريخ طلب الاستقالة يجب أن يكون بعد تاريخ الانضمام للشركة");
+}
+}
 });
