@@ -1,1 +1,11 @@
-[]
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
+  "dt": "Employee", 
+  "modified": "2018-02-25 20:55:39.719866", 
+  "name": "Employee-Client", 
+  "script": "frappe.ui.form.on(\"Employee\", {\n attendance_hours: function(frm,cdt,cdn) {\n        frappe.call({\n    method: 'frappe.client.get_value',\n    args: {\n        'doctype': 'Attendance Hours',\n        'filters': {'name': frm.doc.attendance_hours},\n        'fieldname':['weekly_holidays','branch']\n    },\n    callback: function(r) {\n\tfrappe.model.set_value(cdt, cdn, \"holiday_list\", r.message.weekly_holidays);\n\tfrappe.model.set_value(cdt, cdn, \"branch\", r.message.branch);\n    }\n});\n\n}\n});", 
+  "script_type": "Client"
+ }
+]

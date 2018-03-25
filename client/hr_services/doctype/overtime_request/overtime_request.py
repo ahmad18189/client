@@ -13,13 +13,13 @@ from erpnext.hr.doctype.leave_application.leave_application import get_holidays
 class OvertimeRequest(Document):
 	def validate(self):
 		self.validate_dates()
-		self.validate_emp()
+		# self.validate_emp()
 		self.validate_max_hours()
-		self.validate_approvals()
-		if self.workflow_state:
-			if "Rejected" in self.workflow_state:
-				self.docstatus = 1
-				self.docstatus = 2
+		# self.validate_approvals()
+		# if self.workflow_state:
+		# 	if "Rejected" in self.workflow_state:
+		# 		self.docstatus = 1
+		# 		self.docstatus = 2
 		# self.get_overtime_records()
 
 	def validate_emp(self):

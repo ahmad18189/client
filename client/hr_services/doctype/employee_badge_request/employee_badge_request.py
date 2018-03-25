@@ -32,14 +32,15 @@ class EmployeeBadgeRequest(Document):
 			frappe.throw(_("Employee must recieve the Badge before submit"))
 	
 	def validate(self):
-		if self.workflow_state:
-			if self.workflow_state == "Approved By HR Specialist":
-				self.docstatus = 1
+		pass
+		# if self.workflow_state:
+		# 	if self.workflow_state == "Approved By HR Specialist":
+		# 		self.docstatus = 1
 
-		if self.workflow_state:
-			if "Rejected" in self.workflow_state:
-				self.docstatus = 1
-				self.docstatus = 2
+		# if self.workflow_state:
+		# 	if "Rejected" in self.workflow_state:
+		# 		self.docstatus = 1
+		# 		self.docstatus = 2
 
 
 def get_permission_query_conditions(user):

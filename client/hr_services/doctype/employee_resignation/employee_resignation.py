@@ -27,7 +27,7 @@ class EmployeeResignation(Document):
 		eos_award.end_date = self.last_working_date
 		eos_award.salary = salary
 		eos_award.reason="استقالة العامل"
-		eos_award.workflow_state="Pending"
+		# eos_award.workflow_state="Pending"
 		eos_award.days = award_info['days']
 		eos_award.months = award_info['months']
 		eos_award.years = award_info['years']
@@ -73,11 +73,11 @@ class EmployeeResignation(Document):
 			mm=loan_emp.status
 			frappe.throw(self.employee+"/ "+self.employee_name+" have an active loan")
 
-		self.validate_emp()
-		if self.workflow_state:
-			if "Rejected" in self.workflow_state:
-			    self.docstatus = 1
-			    self.docstatus = 2
+		# self.validate_emp()
+		# if self.workflow_state:
+		# 	if "Rejected" in self.workflow_state:
+		# 	    self.docstatus = 1
+		# 	    self.docstatus = 2
 
 	def validate_emp(self):
 		 if self.get('__islocal'):

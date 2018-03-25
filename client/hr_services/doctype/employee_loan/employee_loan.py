@@ -21,7 +21,7 @@ class EmployeeLoan(AccountsController):
 		if self.repayment_method == "Repay Over Number of Periods":
 			self.monthly_repayment_amount = get_monthly_repayment_amount(self.repayment_method, self.loan_amount, self.rate_of_interest, self.repayment_periods)
 
-		self.make_repayment_schedule()
+		# self.make_repayment_schedule()
 		self.set_repayment_period()
 		self.calculate_totals()
 
