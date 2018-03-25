@@ -11,7 +11,7 @@ class AttendanceMovement(Document):
 	pass
 
 
-@frappe.whitelist(allow_guest=True)
-def make_attendance(data):
-	print ("asdasd")
-    return 'data'
+#~ @frappe.whitelist(allow_guest=True)
+#~ def make_attendance(data):
+	#~ print ("asdasd")
+    #~ return 'data'
