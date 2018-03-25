@@ -27,7 +27,7 @@ class EmployeeResignation(Document):
 		eos_award.end_date = self.last_working_date
 		eos_award.salary = salary
 		eos_award.reason="استقالة العامل"
-		eos_award.workflow_state="Pending"
+		# eos_award.workflow_state="Pending"
 		eos_award.days = award_info['days']
 		eos_award.months = award_info['months']
 		eos_award.years = award_info['years']
@@ -51,7 +51,7 @@ class EmployeeResignation(Document):
 		doc.posting_date= start_date
 		
 		doc.insert()
-
+ 
 
 		grosspay =doc.gross_pay
 		result=grosspay
@@ -73,24 +73,24 @@ class EmployeeResignation(Document):
 			mm=loan_emp.status
 			frappe.throw(self.employee+"/ "+self.employee_name+" have an active loan")
 
-		self.validate_emp()
-		if self.workflow_state:
-			if "Rejected" in self.workflow_state:
-			    self.docstatus = 1
-			    self.docstatus = 2
+		# self.validate_emp()
+		# if self.workflow_state:
+		# 	if "Rejected" in self.workflow_state:
+		# 	    self.docstatus = 1
+		# 	    self.docstatus = 2
 
-	def validate_emp(self):
-		 if self.get('__islocal'):
-			if u'CEO' in frappe.get_roles(frappe.session.user):
-				self.workflow_state = "Created By CEO"
-			elif u'Director' in frappe.get_roles(frappe.session.user):
-				self.workflow_state = "Created By Director"
-			elif u'Manager' in frappe.get_roles(frappe.session.user):
-				self.workflow_state = "Created By Manager"
-			elif u'Line Manager' in frappe.get_roles(frappe.session.user):
-				self.workflow_state = "Created By Line Manager"
-			elif u'Employee' in frappe.get_roles(frappe.session.user):
-				self.workflow_state = "Pending"
+	# def validate_emp(self):
+	# 	 if self.get('__islocal'):
+	# 		if u'CEO' in frappe.get_roles(frappe.session.user):
+	# 			self.workflow_state = "Created By CEO"
+	# 		elif u'Director' in frappe.get_roles(frappe.session.user):
+	# 			self.workflow_state = "Created By Director"
+	# 		elif u'Manager' in frappe.get_roles(frappe.session.user):
+	# 			self.workflow_state = "Created By Manager"
+	# 		elif u'Line Manager' in frappe.get_roles(frappe.session.user):
+	# 			self.workflow_state = "Created By Line Manager"
+	# 		elif u'Employee' in frappe.get_roles(frappe.session.user):
+	# 			self.workflow_state = "Pending"
 
 		#if frappe.get_value('Financial Custody', filters={'employee' : self.employee}):
 			#name=frappe.get_value('Financial Custody', filters={'employee' : self.employee}) 

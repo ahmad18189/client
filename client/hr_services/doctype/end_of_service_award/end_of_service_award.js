@@ -28,9 +28,9 @@ frappe.ui.form.on('End of Service Award', {
         });
         cur_frm.add_fetch("employee", "employment_type", "type_of_contract");
         if (cur_frm.doc.employee) {
-            if (cur_frm.doc.type_of_contract == "Contractor") {
+            if (cur_frm.doc.type_of_contract == "عقد") {
                 cur_frm.set_df_property("reason", "options", "\nانتهاء مدة العقد , أو باتفاق الطرفين على إنهاء العقد\nفسخ العقد من قبل صاحب العمل\nفسخ العقد من قبل صاحب العمل لأحد الحالات الواردة في المادة (80)\nترك الموظف العمل نتيجة لقوة قاهرة\nإنهاء الموظفة لعقد العمل خلال ستة أشهر من عقد الزواج أو خلال ثلاثة أشهر من الوضع\nترك الموظف العمل لأحد الحالات الواردة في المادة (81)\nفسخ العقد من قبل الموظف أو ترك الموظف العمل لغير الحالات الواردة في المادة (81)");
-            } else if (cur_frm.doc.type_of_contract == "Full-time") {
+            } else if (cur_frm.doc.type_of_contract == "دوام كامل") {
                 cur_frm.set_df_property("reason", "options", "\nاتفاق الموظف وصاحب العمل على إنهاء العقد\nفسخ العقد من قبل صاحب العمل\nفسخ العقد من قبل صاحب العمل لأحد الحالات الواردة في المادة (80)\nترك الموظف العمل نتيجة لقوة قاهرة\nإنهاء الموظفة لعقد العمل خلال ستة أشهر من عقد الزواج أو خلال ثلاثة أشهر من الوضع\nترك الموظف العمل لأحد الحالات الواردة في المادة (81)\nترك الموظف العمل دون تقديم استقالة لغير الحالات الواردة في المادة (81)\nاستقالة الموظف");
             } else {
                 cur_frm.set_df_property("reason", "options", "");
@@ -41,21 +41,22 @@ frappe.ui.form.on('End of Service Award', {
         //        // cur_frm.set_value('award',"");
         //        // cur_frm.set_value('salary'," ");
         //        alert("kkk");
-
-        frappe.call({
-            "method": "get_salary",
-            doc: cur_frm.doc,
-            args: { "employee": cur_frm.doc.employee },
-            callback: function(data) {
-                if (data) {
-                    cur_frm.set_value('salary', data.message);
+        if (cur_frm.doc.employee){
+            frappe.call({
+                "method": "get_salary",
+                doc: cur_frm.doc,
+                args: { "employee": cur_frm.doc.employee },
+                callback: function(data) {
+                    if (data) {
+                        cur_frm.set_value('salary', data.message);
+                    }
                 }
-            }
-        });
+            });
+        }
 
     },
     type_of_contract: function() {
-        if (cur_frm.doc.type_of_contract == "Contractor") {
+        if (cur_frm.doc.type_of_contract == "عقد") {
             cur_frm.set_df_property("reason", "options", "\nانتهاء مدة العقد , أو باتفاق الطرفين على إنهاء العقد\nفسخ العقد من قبل صاحب العمل\nفسخ العقد من قبل صاحب العمل لأحد الحالات الواردة في المادة (80)\nترك الموظف العمل نتيجة لقوة قاهرة\nإنهاء الموظفة لعقد العمل خلال ستة أشهر من عقد الزواج أو خلال ثلاثة أشهر من الوضع\nترك الموظف العمل لأحد الحالات الواردة في المادة (81)\nفسخ العقد من قبل الموظف أو ترك الموظف العمل لغير الحالات الواردة في المادة (81)");
         } else {
             cur_frm.set_df_property("reason", "options", "\nاتفاق الموظف وصاحب العمل على إنهاء العقد\nفسخ العقد من قبل صاحب العمل\nفسخ العقد من قبل صاحب العمل لأحد الحالات الواردة في المادة (80)\nترك الموظف العمل نتيجة لقوة قاهرة\nإنهاء الموظفة لعقد العمل خلال ستة أشهر من عقد الزواج أو خلال ثلاثة أشهر من الوضع\nترك الموظف العمل لأحد الحالات الواردة في المادة (81)\nترك الموظف العمل دون تقديم استقالة لغير الحالات الواردة في المادة (81)\nاستقالة الموظف");
@@ -153,7 +154,7 @@ frappe.ui.form.on('End of Service Award', {
         } else {
 
 
-            if (cur_frm.doc.type_of_contract == "Contractor") {
+            if (cur_frm.doc.type_of_contract == "عقد") {
                 if (cur_frm.doc.reason == "فسخ العقد من قبل صاحب العمل لأحد الحالات الواردة في المادة (80)" || cur_frm.doc.reason == "فسخ العقد من قبل الموظف أو ترك الموظف العمل لغير الحالات الواردة في المادة (81)") {
                     cur_frm.set_value('award', "لا يستحق الموظف مكافأة نهاية خدمة");
                 } else {
@@ -173,7 +174,7 @@ frappe.ui.form.on('End of Service Award', {
                     cur_frm.set_value('award', result);
 
                 }
-            } else if (cur_frm.doc.type_of_contract == "Full-time") {
+            } else if (cur_frm.doc.type_of_contract == "دوام كامل") {
 
 
                 if (cur_frm.doc.reason == "فسخ العقد من قبل صاحب العمل لأحد الحالات الواردة في المادة (80)" || cur_frm.doc.reason == "ترك الموظف العمل دون تقديم استقالة لغير الحالات الواردة في المادة (81)") {

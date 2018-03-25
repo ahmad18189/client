@@ -5,7 +5,7 @@
 from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
-from umalqurra.hijri_date import HijriDate
+# from umalqurra.hijri_date import HijriDate
 import datetime
 import json
 
@@ -13,22 +13,22 @@ class MayConcernLetter(Document):
 	
 
 
-	def get_hijry(self):
+	# def get_hijry(self):
 
-		datee = datetime.datetime.strptime(frappe.utils.today(), "%Y-%m-%d")
-		um = HijriDate(datee.year,datee.month,datee.day,gr=True)
-		return str('هـ'+str(int(um.year))+str(um.month_name) + str(int(um.day)))
+	# 	datee = datetime.datetime.strptime(frappe.utils.today(), "%Y-%m-%d")
+	# 	um = HijriDate(datee.year,datee.month,datee.day,gr=True)
+	# 	return str('هـ'+str(int(um.year))+str(um.month_name) + str(int(um.day)))
 
 
 
 	def validate(self):
 		self.fieldsvalidate()
-		self.hijry=self.get_hijry()
+		# self.hijry=self.get_hijry()
 		self.salary=self.get_salary()
-		if self.workflow_state:
-			if "Rejected" in self.workflow_state:
-			    self.docstatus = 1
-			    self.docstatus = 2
+		# if self.workflow_state:
+		# 	if "Rejected" in self.workflow_state:
+		# 	    self.docstatus = 1
+		# 	    self.docstatus = 2
 
 	def fieldsvalidate(self):
 		if not self.employee_name:
@@ -72,8 +72,8 @@ class MayConcernLetter(Document):
 			doc.start_date="2017-11-01"
 			doc.end_date="2017-11-29"
 			doc.employee= str(self.employee)
-			doc.employee_name=str(self.employee_name)
-			doc.company= "Tawari"
+			# doc.employee_name=str(self.employee_name)
+			doc.company= "جمعية الخير"
 			doc.posting_date= "2017-10-01"
 			
 			doc.insert(ignore_permissions=True)
