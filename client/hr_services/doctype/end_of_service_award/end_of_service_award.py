@@ -13,11 +13,12 @@ from frappe.utils import cint, cstr, date_diff, flt, formatdate, getdate, get_li
 class EndofServiceAward(Document):
 
     def validate(self):
-        if hasattr(self,"workflow_state"):
-            if "Rejected" in self.workflow_state:
-                self.docstatus = 1
-                self.docstatus = 2
-        self.switch_workflow_transition()
+        pass
+        # if hasattr(self,"workflow_state"):
+        #     if "Rejected" in self.workflow_state:
+        #         self.docstatus = 1
+        #         self.docstatus = 2
+        # self.switch_workflow_transition()
         # frappe.throw(str(self.months))
 
     def get_salary(self,employee):
@@ -96,7 +97,7 @@ def get_award(start_date, end_date, salary, toc, reason):
     if not reason:
         frappe.throw("برجاء اختيار سبب انتهاء العلاقة العمالية")
     else:
-        if toc == "Contractor":
+        if toc == "عقد":
             if reason == "فسخ العقد من قبل صاحب العمل لأحد الحالات الواردة في المادة (80)" or reason == "فسخ العقد من قبل الموظف أو ترك الموظف العمل لغير الحالات الواردة في المادة (81)":
                 ret_dict["award"] = "لا يستحق الموظف مكافأة نهاية خدمة"
             else:
@@ -108,7 +109,7 @@ def get_award(start_date, end_date, salary, toc, reason):
                     firstPeriod = years
                 result = (firstPeriod * salary * 0.5) + (secondPeriod * salary)
                 ret_dict["award"] = result
-        elif toc == "Full-time":
+        elif toc == "دوام كامل":
 
             if reason == "فسخ العقد من قبل صاحب العمل لأحد الحالات الواردة في المادة (80)" or reason == "ترك الموظف العمل دون تقديم استقالة لغير الحالات الواردة في المادة (81)":
                 ret_dict["award"] = "لا يستحق الموظف مكافأة نهاية خدمة"
