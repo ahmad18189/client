@@ -14,6 +14,30 @@ from datetime import timedelta
 import datetime
 
 
+
+
+def add_translation( ignore_links=False, overwrite=False, submit=False, pre_process=None, no_email=True):
+    import sys
+    from frappe.utils.csvutils import read_csv_content
+    from frappe.core.doctype.data_import.importer import upload
+    with open('/home/frappe/frappe-bench/apps/client/Translation.csv', "r") as infile:
+        rows = read_csv_content(infile.read())
+        for index, row in enumerate(rows):
+            if not frappe.db.exists("Translation", {"source_name": row[0]}) and (row[0] is not None):
+                print index,'---',row[0]
+                frappe.get_doc({
+                        "doctype":"Translation",
+                        "language": 'ar',
+                        "source_name": row[0],
+                        "target_name": row[1]
+                    }).insert(ignore_permissions=True)
+            else:
+                try:
+                    frappe.db.sql("""update `tabTranslation` set target_name="{0}" where source_name="{1}" """.format(row[1],row[0]))
+                    print row[0]
+                except: 
+                    pass
+                
 # def add_emp():
 #     import sys
 #     from frappe.utils.csvutils import read_csv_content

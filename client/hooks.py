@@ -11,6 +11,9 @@ app_color = "grey"
 app_email = "ahmedzaqout@outlook.com"
 app_license = "MIT"
 
+
+treeviews = ["MGR Department"]
+
 # Includes in <head>
 # ------------------
 
@@ -84,13 +87,16 @@ website_context = {
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-#     "*": {
-#         "on_update": "method",
-#         "on_cancel": "method",
-#         "on_trash": "method"
-#    }
+doc_events = {
+# "*": {
+#     "on_update": "method",
+#     "on_cancel": "method",
+#     "on_trash": "method"
 # }
+	"Salary Slip": {
+	   "after_insert":"client.apiclient.get_penalty_days"
+	}
+}
 
 # Scheduled Tasks
 # ---------------

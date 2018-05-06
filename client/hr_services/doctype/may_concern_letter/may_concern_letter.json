@@ -933,7 +933,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2018-03-18 11:11:44.270189", 
+ "modified": "2018-04-04 13:38:03.372334", 
  "modified_by": "Administrator", 
  "module": "HR Services", 
  "name": "May Concern Letter", 
@@ -957,7 +957,7 @@
    "role": "HR Manager", 
    "set_user_permissions": 0, 
    "share": 1, 
-   "submit": 0, 
+   "submit": 1, 
    "write": 1
   }, 
   {

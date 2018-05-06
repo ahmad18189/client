@@ -12,16 +12,26 @@ def get_data():
 					"description":_("May Concern Letter"),
 					"hide_count": True
 				},
-				{
-					"type": "doctype",
-					"name": "Employee Loan",
-					"description":_("Employee Loan"),
-				},
-				{
-					"type": "doctype",
-					"name": "Employee Loan Application",
-					"description":_("Employee Loan Application"),
-				},
+				# {
+				# 	"type": "doctype",
+				# 	"name": "Employee Loan",
+				# 	"description":_("Employee Loan"),
+				# },
+				# {
+				# 	"type": "doctype",
+				# 	"name": "Penalty",
+				# 	"description":_("Penalty")
+				# },
+				# {
+				# 	"type": "doctype",
+				# 	"name": "Warrantor",
+				# 	"description":_("Warrantor")
+				# },
+				# {
+				# 	"type": "doctype",	
+				# 	"name": "Employee Loan Application",
+				# 	"description":_("Employee Loan Application"),
+				# },
 				{
 					"type": "doctype",
 					"name": "End of Service Award",
@@ -32,36 +42,57 @@ def get_data():
 					"name": "Overtime Request",
 					"description":_("Overtime Request"),
 				},
-				{
-					"type": "doctype",
-					"name": "Financial Custody",
-					"description":_("Financial Custody"),
-				},
+				# {
+				# 	"type": "doctype",
+				# 	"name": "Financial Custody",
+				# 	"description":_("Financial Custody"),
+				# },
 				{
 					"type": "doctype",
 					"name": "Employee Resignation",
 					"description":_("Employee Resignation"),
 				},
-				{
-					"type": "doctype",
-					"name": "Promotion and Merit Increase",
-					"description":_("Promotion and Merit Increase")
-				},
+				# {
+				# 	"type": "doctype",
+				# 	"name": "Promotion and Merit Increase",
+				# 	"description":_("Promotion and Merit Increase")
+				# },
 				{
 					"type": "doctype",
 					"name": "Employee Badge Request",
 					"description":_("Employee Badge Request")
 				},
+				# {
+				# 	"type": "doctype",
+				# 	"name": "Employee Change IBAN",
+				# 	"description":_("Employee Change IBAN")
+				# },
+				# {
+				# 	"type": "doctype",
+				# 	"name": "Medical Insurance Application",
+				# 	"description": _("Medical Insurance Application."),
+				# },
 				{
 					"type": "doctype",
-					"name": "Employee Change IBAN",
-					"description":_("Employee Change IBAN")
+					"label": _("Department Tree"),
+					"name": "MGR Department",
+					"route": "Tree/MGR Department",
+					"description": _("Organization unit (MGR department) master.")
 				},
+
+			]
+		},
+		{
+			"label": _("Reports"),
+			"icon": "fa fa-list",
+			"items": [
 				{
-					"type": "doctype",
-					"name": "Medical Insurance Application",
-					"description": _("Medical Insurance Application."),
-				},
+					"type": "report",
+					"is_query_report": True,
+					"name": "Social Insurance",
+					"doctype": "Employee"
+				}
+
 			]
 		}
 	]
