@@ -99,11 +99,11 @@ cur_frm.cscript.custom_hours = function(doc, cdt, cdn) {
         },
         callback: function(r) {
             if (r.message >= 1) {
-                if (d.hours > 6) {
+                if (d.hours > 8) {
                     frappe.throw(__("You can't insert more than 6 hours as overtime in a holiday day"));
                 }
             } else {
-                if (d.hours > 3) {
+                if (d.hours > 8) {
                     frappe.throw(__("You can't insert more than 3 hours as overtime in a working day"));
                 }
             }

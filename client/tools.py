@@ -16,6 +16,136 @@ import datetime
 
 
 
+def add_salary():
+    from frappe.utils.csvutils import read_csv_content
+    from frappe.core.doctype.data_import.importer import upload
+    with open('/home/frappe/frappe-bench/apps/client/client/sal.csv', "r") as infile:  
+        rows = read_csv_content(infile.read())
+        for index, row in enumerate(rows):
+            if row[0]:
+                query = frappe.db.sql("select name, employee_name, date_of_joining, status from `tabEmployee` where civil_id_no='{0}'".format(row[1]), as_dict=1)
+                if query:
+                    deductions = []
+                    earnings = []
+                    comps = ["الراتب الاساسي", "بدل السكن", "بدل الموصلات", "بدل الهاتف", "بدل اضافي"]
+                    idx = 1
+                    for c, i in zip(comps, range(2,7)):
+                        if row[i]:
+                            comp={ "doctype": "Salary Detail", "salary_component": c, "parenttype": "Salary Structure", "parentfield": "earnings", "formula": row[i], "idx": idx }
+                            idx += 1
+                            earnings.append(comp)
+
+
+                if query[0].status == "Active":
+                    print query[0].name
+                    print row[2]
+                    ss = frappe.new_doc("Salary Structure")
+                    ss.update(
+                        {
+                        "doctype": "Salary Structure",
+                        "name": query[0].name + "-SS",
+                        "owner": "Administrator",
+                        "from_date":query[0].date_of_joining,
+                        "company": "Tadweeer",
+                        "is_active": "Yes",
+                        "payment_account": "40000000 - Expenses - المصاريف - T",
+                        "employees": [
+                                      {
+                                        "doctype": "Salary Structure Employee",
+                                        "parenttype": "Salary Structure",
+                                        "base": row[6],
+                                        "variable": 0,
+                                        "from_date":query[0].date_of_joining,
+                                        "employee": query[0].name,
+                                        "docstatus": 0,
+                                        "employee_name": query[0].employee_name,
+                                        "parentfield": "employees"
+                                      }
+                        ],
+                        "earnings": earnings,
+                        "deductions": deductions,
+                        "hour_rate": 0, 
+                        "salary_slip_based_on_timesheet": 0
+                     }
+                        )
+                    ss.insert()
+                    
+
+
+
+
+def add_emp():
+    import sys
+    from frappe.utils.csvutils import read_csv_content
+    from frappe.core.doctype.data_import.importer import upload
+    # print "Importing " + path
+    with open('/home/frappe/frappe-bench/apps/client/client/emp.csv', "r") as infile:
+        rows = read_csv_content(infile.read())
+
+        cc = 0
+        for index, row in enumerate(rows):
+            print index
+
+            frappe.get_doc({
+                "doctype": "Employee",
+                "employee_name_english": row[1],
+                "employee_name": row[2],
+                "designation": row[3],
+                "civil_id_no": row[5],
+                "emp_nationality": row[6],
+                "date_of_joining": row[7],
+                "date_of_birth": row[8],
+                "department": row[9],
+                "branch": row[10],
+                "user_id": row[11],
+                "work_days": row[12],
+                "naming_series": "EMP",
+                "gender": "ذكر"
+            }).insert(ignore_permissions=True)
+
+            
+        print cc
+
+
+
+def add_usres_email():
+    import sys
+    from frappe.utils.csvutils import read_csv_content
+    from frappe.core.doctype.data_import.importer import upload
+    # print "Importing " + path
+    with open('/home/frappe/frappe-bench/apps/client/client/emp.csv', "r") as infile:
+        rows = read_csv_content(infile.read())
+
+        cc = 0
+        for index, row in enumerate(rows):
+
+            cc += 1
+            string = str(row[1])
+            tt = string.split()
+            if row[11]:
+                print tt[0]+'.'+tt[-1]
+
+
+                frappe.get_doc({
+                    "doctype": "User",
+                    "user_type": 'System User',
+                    "email": row[11],
+                    "first_name": tt[0],
+                    "last_name": tt[-1],
+                    "language": "ar",
+                    "civil_id_no":row[9],
+                    "username": tt[0]+'.'+tt[-1],
+                    "new_password": 123,
+                    "send_welcome_email": 0
+                }).insert(ignore_permissions=True)
+
+                _update_password(row[11], row[5])
+
+            
+        print cc
+
+
+
 def add_translation( ignore_links=False, overwrite=False, submit=False, pre_process=None, no_email=True):
     import sys
     from frappe.utils.csvutils import read_csv_content
@@ -38,20 +168,6 @@ def add_translation( ignore_links=False, overwrite=False, submit=False, pre_proc
                 except: 
                     pass
                 
-# def add_emp():
-#     import sys
-#     from frappe.utils.csvutils import read_csv_content
-#     from frappe.core.doctype.data_import.importer import upload
-#     with open("/home/haneen/mawred-erp/apps/erpnext/erpnext/accounts.csv", "r") as infile:
-#         rows = read_csv_content(infile.read())
-#         c=0
-
-#         for index, row in enumerate(rows):
-#             em = frappe.db.sql("select root_type, report_type from `tabAccount` where name='{0}'".format(row[0]))
-#             print em
-
-
-#     print c
 
 def add_reports_to():
     import sys

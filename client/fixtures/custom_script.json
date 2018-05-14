@@ -2,6 +2,15 @@
  {
   "docstatus": 0, 
   "doctype": "Custom Script", 
+  "dt": "Asset", 
+  "modified": "2018-05-06 21:18:14.536150", 
+  "name": "Asset-Client", 
+  "script": "frappe.ui.form.on(\"Asset\", {\n\tvalidate: function(frm){\n     \t\tif (frm.doc.__islocal) {\n        \t\tfrm.doc.asset_name = frm.doc.item_code\n\t\t}\n\t} \n}); ", 
+  "script_type": "Client"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Custom Script", 
   "dt": "Item", 
   "modified": "2018-05-06 19:50:22.050722", 
   "name": "Item-Client", 
