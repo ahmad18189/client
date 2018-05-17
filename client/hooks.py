@@ -98,26 +98,11 @@ doc_events = {
 	}
 }
 
-# Scheduled Tasks
-# ---------------
-
-# scheduler_events = {
-#     "all": [
-#         "client.tasks.all"
-#     ],
-#     "daily": [
-#         "client.tasks.daily"
-#     ],
-#     "hourly": [
-#         "client.tasks.hourly"
-#     ],
-#     "weekly": [
-#         "client.tasks.weekly"
-#     ]
-#     "monthly": [
-#         "client.tasks.monthly"
-#     ]
-# }
+scheduler_events = {
+	"daily": [
+		'client.hr_services.doctype.warrantor.warrantor.hooked_leave_allocation_builder'
+	]
+}
 
 # Testing
 # -------

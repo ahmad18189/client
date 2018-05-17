@@ -8,6 +8,12 @@ def get_data():
 			"items": [
 				{
 					"type": "doctype",
+					"name": "Business Trip",
+					"description":_("Business Trip"),
+					"hide_count": True
+				},
+				{
+					"type": "doctype",
 					"name": "May Concern Letter",
 					"description":_("May Concern Letter"),
 					"hide_count": True
