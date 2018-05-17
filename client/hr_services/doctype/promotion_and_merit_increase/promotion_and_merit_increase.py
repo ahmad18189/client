@@ -18,12 +18,12 @@ class PromotionandMeritIncrease(Document):
         self.check_total_points()
         self.validate_dates()
         self.validate_contest()
-        self.validate_emp()
-        if hasattr(self,"workflow_state"):
-            if self.workflow_state:
-                if "Rejected" in self.workflow_state:
-                    self.docstatus = 1
-                    self.docstatus = 2
+        # self.validate_emp()
+        # if hasattr(self,"workflow_state"):
+        #     if self.workflow_state:
+        #         if "Rejected" in self.workflow_state:
+        #             self.docstatus = 1
+        #             self.docstatus = 2
 
     def validate_emp(self):
         if self.get('__islocal'):

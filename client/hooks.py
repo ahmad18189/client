@@ -11,6 +11,9 @@ app_color = "grey"
 app_email = "ahmedzaqout@outlook.com"
 app_license = "MIT"
 
+
+treeviews = ["MGR Department"]
+
 # Includes in <head>
 # ------------------
 
@@ -18,10 +21,10 @@ app_license = "MIT"
 app_include_css = ['/assets/client/css/desk.css',"/assets/client/js/c3/c3.min.css"]
 app_include_js = ["/assets/client/js/c3/c3.min.js"]
 website_context = {
-	"favicon": 	"/assets/client/images/logo.png",
-	"splash_image": "/assets/client/images/logo.png"
-	# "favicon": 	"/assets/erpnext/images/favicon.png",
-	# "splash_image": "/assets/erpnext/images/erp-icon.svg"
+    "favicon":     "/assets/client/images/logo1.png",
+    "splash_image": "/assets/client/images/logo1.png"
+    # "favicon":     "/assets/erpnext/images/favicon.png",
+    # "splash_image": "/assets/erpnext/images/erp-icon.svg"
 }
 # include js, css files in header of web template
 # web_include_css = "/assets/client/css/client.css"
@@ -44,7 +47,7 @@ website_context = {
 
 # website user home page (by Role)
 # role_home_page = {
-#	"Role": "home_page"
+#    "Role": "home_page"
 # }
 
 # Website user home page (by function)
@@ -73,45 +76,33 @@ website_context = {
 # Permissions evaluated in scripted ways
 
 # permission_query_conditions = {
-# 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
+#     "Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
 # }
 #
 # has_permission = {
-# 	"Event": "frappe.desk.doctype.event.event.has_permission",
+#     "Event": "frappe.desk.doctype.event.event.has_permission",
 # }
 
 # Document Events
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
+doc_events = {
+# "*": {
+#     "on_update": "method",
+#     "on_cancel": "method",
+#     "on_trash": "method"
 # }
+	"Salary Slip": {
+	   "after_insert":"client.apiclient.get_penalty_days"
+	}
+}
 
-# Scheduled Tasks
-# ---------------
-
-# scheduler_events = {
-# 	"all": [
-# 		"client.tasks.all"
-# 	],
-# 	"daily": [
-# 		"client.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"client.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"client.tasks.weekly"
-# 	]
-# 	"monthly": [
-# 		"client.tasks.monthly"
-# 	]
-# }
+scheduler_events = {
+	"daily": [
+		'client.hr_services.doctype.warrantor.warrantor.hooked_leave_allocation_builder'
+	]
+}
 
 # Testing
 # -------
@@ -122,6 +113,6 @@ website_context = {
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "client.event.get_events"
+#     "frappe.desk.doctype.event.event.get_events": "client.event.get_events"
 # }
 fixtures = ["Custom Script","Custom Field"]

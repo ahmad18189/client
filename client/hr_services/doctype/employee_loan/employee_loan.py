@@ -62,6 +62,9 @@ class EmployeeLoan(AccountsController):
 			principal_amount = self.monthly_repayment_amount - interest_amount
 			balance_amount = rounded(balance_amount + interest_amount - self.monthly_repayment_amount)
 
+			if interest_amount == self.monthly_repayment_amount:
+				frappe.throw("Wrong Loan Amount or Long Repayment Period")
+				
 			if balance_amount < 0:
 				principal_amount += balance_amount
 				balance_amount = 0.0

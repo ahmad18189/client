@@ -10,5 +10,12 @@ def get_data():
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
 			"label": _("client to all customer")
-		}
+		},
+		{
+			"module_name": "HR Services",
+			"color": "#3498db",
+			"icon": "octicon octicon-repo",
+			"type": "module",
+			"hidden": 0
+		},
 	]

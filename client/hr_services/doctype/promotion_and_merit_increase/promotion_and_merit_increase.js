@@ -50,12 +50,12 @@ frappe.ui.form.on('Promotion and Merit Increase', {
 		// cur_frm.set_df_property("accomodation_percentage", "read_only", frm.doc.accommodation_from_company);
 		// cur_frm.set_df_property("accommodation_value", "read_only", frm.doc.accommodation_from_company);
 	},
-    workflow_state: function(frm){
-        cur_frm.refresh_fields(["workflow_state"]);
-    },
-    validate: function(frm){
-        cur_frm.refresh_fields(["workflow_state"]);
-    },
+    // workflow_state: function(frm){
+    //     cur_frm.refresh_fields(["workflow_state"]);
+    // },
+    // validate: function(frm){
+    //     cur_frm.refresh_fields(["workflow_state"]);
+    // },
 	employee: function(frm) {
         if (frm.doc.employee){
     		frappe.call({

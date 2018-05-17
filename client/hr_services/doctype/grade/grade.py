@@ -10,8 +10,9 @@ from frappe.utils import cstr
 
 class Grade(Document):
     def validate(self):
-        self.set_gosi()
-        #self.validate_grade_level()
+        pass
+        # self.validate_grade_level()
+
     def validate_grade_level(self):
         other_grade = frappe.get_list("Grade", fields=["name"], filters={"grade_level": self.grade_level}, ignore_permissions=True)
         if other_grade :
@@ -46,11 +47,12 @@ class Grade(Document):
 
 
 def get_permission_query_conditions(user):
-    if not user:
-        user = frappe.session.user
-    if u'Employee' in frappe.get_roles(user) and not u'HR Manager' in frappe.get_roles(user)and not u'HR User' in frappe.get_roles(user) :
-        employee = frappe.get_doc('Employee',{'user_id' : user} )
+    pass
+    # if not user:
+    #     user = frappe.session.user
+    # if u'Employee' in frappe.get_roles(user) and not u'HR Manager' in frappe.get_roles(user)and not u'HR User' in frappe.get_roles(user) :
+    #     employee = frappe.get_doc('Employee',{'user_id' : user} )
 
-        return """
-            tabGrade.name ='{employee}'
-            """.format( employee= employee.grade or 0 )
+    #     return """
+    #         tabGrade.name ='{employee}'
+    #         """.format( employee= employee.grade or 0 )

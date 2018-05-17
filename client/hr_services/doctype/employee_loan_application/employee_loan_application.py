@@ -15,12 +15,12 @@ class EmployeeLoanApplication(Document):
 	def validate(self):
 		check_repayment_method(self.repayment_method, self.loan_amount, self.repayment_amount, self.repayment_periods)
 		self.validate_loan_amount()
-		self.get_repayment_details()
-		self.validate_emp()
-		if self.workflow_state:
-			if "Rejected" in self.workflow_state:
-				self.docstatus = 1
-				self.docstatus = 2
+		# self.get_repayment_details()
+		# self.validate_emp()
+		# if self.workflow_state:
+		# 	if "Rejected" in self.workflow_state:
+		# 		self.docstatus = 1
+		# 		self.docstatus = 2
 
 	def validate_emp(self):
 		 if self.get('__islocal'):

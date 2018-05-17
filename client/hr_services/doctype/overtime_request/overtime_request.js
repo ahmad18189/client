@@ -15,19 +15,19 @@ frappe.ui.form.on('Overtime Request', {
 
 
     },
-    workflow_state: function(frm){
-        cur_frm.refresh_fields(["workflow_state"]);
-    },
-    validate: function(frm){
+    // workflow_state: function(frm){
+    //     cur_frm.refresh_fields(["workflow_state"]);
+    // },
+    // validate: function(frm){
 
-        cur_frm.refresh_fields(["workflow_state"]);
-        // if (cur_frm.doc.workflow_state.indexOf("Approve") !== -1 || cur_frm.doc.workflow_state.indexOf("Reject") !== -1){
-        //     if(cur_frm.doc.to_date >= frappe.datetime.nowdate()){
-        //         cur_frm.doc.workflow_state = "Pending";
-        //         frappe.throw(__("You can't Approve or Reject before month end"));
-        //     }
-        // }
-    },
+    //     cur_frm.refresh_fields(["workflow_state"]);
+    //     // if (cur_frm.doc.workflow_state.indexOf("Approve") !== -1 || cur_frm.doc.workflow_state.indexOf("Reject") !== -1){
+    //     //     if(cur_frm.doc.to_date >= frappe.datetime.nowdate()){
+    //     //         cur_frm.doc.workflow_state = "Pending";
+    //     //         frappe.throw(__("You can't Approve or Reject before month end"));
+    //     //     }
+    //     // }
+    // },
     month: function(frm){
     	if (frm.doc.month){
 
@@ -99,11 +99,11 @@ cur_frm.cscript.custom_hours = function(doc, cdt, cdn) {
         },
         callback: function(r) {
             if (r.message >= 1) {
-                if (d.hours > 6) {
+                if (d.hours > 8) {
                     frappe.throw(__("You can't insert more than 6 hours as overtime in a holiday day"));
                 }
             } else {
-                if (d.hours > 3) {
+                if (d.hours > 8) {
                     frappe.throw(__("You can't insert more than 3 hours as overtime in a working day"));
                 }
             }

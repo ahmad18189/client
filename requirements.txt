@@ -1,2 +1,1 @@
 frappe
-umalqurra.hijri_date
