@@ -91,9 +91,8 @@ def get_award(start_date, end_date, salary, toc, reason):
         days = math.ceil(daysrem - (months * 30.416))
         ret_dict = {"days":days, "months":months, "years":years}
     # salary = doc['salary']
-    years = int(years) + (int(months) / 12) + (int(days) / 365)
+    years = flt(years) + (flt(months) / 12) + (flt(days) / 365)
     # reason = doc['reason']
-
     if not reason:
         frappe.throw("برجاء اختيار سبب انتهاء العلاقة العمالية")
     else:
@@ -117,9 +116,9 @@ def get_award(start_date, end_date, salary, toc, reason):
                 if years < 2:
                     result = 'لا يستحق الموظف مكافأة نهاية خدمة'
                 elif years <= 5:
-                    result = (1 / 6) *  salary * years
+                    result = (1.0 / 6.0) *  salary * years
                 elif years <= 10:
-                    result = ((1 / 3) *  salary * 5) + ((2 / 3) *  salary * (years - 5))
+                    result = ((1.0 / 3.0) *  salary * 5) + ((2.0 / 3.0) *  salary * (years - 5))
                 else:
                     result = (0.5 *  salary * 5) + ( salary * (years - 5))
                 ret_dict["award"] = result

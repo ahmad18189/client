@@ -100,7 +100,8 @@ doc_events = {
 
 scheduler_events = {
 	"daily": [
-		'client.hr_services.doctype.warrantor.warrantor.hooked_leave_allocation_builder'
+		'client.hr_services.doctype.warrantor.warrantor.hooked_leave_allocation_builder',
+		'client.hr_services.doctype.warrantor.warrantor.increase_leave_balance'
 	]
 }
 

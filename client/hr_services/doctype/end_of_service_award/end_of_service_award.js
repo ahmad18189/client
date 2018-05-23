@@ -26,7 +26,6 @@ frappe.ui.form.on('End of Service Award', {
         //         }
         //     }
         // });
-        cur_frm.add_fetch("employee", "employment_type", "type_of_contract");
         if (cur_frm.doc.employee) {
             if (cur_frm.doc.type_of_contract == "عقد") {
                 cur_frm.set_df_property("reason", "options", "\nانتهاء مدة العقد , أو باتفاق الطرفين على إنهاء العقد\nفسخ العقد من قبل صاحب العمل\nفسخ العقد من قبل صاحب العمل لأحد الحالات الواردة في المادة (80)\nترك الموظف العمل نتيجة لقوة قاهرة\nإنهاء الموظفة لعقد العمل خلال ستة أشهر من عقد الزواج أو خلال ثلاثة أشهر من الوضع\nترك الموظف العمل لأحد الحالات الواردة في المادة (81)\nفسخ العقد من قبل الموظف أو ترك الموظف العمل لغير الحالات الواردة في المادة (81)");
@@ -196,7 +195,7 @@ frappe.ui.form.on('End of Service Award', {
                         cur_frm.set_value('award', Math.round(result*100)/100);
                     }
                     // (result).toFixed(2)
-                    console.log(result);
+                    // console.log(result);
                 } else {
                     if (years <= 5) {
                         result = 0.5 * cur_frm.doc.salary * years;

@@ -7,11 +7,11 @@ cur_frm.add_fetch('employee','department','department');
 
 frappe.ui.form.on('Business Trip', {
     refresh: function(frm) {
-        if(!frm.doc.__islocal){
-            frm.disable_save();
-        }else{
-            frm.enable_save();
-        }
+        // if(!frm.doc.__islocal){
+        //     frm.disable_save();
+        // }else{
+        //     frm.enable_save();
+        // }
         
     },
     employee: function(frm){

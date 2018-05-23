@@ -33,7 +33,7 @@ def hooked_leave_allocation_builder():
                     "from_date": date(next_allocation.year, next_allocation.month, next_allocation.day) + relativedelta(days=+1),
                     "to_date": date(next_allocation.year, next_allocation.month, next_allocation.day) + relativedelta(days=+1,years=+1),
                     "carry_forward": cint(1),
-                    "new_leaves_allocated": emp[i][5],
+                    "new_leaves_allocated": 0,
                     "docstatus": 1
                 }).insert(ignore_permissions=True)
 
@@ -56,10 +56,26 @@ def hooked_leave_allocation_builder():
                     "from_date": next_first_allocation,
                     "to_date": next_second_allocation,
                     "carry_forward": cint(1),
-                    "new_leaves_allocated": emp[i][5],
+                    "new_leaves_allocated": 0,
                     "docstatus": 1
                 }).insert(ignore_permissions=True)
 
 
     print 'Count ',c
 
+
+def increase_leave_balance():
+    length=frappe.db.sql("select count(name) from `tabEmployee` where status!='left'")
+    emp=frappe.db.sql("select name,work_days from `tabEmployee` where status!='left'")
+
+    for i in range(length[0][0]):
+        deserved_leave = round(flt(emp[i][1])/12, 2)
+        allocation = frappe.db.sql("select name from `tabLeave Allocation` where employee='{0}' order by creation desc limit 1".format( emp[i][0]))
+        if allocation:
+            if str(frappe.utils.get_last_day(nowdate())) == str(nowdate()):
+                doc = frappe.get_doc('Leave Allocation', allocation[0][0])
+                doc.new_leaves_allocated += deserved_leave
+                doc.flags.ignore_validate = True
+                doc.save(ignore_permissions=True)
+                print 'Done'
+                

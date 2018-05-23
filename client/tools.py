@@ -16,18 +16,162 @@ from umalqurra.hijri_date import HijriDate
 import datetime
 from datetime import date
 from dateutil.relativedelta import relativedelta
+from client.hr_services.doctype.end_of_service_award.end_of_service_award import get_award
+
+
+def tst_add_locc():
+    frappe.get_doc({
+        "doctype":"Leave Allocation",
+        "employee": 'EMPtst0001',
+        "employee_name": 'عمر',
+        "leave_type": 'Annual Leave - اجازة اعتيادية',
+        "from_date": '2020-01-01',
+        "to_date": '2020-12-31',
+        "carry_forward": cint(1),
+        "new_leaves_allocated": 0,
+        "docstatus": 1
+    }).insert(ignore_permissions=True)
+
+
+
+def tst_edit_allo():
+    from frappe.utils.csvutils import read_csv_content
+    from frappe.core.doctype.data_import.importer import upload
+    with open('/home/frappe/frappe-bench/apps/client/client/Book1.csv', "r") as infile:  
+        rows = read_csv_content(infile.read())
+        for index, row in enumerate(rows):
+            emp=frappe.db.sql("select work_days from `tabEmployee` where name='EMP00{0}'".format(row[0]))
+            allocation = frappe.db.sql("select name from `tabLeave Allocation` where employee='EMP00{0}' order by creation desc limit 1".format(row[0]))
+            
+            doc = frappe.get_doc('Leave Allocation', allocation[0][0])
+            doc.new_leaves_allocated = flt(row[3]) - (doc.total_leaves_allocated-flt(emp[0][0]))
+            doc.flags.ignore_validate = True
+            doc.save(ignore_permissions=True)
+            print 'Done'
+
+
+
+
+# def tst_edit_allo():
+#     doc = frappe.get_doc('Leave Allocation', 'LAL/00692')
+#     while doc.total_leaves_allocated != 65.84:
+#         doc.new_leaves_allocated += 0.01
+#         doc.flags.ignore_validate = True
+#         doc.save(ignore_permissions=True)
+#         print 'Done'
+
+
+
+
+def tst_allo():
+    length=frappe.db.sql("select count(name) from `tabEmployee` where status!='left'")
+    emp=frappe.db.sql("select name,work_days from `tabEmployee` where status!='left'")
+
+    for i in range(length[0][0]):
+        deserved_leave = round(flt(emp[i][1])/12, 2)
+        allocation = frappe.db.sql("select name from `tabLeave Allocation` where employee='{0}' order by creation desc limit 1".format( emp[i][0]))
+        if allocation:
+            if str(frappe.utils.get_last_day(nowdate())) == str(nowdate()):
+                doc = frappe.get_doc('Leave Allocation', allocation[0][0])
+                doc.new_leaves_allocated += deserved_leave
+                doc.flags.ignore_validate = True
+                doc.save(ignore_permissions=True)
+                print 'Done'
+
+
+
+
+def tst_leave():
+    emp = frappe.get_list("Employee", filters={"name": 'EMPtst0001'}, fields=["work_days"])
+    leave = frappe.get_list("Leave Allocation", filters={"employee": 'EMPtst0001'}, fields=["total_leaves_allocated,from_date,to_date"])
+    leave_days = frappe.db.sql("select sum(total_leave_days) from `tabLeave Application` where docstatus=1 and employee='{0}' and posting_date between '{1}' and '{2}'".format('EMPtst0001', leave[0].from_date, leave[0].to_date))[0][0]
+    if not leave_days:
+        leave_days = 0
+    leave_balance =  int(leave[0].total_leaves_allocated) - int(leave_days)
+
+    current_date = datetime.datetime.strptime(str(nowdate()), '%Y-%m-%d')
+    current_month = current_date.month
+
+    current_year = datetime.datetime.strptime(str(leave[0].from_date), '%Y-%m-%d')
+    current_year_month = current_year.month
+
+    print leave_balance,current_month,current_year_month,leave[0].from_date
+
+
+
+def tst_end_of_service():
+    award_info = get_award('2016-01-01', '2018-05-22', 2500, 'دوام كامل' , 'استقالة الموظف')
+    print round(award_info['award'],2)
+
+
+def tst_sal():
+    frappe.get_doc({
+        "doctype": "Employee",
+        "employee_name_english": "omar",
+        "employee_name": "عمر",
+        "designation": "المدير العام",
+        "civil_id_no": 123456789,
+        "emp_nationality": "Saudi Arabia",
+        "date_of_joining": "2016-01-01",
+        "date_of_birth": "1993-02-02",
+        "naming_series": "EMPtst",
+        "gender": "ذكر"
+    }).insert(ignore_permissions=True)
+
+
+def val_leave_expense():
+    emp = frappe.get_list("Employee", filters={"name": 'EMP0001'}, fields=["work_days"])
+    leave = frappe.get_list("Leave Allocation", filters={"employee": 'EMP0001'}, fields=["total_leaves_allocated"])
+    print emp[0].work_days,leave[0].total_leaves_allocated
+    if leave[0].total_leaves_allocated > int(emp[0].work_days):
+        print leave[0].total_leaves_allocated - int(emp[0].work_days)
+    else:
+        frappe.throw("Employee {0} can't have leave balance expense claim this year".format('EMP0001'))
+
+
+
+def add_contract_type():
+    length=frappe.db.sql("select count(name) from `tabEmployee`")
+    emp=frappe.db.sql("select name from `tabEmployee` ")
+
+    for i in range(length[0][0]):
+        print emp[i][0]
+        doc_emp = frappe.get_doc('Employee', emp[i][0])
+        doc_emp.type_of_contract = "دوام كامل"
+        doc_emp.flags.ignore_validate = True
+        doc_emp.save(ignore_permissions=True)
+
 
 
 def valid_start_leave():
-	s = "2018-06-02"
-	allocation = frappe.db.sql("select from_date,to_date from `tabLeave Allocation` where employee='EMP0069' order by creation desc limit 1")
-	from_date = datetime.datetime.strptime(str(allocation[0][0]), '%Y-%m-%d')
-	valid_date = date(from_date.year, from_date.month, from_date.day) + relativedelta(months=+3)
-	if date(s) < date(valid_date):
+    # s = "2018-06-02"
+    # posting date
+    allocation = frappe.db.sql("select from_date,to_date from `tabLeave Allocation` where employee='EMP0006' order by creation asc limit 1")
+    # from_date = datetime.datetime.strptime(str(allocation[0][0]), '%Y-%m-%d')
+    valid_date = allocation[0][0] + relativedelta(months=+3)
+    # print allocation[0][0]
+    # print valid_date
+    if date.today() < valid_date:
+        print allocation[0][0]
+        print valid_date
 
-		print from_date
-		print valid_date
+      
 
+
+
+# def valid_start_leave():
+#     s = "2018-06-02"
+#     # posting date
+#     allocation = frappe.db.sql("select from_date,to_date from `tabLeave Allocation` where employee='EMP0006' order by creation asc limit 1")
+#     from_date = datetime.datetime.strptime(str(allocation[0][0]), '%Y-%m-%d')
+#     valid_date = date(from_date.year, from_date.month, from_date.day) + relativedelta(months=+3)
+#     # print allocation[0][0]
+#     # print valid_date
+#     if "2018-06-02" < valid_date:
+#         print allocation[0][0]
+#         print valid_date
+
+      
 
 
 def hooked_leave_allocation_builder():

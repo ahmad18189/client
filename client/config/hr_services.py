@@ -23,11 +23,11 @@ def get_data():
 				# 	"name": "Employee Loan",
 				# 	"description":_("Employee Loan"),
 				# },
-				# {
-				# 	"type": "doctype",
-				# 	"name": "Penalty",
-				# 	"description":_("Penalty")
-				# },
+				{
+					"type": "doctype",
+					"name": "Penalty",
+					"description":_("Penalty")
+				},
 				# {
 				# 	"type": "doctype",
 				# 	"name": "Warrantor",
@@ -43,11 +43,11 @@ def get_data():
 					"name": "End of Service Award",
 					"description":_("End Of Service Award"),
 				},
-				{
-					"type": "doctype",
-					"name": "Overtime Request",
-					"description":_("Overtime Request"),
-				},
+				# {
+				# 	"type": "doctype",
+				# 	"name": "Overtime Request",
+				# 	"description":_("Overtime Request"),
+				# },
 				# {
 				# 	"type": "doctype",
 				# 	"name": "Financial Custody",
@@ -63,11 +63,11 @@ def get_data():
 				# 	"name": "Promotion and Merit Increase",
 				# 	"description":_("Promotion and Merit Increase")
 				# },
-				{
-					"type": "doctype",
-					"name": "Employee Badge Request",
-					"description":_("Employee Badge Request")
-				},
+				# {
+				# 	"type": "doctype",
+				# 	"name": "Employee Badge Request",
+				# 	"description":_("Employee Badge Request")
+				# },
 				# {
 				# 	"type": "doctype",
 				# 	"name": "Employee Change IBAN",
@@ -92,6 +92,36 @@ def get_data():
 			"label": _("Reports"),
 			"icon": "fa fa-list",
 			"items": [
+				{
+					"type": "report",
+					"is_query_report": True,
+					"name": "Salary Output Report",
+					"doctype": "Salary Slip"
+				},
+				{
+					"type": "report",
+					"is_query_report": True,
+					"name": "Monthly Attendance Sheet",
+					"doctype": "Attendance"
+				},
+				{
+					"type": "report",
+					"is_query_report": True,
+					"name": "Employee Leave Balance",
+					"doctype": "Employee"
+				},
+				{
+					"type": "report",
+					"is_query_report": True,
+					"name": "Expense Claim report",
+					"doctype": "Expense Claim"
+				},
+				{
+					"type": "report",
+					"is_query_report": True,
+					"name": "Business Trip report",
+					"doctype": "Business Trip"
+				},
 				{
 					"type": "report",
 					"is_query_report": True,
