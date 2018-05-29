@@ -43,11 +43,11 @@ def get_data():
 					"name": "End of Service Award",
 					"description":_("End Of Service Award"),
 				},
-				# {
-				# 	"type": "doctype",
-				# 	"name": "Overtime Request",
-				# 	"description":_("Overtime Request"),
-				# },
+				{
+					"type": "doctype",
+					"name": "Overtime Request",
+					"description":_("Overtime Request"),
+				},
 				# {
 				# 	"type": "doctype",
 				# 	"name": "Financial Custody",

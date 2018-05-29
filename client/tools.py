@@ -18,6 +18,118 @@ from datetime import date
 from dateutil.relativedelta import relativedelta
 from client.hr_services.doctype.end_of_service_award.end_of_service_award import get_award
 
+def tst_emails():
+    from frappe.core.doctype.communication.email import make
+    content_msg_emp="test email send from tadweer using tawari email"
+    make(subject = "Passport Validity Notification", content=content_msg_emp, recipients='omar.ja93@gmail.com',
+        send_email=True, sender="erp@tawari.sa")
+
+
+
+
+def passport_validate_check():
+    from frappe.core.doctype.communication.email import make
+    frappe.flags.sent_mail = None
+
+    emp = frappe.db.sql("select name,valid_upto,user_id,passport_validation_notification from `tabEmployee`")
+    for i in emp:
+        if i[1] and i[3]:
+            date_difference = date_diff(i[1], getdate(nowdate()))
+
+            if date_difference <= 30 :
+                content_msg_emp="Your passport validity will end after {0} days".format(date_difference)
+                content_msg_mng="Passport validity will end after {0} days for employee: {1}".format(date_difference,i[0])
+
+                prefered_email = frappe.get_value("Employee", filters = {"name": i[0]}, fieldname = "prefered_email")
+                prefered_email_mng = frappe.get_value("Employee", filters = {"name": 'EMP0015'}, fieldname = "prefered_email")
+                prefered_email_mng1 = frappe.get_value("Employee", filters = {"name": 'EMP0007'}, fieldname = "prefered_email")
+                prefered_email_mng2 = frappe.get_value("Employee", filters = {"name": 'EMP0050'}, fieldname = "prefered_email")
+
+                if prefered_email:
+                    try:
+                        sent = 0
+                        make(subject = "Passport Validity Notification", content=content_msg_emp, recipients=prefered_email,
+                            send_email=True, sender="info@tadweeer.com")
+
+                        make(subject = "Passport Validity Notification", content=content_msg_mng, recipients=prefered_email_mng,
+                            send_email=True, sender="info@tadweeer.com")
+
+                        make(subject = "Passport Validity Notification", content=content_msg_mng, recipients=prefered_email_mng1,
+                            send_email=True, sender="info@tadweeer.com")
+
+                        make(subject = "Passport Validity Notification", content=content_msg_mng, recipients=prefered_email_mng2,
+                            send_email=True, sender="info@tadweeer.com")
+
+                        sent = 1
+                        print 'send email for '+prefered_email
+                    except:
+                        frappe.msgprint("could not send")
+
+                print content_msg_emp
+                print content_msg_mng
+                print '----------------------------------------------------------------'
+
+
+def civil_validate_check():
+    from frappe.core.doctype.communication.email import make
+    frappe.flags.sent_mail = None
+
+    emp = frappe.db.sql("select name,end_date_of_civil_id,user_id,civil_validation_notification from `tabEmployee`")
+    for i in emp:
+        if i[1] and i[3]:
+            date_difference = date_diff(i[1], getdate(nowdate()))
+
+            if date_difference <= 30 :
+                content_msg_emp="Your Civil ID validity will end after {0} days".format(date_difference)
+                content_msg_mng="Civil ID validity will end after {0} days for employee: {1}".format(date_difference,i[0])
+
+                prefered_email = frappe.get_value("Employee", filters = {"name": i[0]}, fieldname = "prefered_email")
+                prefered_email_mng = frappe.get_value("Employee", filters = {"name": 'EMP0015'}, fieldname = "prefered_email")
+                prefered_email_mng1 = frappe.get_value("Employee", filters = {"name": 'EMP0007'}, fieldname = "prefered_email")
+                prefered_email_mng2 = frappe.get_value("Employee", filters = {"name": 'EMP0050'}, fieldname = "prefered_email")
+
+                if prefered_email:
+                    try:
+                        sent = 0
+                        make(subject = "Civil ID Validity Notification", content=content_msg_emp, recipients=prefered_email,
+                            send_email=True, sender="info@tadweeer.com")
+
+                        make(subject = "Civil ID Validity Notification", content=content_msg_mng, recipients=prefered_email_mng,
+                            send_email=True, sender="info@tadweeer.com")
+
+                        make(subject = "Civil ID Validity Notification", content=content_msg_mng, recipients=prefered_email_mng1,
+                            send_email=True, sender="info@tadweeer.com")
+
+                        make(subject = "Civil ID Validity Notification", content=content_msg_mng, recipients=prefered_email_mng2,
+                            send_email=True, sender="info@tadweeer.com")
+
+                        sent = 1
+                        print 'send email for '+prefered_email
+                    except:
+                        frappe.msgprint("could not send")
+
+                print content_msg_emp
+                print content_msg_mng
+                print '----------------------------------------------------------------'
+
+
+def add_gosi_component():
+    emps = frappe.get_all("Employee",filters={'emp_nationality': "Saudi Arabia" },fields={'name','employee_name'})
+    for emp in emps:
+        doc = frappe.db.sql("""select parent from `tabSalary Structure Employee` where employee = '{0}' """.format(emp.name))
+        if (doc):
+            x = frappe.get_doc("Salary Structure",doc[0][0])
+            x.append("deductions", {
+                            "salary_component": "Gosi",
+                            "amount_based_on_formula": 1,
+                            "formula": '(B+H)*.1',
+                            "condition": ""
+                        })
+            x.save(ignore_permissions=True)
+            print("*********************")
+            print(x.name)
+
+            
 
 def tst_add_locc():
     frappe.get_doc({
