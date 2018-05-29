@@ -66,39 +66,44 @@ class MayConcernLetter(Document):
 
     def get_salary(self):
         if self.salary_selection=='Total Salary' or self.salary_selection=='Basic Salary' or self.salary_selection=='Detailed Salary'   :
-            doc = frappe.new_doc("Salary Slip")
-            doc.salary_slip_based_on_timesheet="0"
+            salary_slip_name = frappe.db.sql("select name from `tabSalary Slip` where employee='{0}' order by creation desc limit 1".format(self.employee))
+            if salary_slip_name:
+                doc = frappe.get_doc('Salary Slip', salary_slip_name[0][0])
 
-            doc.payroll_frequency= "Monthly"
-            doc.start_date=get_first_day(getdate(nowdate()))
-            doc.end_date=get_last_day(getdate(nowdate()))
-            doc.employee = self.employee
-            doc.employee_name = self.employee_name
-            doc.company= "Tadweer"
-            doc.posting_date= nowdate()
+                
+            # doc = frappe.new_doc("Salary Slip")
+            # doc.salary_slip_based_on_timesheet="0"
+
+            # doc.payroll_frequency= "Monthly"
+            # doc.start_date=get_first_day(getdate(nowdate()))
+            # doc.end_date=get_last_day(getdate(nowdate()))
+            # doc.employee = self.employee
+            # doc.employee_name = self.employee_name
+            # doc.company= "Tadweer"
+            # doc.posting_date= nowdate()
             
-            doc.insert(ignore_permissions=True)
+            # doc.insert(ignore_permissions=True)
 
 
-            result =doc.gross_pay
-            self.gross_pay=result
-            
-            for earning in doc.earnings:
-                if earning.salary_component =='Basic':
-                    self.basic = str(earning.amount)
-                if earning.salary_component =='Housing':
-                    self.housing = str(earning.amount)
-                if earning.salary_component =='Transportation':
-                    self.transportation = str(earning.amount)
-                if earning.salary_component =='Communication':
-                    self.communication = str(earning.amount)
+                result =doc.gross_pay
+                self.gross_pay=result
+                
+                for earning in doc.earnings:
+                    if earning.salary_component =='Basic':
+                        self.basic = str(earning.amount)
+                    if earning.salary_component =='Housing':
+                        self.housing = str(earning.amount)
+                    if earning.salary_component =='Transportation':
+                        self.transportation = str(earning.amount)
+                    if earning.salary_component =='Communication':
+                        self.communication = str(earning.amount)
 
-            doc.delete()
+            # doc.delete()
 
                     
 
-            if result:
-                return result
+            # if result:
+            #     return result
             else:
                 frappe.msgprint("لا يوجد قسيمة راتب لهذا الموظف")
                 self.salary_selection='No salary'

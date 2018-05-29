@@ -21,7 +21,7 @@ class EmployeeLoan(AccountsController):
 		if self.repayment_method == "Repay Over Number of Periods":
 			self.monthly_repayment_amount = get_monthly_repayment_amount(self.repayment_method, self.loan_amount, self.rate_of_interest, self.repayment_periods)
 
-		# self.make_repayment_schedule()
+		self.make_repayment_schedule()
 		self.set_repayment_period()
 		self.calculate_totals()
 
@@ -62,6 +62,9 @@ class EmployeeLoan(AccountsController):
 			principal_amount = self.monthly_repayment_amount - interest_amount
 			balance_amount = rounded(balance_amount + interest_amount - self.monthly_repayment_amount)
 
+			if interest_amount == self.monthly_repayment_amount:
+				frappe.throw("Wrong Loan Amount or Long Repayment Period")
+				
 			if balance_amount < 0:
 				principal_amount += balance_amount
 				balance_amount = 0.0

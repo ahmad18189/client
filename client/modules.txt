@@ -1,3 +1,7 @@
 client to all customer
 HR Services
 Accounts Services
+Stock Services
+Buying Services
+Asset Services
+Assets Services

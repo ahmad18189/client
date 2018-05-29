@@ -1,0 +1,2808 @@
+Designation In English,المسمى الوظيفي بالإنجليزي
+Designation,المسمى الوظيفي
+Level,الدرجة
+Attendance Hours,مواعيد العمل
+End date of Civil ID,تاريخ انتهاء الهوية
+Date of Joining,تاريخ المباشرة
+Civil ID,رقم الهوية
+Grandmother,جدة
+Grandfather,جد
+Wife,زوجة
+Son,أخ
+Daughter,أخت
+Father,أب
+Designation Name in English,المسمى الوظيفي باللغة الإنجليزية
+employee name english,الاسم باللغة الإنجليزية
+Nationality English,الجنسية باللغة الإنجليزية
+date,التاريخ
+Overtime Hours,ساعات العمل الإضافي
+Overtime Request,طلب العمل الإضافي
+Promotion and Merit Increase,طلب ترقية
+Type of Badge Request,نوع طلب بطاقة العمل
+Repay Once,سداد مرة واحدة
+Repay over Number of Months,سداد على مدار أكثر من شهر
+Get Medical Disclaimer Templete,الحصول على نموذج إخلاء المسؤولية الطبية
+department,قسم
+Member,عضو
+Job Application,طلب وظيفة
+UPDATE PROFILE,تعديل الملف الشخصي
+Make Student Batch,انشاء دفعة طلاب
+"Student Batches help you track attendance, assessments and fees for students",دفعات الطالب تساعدك على تتبع الحضور والتقييمات والرسوم للطلاب
+Group your students in batches,جمع طلابك في دفعات
+"Create Employee records to manage leaves, expense claims and payroll",إنشاء سجلات الموظفين لإدارة الاذونات ومطالبات النفقات وكشوف المرتبات
+Create Employee Records,إنشاء سجلات الموظفين
+Make Student,اضافة طالب
+"Students are at the heart of the system, add all your students",الطلاب هم حجر الاساس في النظام ، اضف كل الطلاب الان
+Add Students,اضافة طالب
+Report Builder,منشئ التقارير
+Setting up Email Account,إعداد حساب البريد الإلكتروني
+Applications,التطبيقات
+Print Format,تنسيق الطباعة
+Document Share Report,تقرير مشاركة المستند
+Permitted Documents For User,المستندات المسموحة للمستخدم
+Customizing Forms,تخصيص النماذج
+Warranty,الضمانة
+Production Analytics,تحليلات الإنتاج
+BOM Browser,متصفح فاتورة الموارد
+Leave Management,إدارة الإجازات
+Daily Work Summary Settings,إعدادات ملخص العمل اليومي
+Training Feedback,ملاحظات التدريب
+Training Result,نتيجة التدريب
+Training Event,الحدث التدريبي
+Employee Loan,قرض الموظفين
+Employee Loan Application,طلب قرض الموظفين
+Loan Type,نوع القرض
+Employee Loan Management,إدارة قروض الموظفين
+Team Updates,تحديثات الفريق
+Leaves and Holiday,الاذونات والاجازات
+Salary Slip,قسيمة الراتب
+Recruitment,التوظيف
+Supplier Addresses And Contacts,عناوين الموردين وعناوين الاتصال
+Item-wise Purchase History,سجل المشتريات علي مستوي الصنف
+Material Requests for which Supplier Quotations are not created,طلبات المواد التي لم يتم إنشاء عروض أسعار للموردين بها
+Requested Items To Be Ordered,طلبية الاصناف المطلوبة
+Items To Be Requested,الاصناف المطلوب طلبها
+Purchase Order Trends,اتجاهات أمر الشراء
+Supplier-Wise Sales Analytics,تحليل البيع علي مستوى المورد
+Integrations,الاضافات
+Pending SO Items For Purchase Request,طلب مبيعات الاصناف المعلق لطلب الشراء
+Item-wise Sales History,سجل المبيعات علي مستوي الصنف
+Sales Order to Payment,طلب المبيعات للدفع
+Items and Pricing,الاصناف والتسعيرة
+Lead to Quotation,من مبادرة بيع إلى عرض سعر
+SMS Settings,اعدادات الرسائل القصيرة
+SMS Log,سجل الرسائل القصيرة
+Sales Pipeline,مجرى البيع
+Stock Ageing,التقدم في عمر المخزون
+Batch Inventory,جرد الدفعة
+Managing Subcontracting,إدارة التعاقدات الفرعية
+Making Stock Entries,إنشاء مدخلات للمخزون
+Opening Stock Balance,رصيد الافتتاح للمخزون
+Itemwise Recommended Reorder Level,مستوى إعادةالطلب الموصي به بناء علي الصنف
+Item Prices,اسعار الصنف
+Batch Item Expiry Status,حالة انتهاء صلاحية الدفعة
+Batch-Wise Balance History,سجل رصيد الحساب علي مستوي الدفعة
+Requested Items To Be Transferred,الأصناف المطلوب نقلها
+Item Shortage Report,تقرير نقص الصنف
+Purchase Order Items To Be Received,امر شراء الأصناف التي سيتم استلامها
+Ordered Items To Be Delivered,الأصناف المطلوبة ليتم تسليمها
+Delivery Note Trends,اتجاهات مذكرة التسليم
+Packing Slip,كشف التعبئة
+Serial No Warranty Expiry,الرقم التسلسلي لانتهاء الضمانة
+Serial No Status,الرقم التسلسلي للحالة
+Serial No Service Contract Expiry,الرقم التسلسلي لانتهاء عقد الخدمة
+Batch,الدفعة
+Serial No,الرقم التسلسلي
+Serial No and Batch,الرقم التسلسلي والدفعة
+Shipping Rule,قاعدة الشحن
+Purchase Receipt,إيصال الشراء
+Stock Transactions,المعاملات المالية
+Delivery Note,مذكرة تسليم
+Student Batch-Wise Attendance,الحضور بناء علي مجموعة الطلاب
+Analytics,تحليلات
+Trial Balance for Party,الرصيد التجريبي للمستفيد
+Profitability Analysis,التحليل الربحي
+Received Items To Be Billed,الاصناف المستلمة التي يجب المحاسبة عليها
+Purchase Order Items To Be Billed,امر شراء الاصناف التي يجب المحاسبة عليها
+Update Bank Transaction Dates,تحديث تواريخ المعاملات البنكية
+Dropbox Settings,اعدادات Dropbox
+Authentication,المصادقة
+Backup,النسخ الاحتياطي
+PayPal Settings,اعدادات PayPal
+Student Log,سجل الطالب
+Guardian,الوصي
+Student Applicant,الطالب المتقدم
+Student Monthly Attendance Sheet,ورقة الحضور الشهري للطالب
+Absent Student Report,تقرير غياب الطالب
+Student Attendance Tool,أداة حضور الطلاب
+Student Leave Application,طلب اجازة الطالب
+Assessment Result Tool,أداة تقييم النتيجة
+Assessment Criteria Group,مجموعة معايير التقييم
+Assessment,التقييم
+Grading Scale,مقياس الدرجات
+Assessment Result,نتيجة التقييم
+Assessment Group,فريق التقييم
+Assessment Plan,خطة التقييم
+Student Batch Creation Tool,أداة إنشاء دفعة طالب
+Course Scheduling Tool,اداة الجدول الزمني للمقرر التعليمي
+Room,قاعة
+Room Name,اسم القاعة
+Sibling Details,تفاصيل الأخوة
+Guardian Details,تفاصيل ولي الأمر
+Home Address,عنوان المنزل
+Student Admission,قبول الطالب
+Course Schedule,الجدول الزمني للمقرر التعليمي
+% Progress,التقدم المحرز%
+Student,الطالب
+Instructor Name,اسم المدرس
+Instructor,مدرس
+Max Strength,القوة القصوى
+Course Intro,مقدمة عن المقرر التعليمي
+Default Grading Scale,جدول الدرجات الافتراضي
+Assessment Criteria,معايير التقييم
+Course Name,اسم المقرر التعليمي
+Course,المقرر التعليمي
+Student Category,فئة الطالب
+STUD.,طالب.
+Student Mobile Number,رقم جوال الطالب
+Student Email Address,عنوان البريد الإلكتروني للطالب
+Grade,المرتبة
+Is Debit,مدين
+Is Credit,دائن
+Old Number,رقم حساب قديم
+Financial Item Number,الرقم المالي
+Shown Number,الرقم الظاهر
+Parent Account Number,اسم حساب الأب
+Has Salary Domiciliation,الراتب لديه تسجيل رسمي
+Family Member Name English,اسم فرد العائلة باللغة الانجليزية
+Employee Identity Number,رقم هوية الموظف
+Main Files,ملفات اساسية
+Applied Job,الوظائف المتقدم لها
+Offer Latter,عروض العمل
+Job Oppening,الوظائف المتاحة
+Request for Quotation,طلب الحصول علي عروض اسعار
+Region Department,القسم المنطقة
+Region City,الإقليم مدينه
+Quotation,عروض أسعار
+Permisions,صلاحيات
+desk,سطح المكتب
+Email address,البريد الالكتروني
+Project Sponsor Name,اسم راعي المشروع
+Project Manager Name,اسم مدير المشروع
+Project Department,إدارة المشروع
+Business Value,القيمة التجارية
+Project Sponsor,راعي المشروع
+Project Risk Position,مسؤول ادارة مخاطر المشروع
+Executive Summary,ملخص تنفيذي
+Impact if Project is NOT undertaken,الاثر الناتج عن عدم التعهد بالمشروع
+Project Stream & Milestones,سير عمل المشروع والمحطات الرئيسية
+Is Milestone,محطة رئيسية بالمشروع
+Project Risk And Issues,مخاطر المشروع والمشكلات
+risk,خطر
+Likelihood,الاحتمالية
+Impact,التأثير
+Is Issue,مشكلة
+Responsible,مسؤول
+Project Financial domain,المجال المالي للمشروع
+Has an estimated budget been determined for the project?,تم تحديد ميزانية تقديرية للمشروع ؟
+Vendor Information,معلومات البائع
+Will external vendors be undertaking the project?,هل سيتعهد البائعين الخارجين بالمشروع ؟
+Project Team,فريق المشروع
+Assign internal resource,تعيين الموارد الداخلية
+Employee Designation,تعين الموظف
+Employee Name,اسم الموظف
+Employee English Name,اسم الموظف بالانجليزية
+Mobile,الهاتف المحمول
+Assign external resource,تعيين الموارد الخارجية
+Project Documents,مستندات المشروع
+Tayseer,تيسير التقنية
+Application for Advance Payment,طلب سلفة
+Select Leave Application,اختر طلب المغادرة
+Employee Nationality,جنسية الموظف
+Next Stage,المرحلة التالية
+Current Stage,المرحلة الحالية
+Return Date,تاريخ انتهاء الاجازة
+Exit Re Entry Application,تذكرة خروج وعودة
+Exit ReEntry Family Members,افراد العائلة المسجلين بتذكرة الخروج والعودة
+Exit Date,تاريخ الخروج
+Employee Name English,اسم الموظف بالانجليزي
+Salaray,الراتب
+status,الحالة
+Advance Payment Amount,مبلغ السلفة
+Executive Committee Sponsor,كفيل اللجنة التنفيذية
+Executive Committee User,عضو اللجنة التنفيذية
+Executive Committee Director,مدير عام اللجنة التنفيذية
+Executive Committee Manager,مدير اللجنة التنفيذية
+Select Business Trip Request,اختيار الرحلة المراد انهائها
+Daily Per Diem Rate,بدل رحلة العمل اليومي
+Total leave days must be greater than 0,عدد ايام الاجازة يجب ان يكون اكبر من 0.
+month (%d) Limit is %d,الشهر %d محدد بعدد ايام %d.
+You cant allocate more than {0} days from this kind of vacations.,يجب ان لايتجاوز عدد ايام الاجازة {0} يوم.
+Must wait approved from {0},يجب انتظار موافقة {0}
+Leave application must have leave approver,حقل الموظف البديل مطلوب
+Employee field is mandatory,حقل الموظف مطلوب
+Business Trip Request,طلب رحلة عمل
+Current IBAN,رقم ال IBAN الحالي
+Return or Cancel Date Hijri,تاريخ انتهاء الاجازه هجري
+Current Bank,البنك الحالي
+Attachment File,الملف المرفق
+Return or Cancel Date,تاريخ انتهاء الاجازه
+Accept ?,هل انت موافق ؟
+"Invalid IBAN number, IBAN should be like SAxxxxxxxxxxxxxxxxxxxxxx.",رقم اي بان (IBAN) غير صالح، يجب ان يكون الأي بان بالشكل التالي (SAxxxxxxxxxxxxxxxxxxxxxx).
+You must accept the Pledge before you can save the request,يجب ان تختار موافق على التعهد
+Pledge,تعهد
+Exit  Re_entry,خروج وعودة
+Expense Claim Detail,تكاليف اضافية
+New Bank,البنك الجديد
+New IBAN,رقم ال IBAN الجديد
+Grievance Type,نوع التظلم
+National Id,هوية - اقامة
+Is City,مدينة ؟
+Is Region,منطقة ؟
+Parent Region,المنطقة الاب
+Region Browser,شجرة المناطق
+Examination Type,نوع الطلب
+Employee Change IBAN,طلب تغيير الIBAN
+Salary Domiciliation Letter,طلب تثبيت راتب
+Number of family members,عدد افراد العائلة
+Residence Profession,المهنة في الاقامة
+Project Status Report,تقرير حالة المشروع
+Degree Payment,الراتب الاساسي للدرجة
+Degree Number,رقم الدرجة
+Class D Allowance,بدل فئة د
+Class E Allowance,بدل فئة هـ
+Jobs Hierarchy Browser,الهيكلة الوظائفية
+Employee code,رمز الموظف
+Transfer Order,المناقلات
+Approvment Number,رقم الموافقة
+The Status,الحالة
+Approval Date,تاريخ الموافقة
+You cannot credit and debit same account at the same time,لا يمكن إعطاء الحساب قيمة مدين وقيمة دائن في نفس الوقت
+The account balance for the account {0} is less than the debit,"رصيد الحساب المتوفر في الحساب "" {0} "" أقل من الدين المطلوب"
+Total Debit must be equal to Total Credit. The difference is {0},مجموع الدائن يجب أن يساوي مجموع المدين . الفرق يساوى {0}
+Please select Transfer Date first,الرجاء إدراج التاريخ أولا
+liquidity Transfer,مناقلة سيولة
+Costs Transfer,مناقلة تكاليف
+Transfer To Or  Support,نقل إلى - دعم
+Transfer From Or Reduction,نقل من - خفض
+liquidity Support,دعم سيولة
+Costs Support,دعم التكاليف
+liquidity Reduction,خفض السيولة
+Costs Reduction,خفض التكاليف
+Transfer To - Support,نقل إلى - دعم
+Transfer from - Reduction,نقل من - خفض
+Please select Transfer Type first,الرجاء إدراج نوع المناقلة أولا
+Please select Cost Center first,الرجاء إدراج مركز التكلفة أولا
+Please select Fiscal Year first,الرجاء إدراج السنة المالية أولا
+You must insert amount to transfer,يجب إدخال مبلغ ليتم نقله
+Total credit must be equal to 0,المبلغ المنقول منه يجب أن يكون 0
+You must insert amount to support,يجب إضافة مبلغ الدعم
+Total debit must be equal to 0,المبلغ المنقول إليه يجب أن يكون 0
+You must insert amount to reduce,يجب إضافة مبلغ الخفض
+You must insert the approvment number first,يجب إدخال رقم الموافقة قبل الاعتماد
+The account {0} dosnt found in the budget,الحساب {0} غير مدرج في الميزانية للسنة المالية ومركز التكلفة المحددان
+There is no budget for the  given cost center and fiscal year,لا توجد ميزانية موضوعة لمركز التكلفة والسنة المالية المحددان
+Transfer Order Workflow,سيؤ عمل المناقلات
+add_approvment_no,إضافة رقم الاعتماد
+Holdment Number,رقم الارتباط
+Order Status,حالة الطلب
+Record Number,رقم السجل
+Contractor,المقاول
+employee_name,اسم الموظف
+Administration,الإدارة
+Holdments,ارتباط
+Year is not allowable.Please change the default fiscal year to the current year,"غير مسموح إضافة ارتباط على هذه السنة المالية,الرجاء تغيير السنة المالية المححدة"
+accept,قبول
+reject,رفض
+Account Reduction and Support,حساب الخفض والدعم
+Reduction/Support Number,رقم الخفض/الدعم
+Number Of Agree,رقم الموافقة
+Date of Agree,تاريخ الموافقة
+letter number,رقم الخطابة
+balance,الموازنة
+Branch Name,اسم الفرع
+Total Support,اجمالي الدعم
+Reduction,الخفض
+Date Transaction,تاريخ العملية
+Total Reduction,اجمالي الخفض
+Cheque Number,رقم الشيك
+Receipt Name,اسم المستلم
+Remaining Amount,المبلغ المتبقي
+Total Cheque Reconciliation,اجمالي تسوية الشيكات
+Total Cheques,اجمالي الشيكات
+For Reason,مقابل
+Cheque,شيك
+Transfere,تحويل
+Written Amount,المبلغ كتابة
+Cheque Order,أمر صرف شيك
+Applied,طلب
+project,مشروع/برنامج
+transfer from  costs,المنقول من التكاليف
+support dependence,المعزز للاعتماد
+Transfer to cost,المنقول الي التكاليف
+Reduction costs,المخفض من التكاليف
+Transfer to dependent,المنقول الي الاعتماد
+reduction dependence,المخفض من الاعتماد
+Budget Amount,المبلغ المعتمد
+Reliance and transfers,الاعتماد والمناقلات
+Enhanced costs,المعزز للتكاليف
+minutes ago,دقائق مضت
+Paid Total,المبلغ الاجمالي المدفوع
+Pending Total,في انتظار الكلي
+Total Of Holdment,الارتباط الكلي
+Holdment,ارتباط
+Current Balance,الميزانية الحالية
+Expence After Balance,التكاليف بعد الميزانية
+Expence Current Balance,تكاليف الحساب الحالي
+Expence,التكاليف
+Expense,التكاليف
+After Balance,بعد الميزانية
+Statment,تقرير
+Holdment Account,حساب الارتباط
+Holdment Detail Name,تفاصيل اسم الارتباط
+test,اختبار
+Holdment Detail,تفاصيل الارتباط
+Mode of Payment Account,حساب طريقة الدفع
+Settlement Number,رقم التسوية
+Pages Number,عدد الأوراق
+Custody Number,رقم العهدة
+Reference Date,تاريخ الارتباط
+Reference Number,رقم الارتباط
+Expenditure Order User Remarks,ملاحظات المرتبط
+Reference Name,البيان
+Account Paid To,مقابل
+The Amount,المبلغ
+Official body,الجهة
+Payment Order,امر الدفع
+Statement,بيان
+Linking,ارتباط
+Party,المستفيد
+Party Type,نوع المستفيد
+Party Info,معلومات المستفيد
+Party Balance,رصيد المستفيد
+Expenditure Order Type,نوع امر الصرف
+Account Expence,نفقات الحساب
+Account Expense,نفقات الحساب
+Audit Remarks,ملاحظات المدقق
+Financial Settlement,تسوية مالية
+Auditing,تدقيق
+Linking Rejected,الغاء الارتباط
+Auditing Rejected,اعادة تدقيق
+Audit,تدقيق
+Civil Registry,السجل المدني
+Commercial Register,السجل التجاري
+Foreign Currency Amount,القيمة بالعملة الاجنبية
+Bank Account Number,رقم حساب البنك
+Correlation Number,رقم الارتباط
+Application Number,رقم الطلب
+Internal Origin Number,رقم الحصر
+Multicurrency,عملات متعددة
+Expenditure Order,امر الصرف
+Dr,Dr
+"Fiscal Period start date or end date is overlapping with {0}""",الفترة المالية تتعارض مع  {0}
+"Fiscal Period start date or end date is overlapping in rows {0} ,{1}","الفترة المالية تتعارض في الصفوف  {0} ,{1}"
+Job Name,اسم
+Nature of work allowance,نسبة بدل طبيعة عمل
+Job Status,حالة الوظيفة
+Serial Number,رقم الوظيفة
+transfer from costs,المنقول من التكاليف
+support costs,المعزز للتكاليف
+Party Name,اسم المستفيد
+Rejected,رفض
+Remain,النسبة
+Expense Previous Years,المنصرف
+Holdment Amount,المرتبط
+depe_after edit,الاعتماد بعد التعديل
+transfer to dependents,منقول اليه
+transfer from dependence,منقول منه
+total amount,الاعتماد الأساسي
+Budget Economic Classification,الميزانية - التصنيف الاقتصادي
+Ratio,النسبة
+Transfer Number,رقم المناقلة
+Amount should be more than 0,الكمية المدخلة غير صحيحة
+budget,الميزانية
+WORKFLOW_STATE,سير العمل
+المؤهل العلمي,الدرجة
+Payment after annual bonus,الدفع بعد المكافأة السنوية
+Absent Late,علاوة سنوية
+annual bonus,علاوة سنوية
+Batch Number,رقم الدفعة
+Exam study leave,اجازة الامتحانات
+Family Member Name,اسم قريب من العائلة
+Appraisall,التقييم
+Job Id without parent,رقم الوظيفة بدون الاب
+parent,رقم الاب
+Degree sec,قسم الدرجة
+Appraisall sec,قسم التقييم
+Department Name,اسم القسم
+Line Manager,المدير التنفيذي
+Branch Number,رقم الفرع
+Grade Information,معلومات الدرجة
+Job Assignment sec,قسم الانتدابات
+Parent Department,القسم الأب
+Job Hierarchy,انواع الوظائف
+Department Manger,المدير
+Add Child,اضافة
+Job Hierarchy Browser,الهيكلة الوظيفية
+Human Resources,الموارد البشرية
+parent_code,رمز القسم/الادارة الأب
+Department Code,رمز القسم/الادارة
+Department Parent Code,رمز القسم/الادارة الأب
+Department Number,رقم القسم/الادارة
+Vice Presedint,مدير الادارة الأب
+Tree Level,المستوى
+Parent Job Hierarchy,الوظيفة الأب
+Class Allowance,مسمى فئة الانتداب
+Day Numbers,عدد الأيام
+category,فئة
+housing Costs,تكاليف سكن
+Way travel,وسيلة سفر
+cost_assignment,مبلغ الانتداب
+Believer,مؤمن
+not Believer,غير مؤمن
+Extra days,ايام اضافية
+Extra days befor,ايام اضافية قبل الانتداب
+Extra days after,ايام اضافية بعد الانتداب
+Parent Code,رقم الاب القسم/الادارة
+Code Enter,رقم القسم/الادارة
+Masters,الموردون
+Create Leads,إنشاء عروض
+"Leads help you get business, add all your contacts and more as your leads",العروض تساعدك للحصول على الأعمال التجارية،وإضافة كافة جهات الاتصال الخاصة بك والمزيد من عروضك
+Make Lead,أنشئ عرض
+Manage your orders,إدارة طلباتك
+Make Sales Orders to help you plan your work and deliver on-time,أنشئ طلبات المبيعات لتساعدك على خطة العمل الخاصة بك وتسليمها بالوقت المناسب
+Create Purchase Orders,أنشئ طلبات الشراء
+Purchase orders help you plan and follow up on your purchases,طلبات الشراء تساعدك على تخطيط ومتابعة عمليات الشراء الخاصة بك
+Add Timesheets,إضافة جداول زمنية
+"Timesheets help keep track of time, cost and billing for activites done by your team",الجداول الزمنية تساعد على الحفاظ على المسار من الوقت والتكاليف والفواتير للنشاطات الذي قام به فريق العمل الخاص بك
+Sick Leave,إجازة مرض
+Bimonthly,مرة كل شهرين
+Fortnightly,كل أسبوعين
+Payroll Frequency,فترة الراتب
+Vehicle Expenses,نفقات المركبات
+Odometer,عداد المسافات
+Vehicle Log,سجل المركبات
+Additional Charges,تكلفة اضافية
+In Process,قيد الانتاج
+Outgoing,الصادر
+UOM,وحدة القياس
+Gram,جرام
+Example,مثال
+Chart Of Accounts Template,نموذج دليل الحسابات
+Create Chart Of Accounts Based On,إنشاء دليل الحسابات معتمدا على
+BOM,فاتورة المواد
+Terms and Conditions,الشروط والأحكام
+Cheque Print Template,قالب طباعة الشيكات
+Repayment Method,طريقة التسديد
+Repayment Info,معلومات التسديد
+Loan Amount,مبلغ القرض
+Loan Info,معلومات القرض
+Select Companies,حدد الشركات
+Send Emails At,إرسال رسائل البريد الإلكتروني في
+Daily Work Summary,ملخص العمل اليومي
+"Download the Template, fill appropriate data and attach the modified file. All dates and employee combination in the selected period will come in the template, with existing attendance records",قم بتحميل القالب وملء البيانات المناسبة وإرفاق الملف تم تعديله. سوف تأتي جميع التواريخ وتركيبة الموظفين في الفترة الزمنية المحددة في القالب،مع قائمة سجلات الحضور
+Odometer Reading,قراءة عداد المسافات
+Fuel Qty,كمية الوقود
+Fuel Price,سعر الوقود
+Invoice Ref,مرجع الفاتورة
+Refuelling Details,تفاصيل إعادة التزود بالوقود
+Service_Details,تفاصيل الخدمة
+Fuel Type,نوع الوقود
+Additional Details,تفاصيل إضافية
+Acquisition Date,تاريخ الإمتلاك
+Insurance Company,شركة التأمين
+Doors,الأبواب
+Event Name,إسم الحدث
+Event Status,حالة الحدث
+Accounts Payable Summary,ملخص الحسابات المستحقة للدفع
+Loan Details,تفاصيل القرض
+Repayment Period in Months,فترة التسديد في الأشهر
+Disbursement Date,تاريخ الصرف
+Employee Loan Account,حساب قرض الموظف
+Interest Income Account,حساب إيرادات الفوائد
+Total Payment,إجمالي المدفوعات
+Principal Amount,المبلغ الرئيسي
+Repay from Salary,تسديد من الراتب
+Account Info,معلومات الحساب
+Repayment Schedule,الجدول الزمني للتسديد
+Total Interest Payable,مجموع الفوائد مستحقة الدفع
+Interest Amount,مبلغ الفائدة
+Balance Loan Amount,رصيد القرض
+Loan Name,إسم القرض
+Maximum Loan Amount,الحد الأقصى لمبلغ القرض
+Rate of Interest (%) Yearly,معدل الفائدة (%) سنويا
+Sanctioned,مقرر
+Fully Disbursed,صرف كلي
+Partially Disbursed,صرف جزئي
+Repay Fixed Amount per Period,تسديد مبلغ ثابت كل فترة
+Repay Over Number of Periods,التسديد أكثر من عدد الفترات
+Monthly Repayment Amount,مبلغ التسديد شهريا
+Maintain Billing Hours and Working Hours Same on Timesheet,الحفاظ على ساعات الفوترة وساعات العمل نفسها في الجدول الزمني
+Emails salary slip to employee based on preferred email selected in Employee,البريد الإلكتروني لقسيمة راتب الموظف معتمدا على البريد الإلكتروني المحدد لدى الموظف
+Select Payroll Period,حدد فترة الرواتب
+Edit Posting Date and Time,تعديل نشر التاريخ والوقت
+Prefered Email,البريد الإلكتروني المفضل
+Provide Email Address registered in company,توفير عنوان البريد الإلكتروني المسجل في الشركة
+Billing Details,تفاصيل الفاتورة
+Total Billable Hours,إجمالي الساعات القابلة للفوترة
+Total Billable Amount,إجمالي المبلغ القابل للفوترة
+Billing Hours,ساعات الفوترة
+On Leave,في إجازة
+Incentives,الحوافز
+Working Hours,ساعات العمل
+Offer Letter,عروض العمل
+Leave Control Panel,لوحة تحكم الإجازات
+Default Bank / Cash account will be automatically updated in Salary Journal Entry when this mode is selected.,البنك الإفتراضي / الحساب النقدي سيتم تحديثه تلقائيا في دفتر يومية الراتب عندما يتم إختيار هذه الحالة.
+Appraisal Template Title,عنوان نموذج التقييم
+Conference,مؤتمر
+Workshop,ورشة عمل
+Exam,إمتحان
+Seminar,ندوة
+Internet,إنترنت
+Theory,نظرية
+Fuel UOM,وقود UOM
+Odometer Value (Last),قيمة عداد المسافات(الأخير)
+Insurance Details,تفاصيل التأمين
+Chassis No,رقم الشاصي
+Vehicle Value,قيمة المركبة
+Fleet Management,إدارة المركبات
+"The account head under Liability or Equity, in which Profit/Loss will be booked",مدير الحساب تحت المسؤولية أو الإنصاف،الربح أو الخسارة سوف يتم حجزه
+Account Number Settings,إعدادات رقم الحساب
+Allow user to edit Rate,السماح للمستخدم بتعديل المعدل
+Notify by email,إشعار عن طريق البريد الإلكتروني
+Allocate Payment Amount,تخصيص مبلغ الدفع
+Supplier Invoice Details,تفاصيل فاتورة المورد
+Email,البريد الإلكتروني
+Contact Number,رقم جهة الإتصال
+Address Name,إسم العنوان
+Budget Against,مقابل الميزانية
+Awaiting password,في إنتظار كلمة السر
+Email Group,مجموعة البريد الإلكتروني
+Send Attachements,إرسال المرفقات
+Send Unsubscribe Link,إرسال رابط إلغاء الإشتراك
+Shipping Address Name,إسم عنوان الشحن
+Standard Selling Rate,معدل البيع القياسي
+Inspection Required before Delivery,التفتيش مطلوب قبل التسليم
+Inspection Required before Purchase,التفتيش مطلوب قبل الشراء
+Max Qty,الحد الأقصى للكمية
+Min Qty,الحد الأدنى للكمية
+Commission Rate (%),معدل العمولة (%)
+Report Date,تاريخ التقرير
+Add / Edit Prices,إضافة / تعديل الأسعار
+Close Opportunity After Days,إغلاق الفرصة بعد أيام
+Auto close Opportunity after 15 days,إغلاق الفرصة تلقائيا بعد 15 يوم
+Target Qty,الكمية المستهدفة
+Sales Taxes and Charges Template,نموذج الرسوم وضرائب المبيعات
+Sales Funnel,هرم المبيعات
+Sales Person,مندوب المبيعات
+BOM Search,البحث في جدول المواد
+Search Sub Assemblies,بحث التجميعات الفرعية
+Customer Addresses And Contacts,عناوين العملاء وجهات الإتصال
+Purchase Taxes and Charges Template,نموذج رسوم وضرائب الشراء
+Costing Rate,معدل التكاليف
+Default Billing Rate,معدل الفواتير الإفتراضي
+Default Costing Rate,معدل التكاليف الإفتراضي
+Billing Rate,معدل الفاتورة
+Purchase Receipt Trends,إتجاهات إيصال الشراء
+Student Batch,دفعة الطالب
+Daily Timesheet Summary,ملخص الجدول الزمني اليومي
+Total Billing Amount (via Time Sheet),مبلغ الفاتورة الكلي(ورقة الوقت)
+Total Costing Amount (via Time Sheet),مبلغ التكاليف الكلية (ورقة الوقت)
+Stock,المخازن
+Stock Balance,رصيد المخازن
+Stock Projected Qty,كمية المخازن المتوقعة
+Show Barcode Field,إظهار حقل الباركود
+Limit Percent,نسبة الحد الأقصى
+Default Item Group,مجموعة الأصناف الإفتراضية
+Default Stock UOM,وحدة قياس المخازن الإفتراضية
+Stock Analytics,تحليلات المخازن
+Error Snapshot,لقطة الخطأ
+Creation Document Type,إنشاء نوع المستند
+Projected qty,الكمية المتوقعة
+Purchase Receipt Items,إيصال شراء الأصناف
+Quantity Difference,فرق الكمية
+Maintain Stock,الإحتفاظ بالمخازن
+Valuation Rate,معدل التقييم
+Auto Material Request,طلب المواد تلقائيا
+Auto insert Price List rate if missing,إضافة معدل قائمة الأسعار تلقائيا إذا كان مفقودا
+Email Status,حالة البريد الإلكتروني
+Your sales person who will contact the customer in future,مندوب مبيعاتك الذي سيتم الإتصال بالعميل في المستقبل
+Publish Items on Website,نشر الأصناف على الموقع
+Default Cost Center,مركز التكلفة الإفتراضي
+End Date,تاريخ النهاية
+Weight,الوزن
+% Complete Method,الطريقة كاملة %
+Timesheet,الجدول الزمني
+Opening Accounting Balance,فتح رصيد المحاسبة
+No of Visits,عدد الزيارات
+Term Start Date,تاريخ بدء الفصل
+Term End Date,تاريخ نهاية الفصل
+Term Name,إسم الفصل
+Default Company,الشركة الإفتراضية
+Email Domain,مجال البريد الإلكتروني
+Message Example,مثال الرسالة
+Customize the Notification,تخصيص الإشعارات
+Stock Settings,إعدادات المخازن
+icon,الرمز
+Email Queue,قائمة إنتظار البريد الإلكتروني
+Naming Series,سلسلة التسمية
+Tag Category,فئة العلامة
+Workflow Action,إجراء سير العمل
+Rate (SAR),معدل (SAR)
+Completed Production Orders,إنجاز أوامر الإنتاج
+Feedback Trigger,تغذية راجعة
+Authorization Rule,شاشة الصلاحيات
+Website Sidebar,موقع الشريط الجانبي
+Portal Settings,إعدادات البوابة
+Prices will not be shown if Price List is not set,الأسعار لن تظهر إذا لم يتم تعيين قائمة الأسعار
+Company Tagline for website homepage,شعار الشركة للصفحة الرئيسية للموقع
+Help Category,فئة المساعدة
+Trial Balance,ميزان المراجعة
+Bank Reconciliation Statement,بيان تسوية حساب بنكية
+Application Access Key,مفتاح وصول التطبيق
+Default Payroll Payable Account,حساب كشف الرواتب مستحقة الدفع الإفتراضية
+Stock Adjustment Account,حساب تسوية المخازن
+Include Payment (POS),تشمل الدفع (POS)
+Landed Cost Voucher Amount,هبوط تكلفة مبلغ السند
+Distribution Name,إسم التوزيع
+Schedule Date,تاريخ الجدول
+Sales Partner,شريك المبيعات
+Price List Name,إسم قائمة الأسعار
+Drop Ship,إنخفاض الشحن
+Sales Partner Target,شريك المبيعات المستهدف
+Target Distribution,توزيع الأهداف
+Set targets Item Group-wise for this Sales Person.,تعيين أهداف الأصناف لمندوب المبيعات على مستوى المجموعة.
+Task Completion,مهمة مكتملة
+Task Progress,مهمة قيد التنفيذ
+Costing Amount,مبلغ التكلفة
+All Territories,كل الأقاليم
+Rest Of The World,باقي أنحاء العالم
+Saudi Arabia,المملكة العربية السعودية
+Salutation,اللقب
+Create User,إنشاء مستخدم جديد
+"Mandatory fields required in table '{0}', Row 1","الحقول الإلزامية في جدول {0}, الصف"
+Not found,غير متوفر
+Version Updated,تحديث الإصدار
+Frappe User ID,هوية المستخدم
+Missing Fields,حقول مطلوبة
+"If the user has any role checked, then the user becomes a ""System User"". ""System User"" has access to the desktop","في حال تم إعطاء المستخدم أي صلاحيات، يصبح نوع المستخدم ""مستخدم النظام"". ""مستخدم النظام"" لديه حق الوصول إلى سطح المكتب"
+System User,مستخدم النظام
+Website User,مستخدم الموقع
+Allow user to login only after this hour (0-24),السماح للمستخدم بتسجيل الدخول فقط بعد هذه الساعة (0-24)
+Allow user to login only before this hour (0-24),السماح للمستخدم بتسجيل الدخول قبل هذه الساعة فقط (0-24)
+Login After,تسجيل الدخول بعد
+Target  Amount,المبلغ المستهدف
+Amount Difference,فرق المبلغ
+Current Amount,المبلغ الحالي
+Confirmation Date,بداية العقد
+Applicable Holiday List,قائمة العطلات السارية
+Notice (days),إشعار (أيام)
+Please enter Preferred Contact Email,الرجاء إدخال البريد الكتروني المفضل للاتصال
+Supplier Invoice Date cannot be greater than Posting Date,تاريخ فاتورة المورد لا يمكن أن تكون أكبر من تاريخ الإنشاء
+"Username should not contain any special characters other than letters, numbers and underscore",يجب أن لا يحتوي اسم المستخدم علي أي حروف خاصة غير الأحرف والأرقام والشرطة السفلية
+Row {0}# Account must be of type 'Fixed Asset',أصل ثابت`
+Is Sample Item,هل هو صنف عينة
+Is Subcontracted,تعاقد فرعي ؟
+Organization Profile,بيانات المؤسسة
+Contact Details,بيانات الإتصال
+Next Depreciation Date cannot be before Purchase Date,تاريخ الاستهلاك لا يمكن أن يكون قبل تاريخ الشراء
+Invalid Email: {0},البريد الالكتروني غير صالح
+Prefered Contact Email,البريد الكتروني المفضل للاتصال
+Make a new {0},انشئ {0} جديد
+Major/Optional Subjects,المواضيع الرئيسية/الاختيارية
+History In Company,تاريخ العمل في الشركة
+Mins to first response,دقائق أول رد
+No {0} found,لا يوجد بيانات لـ {0}
+Item {0} must be a non-stock item,الصنف {0} يجب ألا يكون صنف مخزن
+Date of Birth cannot be greater than today.,تاريخ الميلاد لا يمكن أن يكون أكبر من تاريخ اليوم.
+"Mandatory fields required in table {0}, Row {1}",الحقول الالزامية في جدول {0} صف رقم {1} مطلوبة
+Cash or Bank Account is mandatory for making payment entry,الحساب النقدي أو البنكي مطلوب لعمل مدخل بيع
+Mark Absent,تسجيل غياب
+"Download the Template, fill appropriate data and attach the modified file.
+All dates and employee combination in the selected period will come in the template, with existing attendance records",قم بتنزيل القالب ، وقم بتعبئة البيانات المناسبة وقم بإرفاق الملف المعدل. ستاتي كافة التواريخ وتركيبه الموظفين في الفترة المحددة في القالب مع سجلات الحضور الموجودة
+Not Equals,لا تساوي
+Hide Filters,إخفاء مرشحات
+Remove,إزالة المرشح
+Edit DocType,تعديل القائمة
+Approved,موافق
+Half Day Date,تاريخ نصف يوم
+Clear Table,إفراغ الجدول
+Get Weekly Off Dates,الحصول على مواعيد العطل الأسبوعية
+Monday,الإثنين
+Invalid Filter,ترشيح غير صالح
+New Leaves Allocated,حجز إجازات جديدة
+Total allocated leaves are more than days in the period,مجموع اﻹجازات المخصصة هي أكثر من الأيام في الفترة المحددة
+created,أنشأ
+Invalid date,تاريخ غير صالح
+CC,نسخة
+Leave blank if considered for all departments,تترك فارغة إذا كانت لجميع الأقسام
+Carry Forward,ترحيل رصيد الإجازات
+New Leaves Allocated (In Days),اﻹجازات الجديدة المخصصة (بالأيام)
+Please select Carry Forward if you also want to include previous fiscal year's balance leaves to this fiscal year,الرجاء اختيار ترحيل رصيد اﻹجازات إذا كنت ترغب في تضمين رصيد إجازات السنة السابقة إلى هذه السنة
+Leave Block List Name,اسم قائمة الإجازات المحظورة
+Salary Structure Missing,هيكلية الراتب مفقودة
+No active or default Salary Structure found for employee {0} for the given dates,لم يتم العثور على أي نشاط أو هيكل راتب إفتراضي للموظف {0} للتواريخ المدخلة
+net pay info,معلومات صافي الأجر
+Gross Pay - Total Deduction - Loan Repayment,إجمالي البدلات - مجموع الخصومات - سداد القروض
+Salary Slip Based on Timesheet,تعريف الراتب بناءاً على الجدول الزمني
+Next Contact By cannot be same as the Lead Email Address,ايميل التواصل يجب أن يكون مختلفا عن عنوان البريد الالكتروني الرئيسي
+Net Pay (in words) will be visible once you save the Salary Slip.,صافي الأجر (كتابةََ) سوف يظهر بعد حفظ قسيمة الراتب.
+Total in words,صافي الأجر (كتابةََ)
+Send me a copy,إرسال نسخة الى بريدي
+Lead Owner cannot be same as the Lead,مسئول مبادرة البيع لا يمكن أن يكون نفس المسئول(اسم الشخص)
+CC & Standard Reply,نسخة & الرد القياسي
+Next Contact Date cannot be in the past,تاريخ التواصل التالي لا يمكن أن يكون قبل تاريخ اليوم
+"{0}: Employee email not found, hence email not sent",{0} : البريد الإلكتروني للموظف غير موجود، وبالتالي لم يتم إرسال البريد الإلكتروني
+"Email Address must be unique, already exists for {0}",البريد الالكتروني يجب أن يكون فريد، البريد المدخل موجود بالفعل لـ {0}
+Opportunity From field is mandatory,خانة الفرصة من الزامي
+"Cannot declare as lost, because Quotation has been made.",لا يمكن أن تعرف كمفقود، لأنه تم تقديم عرض السعر
+Customer is mandatory if 'Opportunity From' is selected as Customer,"العميل الزامي اذا تم اختيار ""فرصة من"" كعميل"
+Please set User ID field in an Employee record to set Employee Role,الرجاء تعيين حقل معرف المستخدم في سجل الموظف لتعيين دور الموظف
+Date of Joining must be greater than Date of Birth,تاريخ اﻹنضمام يجب أن يكون أكبر من تاريخ الميلاد
+Taxes and Charges Calculation,حساب الضرائب والرسوم
+Date Of Retirement must be greater than Date of Joining,تاريخ التقاعد يجب أن يكون أكبر من تاريخ اﻹنضمام
+Relieving Date must be greater than Date of Joining,تاريخ انتهاء الخدمة يجب أن يكون أكبر من تاريخ اﻹنضمام
+Contract End Date must be greater than Date of Joining,تاريخ نهاية العقد يجب أن يكون أكبر من تاريخ اﻹنضمام
+Cannot set as Lost as Sales Order is made.,لا يمكن أن تعين كخسارة لأنه تم تقديم أمر البيع.
+Please enter relieving date.,يرجى إدخال تاريخ انتهاء الخدمة
+User {0} does not exist,المستخدم {0} غير موجود
+User {0} is disabled,تم تعطيل المستخدم {0}
+Employee cannot report to himself.,الموظف لا يمكن أن يقدم تقريرا إلى نفسه.
+Please set a default Holiday List for Employee {0} or Company {1},يرجى تعيين قائمة العطل الافتراضية للموظف {0} أو الشركة {1}
+Show tax break-up,إظهار مقتطعات الرسوم
+Please setup Employee Naming System in Human Resource > HR Settings,الرجاء إعداد نظام تسمية الموظف من قائمة الموارد البشرية> إعدادات الموارد البشرية
+Taxes and Charges Added,الضرائب والرسوم المضافة
+Attendance for employee {0} is already marked,تم تسجيل الحضور للموظف {0} بالفعل
+undefined,غير محدد
+Employee {0} was on leave on {1}. Cannot mark attendance.,الموظف {0} كان في إجازة في {1}. لا يمكن إدخال الحضور.
+Attendance can not be marked for future dates,لا يمكن إدخال الحضور للتواريخ المستقبلية
+Employee {0} is not active or does not exist,الموظف {0} غير نشط أو غير موجود
+Message Sent,تم إرسال الرسالة
+Please select a csv file,الرجاء تحديد ملف csv
+UOM Conversion Factor is mandatory,معامل التحويل الuom الزامي.
+Payment From / To,الدفع من / إلى
+Please setup numbering series for Attendance via Setup > Numbering Series,يرجى إعداد سلسلة الترقيم للحضور عن طريق ضبط النظام> سلسلة الترقيم
+Difference Amount must be zero,مبلغ الفرق يجب أن يكون صفر
+All items have already been transferred for this Production Order.,كل العناصر بشكل طبيعي نقلت الى امر الانتاج هذا.
+Attendance From Date and Attendance To Date is mandatory,الحقل الحضور من تاريخ والحضور إلى تاريخ إلزامية
+Party Type is mandatory,حقل نوع المستفيد إلزامي
+Party is mandatory,حقل المستفيد إلزامي
+"Payment Type must be one of Receive, Pay and Internal Transfer","نوع الدفع يجب أن يكون إما استلام , دفع أو مناقلة داخلية"
+Operation {1} is not completed for {2} qty of finished goods in Production Order # {3}. Please update operation status via Time Logs,العملية {1} لم تكتمل ل {2} كمية البضائع المنتهية في امر الانتاج # {3}.الرجاء تحديث حالة العملية عبر سجلات الوقت.
+{0} {1} does not exist,{0} {1} غير موجود
+Reference Doctype must be one of {0},المستند المرجع يجب أن يكون واحد من {0}
+Invalid {0}: {1},{0} غير صالح : {1}
+Account Type for {0} must be {1},نوع الحساب للحساب {0} يجب أن يكون {1}
+Stock Entries already created for Production Order,ادخالات المستودع انشأت لامر الانتاج
+{0} {1} does not associated with {2} {3},{0} {1} لايتناسب مع {2} {3}
+Qty not available for {4} in warehouse {1} at posting time of the entry ({2} {3}),الكمية غير متاحة ل {4} في المستودع {1} عند وقت النشر المدخل({2} {3})
+{0} {1} does not associated with Party Account {2},{0} {1} لا يتناسب مع حساب المستفيد {2}
+Warning: Leave application contains following block dates,تحذير: طلب اﻹجازة يحتوي على الايام التالية الّتي يمنع فيها اﻹجازة
+{0} {1} must be submitted,{0} {1} يجب أن يتم اعتماده
+Note: There is not enough leave balance for Leave Type {0},تحذير: ليس لديك رصيد كافي من الاجازات من نوع {0}
+Employee {0} has already applied for {1} between {2} and {3},قام الموظف {0} بطلب اجازة من نوع {1} في الفترة بين تاريخ {2} وتاريخ {3}
+Row #{0}: Journal Entry {1} does not have account {2} or already matched against another voucher,الصف {1} : قيد اليومية {1} لا يحتوى على الحساب {2} أو بالفعل يوجد في قسيمة مقابلة أخرى
+"Salary already processed for period between {0} and {1}, Leave application period cannot be between this date range.",تمت معالجة الراتب بالفعل للفترة بين {0} و {1} ، لا يمكن أن تكون فترة طلب اﻹجازة بين نطاق هذا التاريخ.
+Quantity in row {0} ({1}) must be same as manufactured quantity {2},الكمية في سطر {0} ({1}) يجب ان تكون نفس الكمية المصنعة{2}
+You are not authorized to approve leaves on Block Dates,ليس لديك صلاحية لقبول إجازة في أيام يمنع اﻹجازة فيها
+Cannot {0} {1} {2} without any negative outstanding invoice,لا يمكن {0} {1} {2} بدون أي فاتورة معلقة سالبة
+The day(s) on which you are applying for leave are holidays. You need not apply for leave.,فترة طلب اﻹجازة تقع في فترة عطلة رسمية، يجب إختيار فترة أخرى.
+There is not enough leave balance for Leave Type {0},ليس لديك رصيد كافي من اﻹجازات من نوع {0}.
+Production Order {0} must be submitted,طلب الشراء {0} يجب ان يكون ارسل
+Leave of type {0} cannot be longer than {1},يجب أن لا يتجاوز عدد أيام اﻹجازة من نوع {0} عدد {1} يوم.
+Paid Amount cannot be greater than total negative outstanding amount {0},المبلغ المدفوع لا يمكن أن يكون أكبر من إجمالي المبلغ السالب المعلق {0}
+Transaction not allowed against stopped Production Order {0},الحدث غير مسموح مقابل طلب شراء تم ايقافه {0}
+Leave approver must be one of {0},يجب أن يكون الموافق على اﻹجازة واحد من {0}.
+{0} ({1}) must have role 'Leave Approver',{0} ({1}) يجب أن يكون لديه صلاحية الموافقة على اﻹجازة
+Only the selected Leave Approver can submit this Leave Application,الموظف المحدد في حقل [الموافق على الاجازة] هو الوحيد الذي يملك صلاحية الموافقة على الاجازة.
+Item {0} is not active or end of life has been reached,الصنف {0} غير فعال او انتهت صلاحيته
+Attendance for employee {0} is already marked for this day,تم تسجيل الحضور بالفعل للموظف {0} لهذا اليوم
+Posting date and posting time is mandatory,تاريخ النشر و وقت النشر الزامي
+Please select Employee Record first.,يجب تحديد الموظف أولا.
+Item or Warehouse for row {0} does not match Material Request,الصنف او المستودع للسطر {0} لايطابق طلب المواد
+Reference No and Reference Date is mandatory for Bank transaction,رقم المرجع وتاريخه هم حقول إلزامية للحركة البنكية
+Currency for {0} must be {1},العملة ل {0} يجب أن تكون {1}
+Batch {0} of Item {1} has expired.,الدفعة {0} للصنف {1} انتهت صلاحيتها
+Purpose must be one of {0},الهدف يجب ان يكون واحد ل {0}
+Please set default {0} in Company {1},الرجاء تحديد {0} الافتراضي في الشركة {1}
+Can only make payment against unbilled {0},يستطيع الدفع فقط ل {0} غير مفوترة
+Row {0}: Qty is mandatory,سطر {0} :الكمية الزامية
+Please select Posting Date before selecting Party,الرجاء تجديد تاريخ النشر قبل تحديد المستفيد
+Only Leave Applications with status 'Approved' can be submitted,يجب أن تكون حالة طلب الاجازة [مقبول].
+Please select {0} first,الرجاء تحديد {0} أولا
+"Row #{0}: Reference Document Type must be one of Sales Order, Sales Invoice or Journal Entry","الصف {0} : نوع المستند المرجع يجب أن يكون واحد من طلب توريد, فاتورة مبيعات أو قيد يومية"
+"Row #{0}: Reference Document Type must be one of Purchase Order, Purchase Invoice or Journal Entry","الصف {0} : نوع المستند المرجع يجب أن يكون واحدة من طلب شراء ,فاتورة شراء أو قيد يومبة"
+Requested For,مطلوب لصالح
+New Cart,سلة جديدة
+Stock Items,أصناف المخزن
+All Item Groups,كل مجموعات الأصناف
+Consumable,مستهلك
+Products,بضائع
+Raw Material,مواد خام
+Services,خدمات
+Sub Assemblies,المجمعات الفرعية
+Application period cannot be outside leave allocation period,فترة الاجازة لا يمكن أن تكون خارج فترة الاجازة المسموحة للموظف.
+Customers in Queue,العملاء في قائمة الانتظار
+Packing Slip(s) cancelled,قسيمة التعبئة الغيت
+Application period cannot be across two alocation records,فترة الاجازة يجب أن لا تتقاطع مع فترة إجازة اخرى.
+"Leave cannot be applied/cancelled before {0}, as leave balance has already been carry-forwarded in the future leave allocation record {1}",طلب الاجازة لا يمكن ان يكون قبل تاريخ {0}، بسبب رصيد الاجازات المرحل.
+To Date should be same as From Date for Half Day leave,يجب أن يكون التاريخ نفسه من تاريخ الإجازة لمدة نصف يوم
+Fetch exploded BOM (including sub-assemblies),جلب فاتورة المواد (بما في ذلك التجميعات الفرعية)
+Company name not same,اسم الشركة ليس مماثل
+Sales Invoice {0} has already been submitted,فاتورة الشراء {0} ارسلت
+Successfully deleted all transactions related to this company!,تم حذف جميع المناقلات المتعلقة بهذه الشركة بنجاح
+Wrong Password,كلمة مرور خاطئة
+Delete all the Transactions for this Company,حذف كل المعاملات المتعلقة بالشركة
+Installation Note {0} has already been submitted,مذكرة التسليم {0} ارسلت
+Abbreviation is mandatory,الاختصار حقل إلزامي
+Abbreviation already used for another company,الاختصار يستخدم بالفعل لشركة أخرى
+Account {0} does not belong to company: {1},الحساب {0} لا يتنمى للشركة {1}
+Possible Supplier,المورد المحتمل
+"Cannot change company's default currency, because there are existing transactions. Transactions must be cancelled to change the default currency.",لا يمكن تغيير العملة الافتراضية للشركة لوجود معاملات مالية. يجب حذف هذه المعاملات لتغيير العملة الافتراضية
+Please select weekly off day,الرجاء تحديد يوم عطلة أسبوعية
+The holiday on {0} is not between From Date and To Date,العطلة في {0} خارج الفترة المحددة
+Please select Existing Company for creating Chart of Accounts,الرجاء اختيار شركة لإنشاء شجرة حسابات
+"Sorry, companies cannot be merged","نأسف, لا يمكن دمج الشركات"
+{0} already allocated for Employee {1} for period {2} to {3},{0} تم تخصيصه بالفعل للموظف {1} للفترة {2} إلى {3}
+Abbr can not be blank or space,الاختصار لا يمكن أن يكون فراغ
+Select Possible Supplier,اختار المورد المحتمل
+Note: Total allocated leaves {0} shouldn't be less than already approved leaves {1} for the period,ملاحظه: إجمالي اﻹجازات المخصصة {0} لا يمكن أن تكون أقل من اﻹجازات المعتمدة بالفعل {1} للفترة
+Reference No & Reference Date is required for {0},رقم المرجع وتاريخه مطلوبان ل {0}
+Leave Type {0} cannot be allocated since it is leave without pay,"لا يمكن تخصيص نوع الاجازه {0}, لأنها إجازة بدون راتب"
+Reference No is mandatory if you entered Reference Date,رقم المرجع إلزامي اذا أدخلت تاريخ المرجع
+No accounting entries for the following warehouses,لا يتم ادخال حسابات لهذه المستودعات
+Leaves must be allocated in multiples of 0.5,يجب أن يتم تخصيص اﻹجازات من مضاعفات 0.5
+Purchase Invoice {0} is already submitted,فاتورة الشراء {0} ارسلت
+Row {0}: Please check 'Is Advance' against Account {1} if this is an advance entry.,الصف {0} : الرجاء فحص `هو المقدم` في الحساب {1} إذا كانت هذه مدخلة متقدمة
+Please enter Reference date,الرجاء إدخال تاريخ المرجع
+Cost Center is required in row {0} in Taxes table for type {1},مركز التكلفة مطلوب في الصف {0} في جدول الضرائب للنوع {1}
+All items have already been invoiced,كل الأصناف تمت معالجتها الى فواتير
+'Entries' cannot be empty,`المدخلات` لا يمكن أن تكون فارغة
+"Leave cannot be allocated before {0}, as leave balance has already been carry-forwarded in the future leave allocation record {1}",لا يمكن تخصيص الاجازه قبل {0} ، حيث أن رصيد الاجازه قد تم ترحيله مسبقا في سجل تخصيص الإجازات المستقبلية {1}
+Warning: Another {0} # {1} exists against stock entry {2},تحذير: {0} أخر # {1} موجود في مدخل المخزن {2}
+No Permission,لا توجد صلاحية
+Total leaves allocated is mandatory,مجموع الإجازات المخصصة إلزامية
+Please select Company,الرجاء اختيار شركة
+Please select Posting Date first,الرجاء تحديد تاريخ النشر أولا
+Total allocated leaves {0} cannot be less than already approved leaves {1} for the period,اﻹجازات الإجمالية المخصصة {0} لا يمكن أن تكون أقل من اﻹجازات المعتمدة بالفعل {1} للفترة
+Row {0}: Party Type and Party is required for Receivable / Payable account {1},الصف {0}: نوع المستفيد والمستفيد مطلوبان ل حساب الدفع/الاستلام {1}
+Leave Type {0} cannot be carry-forwarded,لا يمكن ترحيل نوع اﻹجازة {0}
+Row {0}: Party Type and Party is only applicable against Receivable / Payable account,الصف {0}: نوع المستفيد والمستفيد ممكن فقط لحسابات الدفع/الاستلام
+Row {0}: Payment against Sales/Purchase Order should always be marked as advance,الصف {0}: الدفع لطلب الشراء/البيع يجب أن يكون دائما معلم كمتقدم
+Date is repeated,تاريخ متكرر
+Row {0}: Advance against Customer must be credit,الصف {0}: العميل المقابل المتقدم يجب أن يكون دائن
+Row {0}: Advance against Supplier must be debit,الصف {0}:المورد المقابل المتقدم يجب أن يكون مدين
+"For {0}, only credit accounts can be linked against another debit entry","ل {0}, فقط الحسابات الدائنة ممكن أن تكون مقابل مدخل مدين أخر."
+"For {0}, only debit accounts can be linked against another credit entry","ل {0}, فقط حسابات المدينة يمكن أن تكون مقابل مدخل دائن أخر."
+You can not enter current voucher in 'Against Journal Entry' column,لا يمكنك إدخال القسيمة الحالية في عمود `قيد اليومية المقابل`.
+Journal Entry {0} does not have account {1} or already matched against other voucher,قيد اليومية {0} لا يحتوي الحساب {1} أو يطابق قسيمة أخرى مقابلة.
+Against Journal Entry {0} does not have any unmatched {1} entry,قيد اليومية المقابل {0} لا يحتوى أي مدخل {1} غير متطابق.
+Pay To / Recd From,دفع إلى/تحصيل من
+Reference,المرجع
+Show unclosed fiscal year's P&L balances,إظهار الارصده والموازنة العامة للسنة المالية غير المغلقة
+Assets,الأصول
+Liabilities,المطلوبات
+Item {0} has been disabled,الصنف {0} معطل
+Item {0} must be a Fixed Asset Item,الصنف {0} يجب أن يكون أصول ثابتة
+Expected Value After Useful Life must be less than Gross Purchase Amount,القيمة المتوقعة بعد الحياة النافعة يجب ان تكون اقل من إجمالي مبلغ الشراء
+Gross Purchase Amount is mandatory,مبلغ الشراء الإجمالي إلزامي
+Next Depreciation Date is mandatory for new asset,تاريخ الإهلاك إلزامي للأصل الجديد
+Opening Accumulated Depreciation must be less than equal to {0},يجب ان يكون فتح الإهلاك المتراكم اقل من أويساوي {0}
+Please set Number of Depreciations Booked,الرجاء تجديد عدد عمليات الاهلاك المحجوزة
+Number of Depreciations Booked cannot be greater than Total Number of Depreciations,عدد مرات الاهلاك المحجوزة لا يمكن أن تكون أكبر من عدد مرات الاهلاك الكلي
+Please set Next Depreciation Date,الرجاء تحديد تاريخ الاهلاك التالي
+"Asset cannot be cancelled, as it is already {0}","الأصول لا يمكن أن تلغى, كما أنها بالفعل {0}"
+Expected value after useful life must be greater than or equal to {0},القيمة المتوقعة بعد فترة حياة نافعة يجب أن تكون أكبر من أو تساوي {0}
+Please cancel Purchase Invoice {0} first,الرجاء إلغاء فاتورة الشراء {0} أولا
+Next Depreciation Date is entered as past date,تاريخ الاهلاك التالي تم إدخالها كتاريخ قديم
+Please enter Asset Category in Item {0},الرجاء إدخال تصنيف الأصل للصنف {0}
+Asset Movement record {0} created,تم إنشاء سجل حركة الأصول {0}
+{0} must be greater than 0,{0} يجب أن يكون أكبر من 0
+Total working hours should not be greater than max working hours {0},مجموع ساعات العمل يجب أن لا تكون أكبر من ساعات العمل القصوى {0}
+Multiple active Salary Structures found for employee {0} for the given dates,يوجد أكثر من هيكل نشط للرواتب للموظف {0} في التواريخ المحددة
+Leave Without Pay does not match with approved Leave Application records,لا تتطابق الاجازة بدون راتب مع الإجازات المعتمدة
+There are more holidays than working days this month.,أيام العطل لهذا الشهر أكثر من أيام العمل.
+Employee relieved on {0} must be set as 'Left',يجب تعيين الموظف الذي انتهت خدمته في {0} ` مسرَح `
+Salary Slip of employee {0} already created for this period,تم إنشاء قسيمة الراتب بالفعل للموظف {0} لهذه الفترة
+Salary Slip of employee {0} already created for time sheet {1},تم إنشاء قسيمة الراتب بالفعل للموظف {0} لهذا الجدول الزمني
+Net Pay cannot be less than 0,صافي الأجر لا يمكن أن يكون أقل من 0
+Name error: {0},الاسم خطأ: {0}
+Syntax error in formula or condition: {0},خطأ في صياغة الجملة أو الشرط: {0}
+Error in formula or condition,خطأ في الصيغة أو الشرط
+Link Title,عنوان الرابط
+Item Code is mandatory because Item is not automatically numbered,رمز الصنف إلزامي لأنه لا يتم ترقيم الصنف تلقائيا
+Website Image should be a public file or website URL,موقع الويب يجب أن تكون الصورة ملفا عاما أو عنوان URL لموقع الويب
+Warning: Invalid attachment {0},تحذير: مرفق غير صالح {0}
+Warning: Invalid SSL certificate on attachment {0},تحذير: شهادة SSL غير صالحة في المرفق {0}
+Item Variants {0} updated,تم تحديث متغيرات الصنف {0}
+Item {0} is disabled,تم تعطيل الصنف {0}
+Item {0} is not a stock Item,الصنف {0} ليس صنف مخزون
+Item {0} is cancelled,تم إلغاء الصنف {0}
+Select Payment Account to make Bank Entry,حدد حساب الدفع لإجراء إدخال بنكي
+Valuation Rate is mandatory if Opening Stock entered,معدل التقييم إلزامي إذا ادخلت قيمة مبدئية للمخزون
+Asset Category is mandatory for Fixed Asset item,فئة الموجودات إلزامية لأصناف الموجودات الثابتة
+Activity Log:,سجل النشاطات:
+Unit of Measure {0} has been entered more than once in Conversion Factor Table,وحدة القياس {0} تم إدخالها أكثر من مرة في جدول عامل التحويل
+"Company, From Date and To Date is mandatory",حقل `الشركة` ، `من تاريخ` و `الى تاريخ` إلزامية
+Conversion factor for default Unit of Measure must be 1 in row {0},عامل التحويل لوحدة القياس الافتراضية يجب أن يكون 1 في الصف {0}
+Payment of salary from {0} to {1},دفع الراتب من {0} إلى {1}
+Row #{0}: Please set reorder quantity,الصف # {0}: يرجى تعيين إعادة ترتيب الكمية
+Link DocType,رابط الجدول
+No submitted Salary Slip found,لم يتم العثور علي أي قسيمة راتب معتمدة
+"An Item Group exists with same name, please change the item name or rename the item group",توجد مجموعة عناصر بنفس الاسم، يرجى تغيير اسم الصنف أو إعادة تسمية مجموعة العناصر
+Item {0} does not exist,الصنف {0} غير موجود
+"To merge, following properties must be same for both items",للدمج، يجب أن تكون الخصائص التالية متماثلة لكلا الصنفين
+Item has variants.,الصنف له متغيرات.
+Default Unit of Measure for Variant '{0}' must be same as in Template '{1}',وحدة القياس الافتراضية للمتغير `{0}` يجب أن تكون كما في قالب `{1}`
+Attribute table is mandatory,جدول السمة إلزامي
+Attribute {0} selected multiple times in Attributes Table,تم تحديد السمة {0} عدة مرات في جدول السمات
+Please specify Attribute Value for attribute {0},يرجى تحديد قيمة السمة للسمة {0}
+Item variant {0} exists with same attributes,متغير الصنف {0} موجود بنفس السمات
+"Weight is mentioned,\nPlease mention ""Weight UOM"" too","الوزن هو مشار اليه،  n يرجى ذكر ""الوزن UOM"" أيضا"
+Journal Entry Submitted,تم تسجيل دفتر اليومية
+Please set {0},الرجاء إدخال {0}
+Please set default account in Salary Component {0},الرجاء تعيين الحساب الافتراضي في مكون الراتب {0}
+Fiscal Year {0} not found,السنة المالية {0} غير موجودة
+Price List must be applicable for Buying or Selling,يجب أن تكون قائمة الأسعار قابلة للتطبيق لشراء أو بيع
+Add Employees,إضافة موظفين
+Item {0} not found,لم يتم العثور على الصنف {0}
+Weekly,أسبوعيا
+Daily,يوميا
+Price List {0} is disabled,قائمة الأسعار {0} معطلة
+Item {0} appears multiple times in Price List {1},يظهر الصنف {0} عدة مرات في قائمة الأسعار {1}
+Net pay cannot be negative,صافي الأجر لا يمكن أن يكون بالسالب
+Removed items with no change in quantity or value,إزالة العناصر مع أي تغيير في كمية أو قيمة
+From Date in Salary Structure cannot be lesser than Employee Joining Date.,حقل `من تاريخ` في هيكل المرتبات لا يمكن أن يكون أقل من تاريخ إنضمام بالموظف.
+Please specify either Quantity or Valuation Rate or both,يرجى تحديد إما الكمية أو سعر التقييم أو كليهما
+Base,أساسي
+negative Quantity is not allowed,الكمية السلبية غير مسموح بها
+Negative Valuation Rate is not allowed,معدل التقييم السلبي غير مسموح به
+Please enter Cost Center,يرجى إدخال مركز التكلفة
+Select employees for current Salary Structure,اختيار موظفين لهيكل الراتب الحالي
+Hour Rate,قيمة الساعة
+None of the items have any change in quantity or value,لا يوجد أي من الأصناف لديها أي تغيير في كمية أو قيمة
+Valuation Rate required for Item in row {0},معدل التقييم المطلوب للصنف في الصف {0}
+Salary Component for timesheet based payroll.,مكون المرتب لكشف المرتبات المستندة إلى الجدول الزمني.
+Amount based on formula,القيمة بناءً على المعادلة
+Condition,الشرط
+cannot create,لا يمكن إنشاؤه
+Examples,أمثلة
+"Difference Account must be a Asset/Liability type account, since this Stock Reconciliation is an Opening Entry",حساب الفرق يجب أن يكون حساب الأصول / حساب نوع الالتزام، حيث يعتبر تسوية المخزون بمثابة مدخل افتتاح
+Notes:,ملاحظات:
+Please create new account from Chart of Accounts.,الرجاء إنشاء حساب جديد من شجرة الحسابات
+Condition and Formula Help,تعليمات إدخال الشروط والمعادلات
+Please enter company first,الرجاء إدخال الشركة أولا
+Please enter Purchase Receipt first,الرجاء إدخال إيصال الشراء أولا
+Please enter Receipt Document,الرجاء إدخال مستند الاستلام
+Receipt document must be submitted,يجب تقديم وثيقة الاستلام
+Item must be added using 'Get Items from Purchase Receipts' button,"يجب إضافة الصنف باستخدام الزر ""الحصول على عناصر من إيصالات الشراء"""
+Abbreviation cannot have more than 5 characters,الاختصارات لا يمكن أن تكون أكثر من 5 حروف
+Abbreviation already used for another salary component,الاختصار مستخدم بالفعل لمركب آخر من المرتَبات
+"Total {0} for all items is zero, may be you should change 'Distribute Charges Based On'",إجمالي {0} لجميع العناصر هو صفر، قد يكون عليك تغيير `توزيع الرسوم على أساس`
+Total Applicable Charges in Purchase Receipt Items table must be same as Total Taxes and Charges,إجمالي الرسوم المطبقة في إيصالات الشراء يجب أن يكون جدول الأصناف هو نفس إجمالي الضرائب والرسوم
+BOM does not contain any stock item,BOM لا يحتوي على أي صنف المخزون
+Name of new Account. Note: Please don't create accounts for Customers and Suppliers,اسم الحساب. ملاحظة: الرجاء عدم إنشاء حسابات للعملاء والزبائن
+{0} ({1}) must have role 'Expense Approver',{0} ({1}) يجب أن يمتلك صلاحية `اعتماد المصاريف`
+Approval Status must be 'Approved' or 'Rejected',يجب أن تكون حاله الموافقة ` معتمده ` أو ` مرفوض `
+The following Production Orders were created:,تم إنشاء أوامر الإنتاج التالية:
+A Customer Group exists with same name please change the Customer name or rename the Customer Group,مجموعة الزبائن موجودة بنفس الاسم أرجو تغير اسم العميل أو اعادة تسمية مجموعة الزبائن
+Expected Date cannot be before Material Request Date,لا يمكن أن يكون التاريخ المتوقع قبل تاريخ طلب المواد
+Sanctioned Amount cannot be greater than Claim Amount in Row {0}.,المبلغ المسموح به لا يمكن أن يكون أكبر من المبلغ المطلوب في الصف {0}.
+Please set default account in Expense Claim Type {0},الرجاء تعيين الحساب الافتراضي لنوع `المطالبة بالمصاريف` {0}
+{0} {1} is cancelled or stopped,{0} {1} يتم إلغاؤه أو إيقافه
+Productions Orders cannot be raised for:,لا يمكن رفع طلبات الإنتاج ل:
+Series,سلسلة التسمية
+New Account Name,اسم الحساب الجديد
+Approver,الموافق على الطلب
+No Items to pack,لا عناصر لحزمة
+Please specify a valid 'From Case No.',"يرجى تحديد صالح ""من رقم الحالة"""
+'To Case No.' cannot be less than 'From Case No.',"""الحالة إلى رقم "" لا يمكن أن يكون أقل من ""الحالة من رقم"""
+Unable to find exchange rate for {0} to {1} for key date {2},تعذر العثور على سعر الصرف من {0} إلى {1} لتاريخ {2}
+Delivery Note {0} must not be submitted,ملاحظة التسليم {0} يجب ان تكون ارسلت
+Scrap Material Cost (SAR),تكلفة مواد الخردة (SAR
+Case No(s) already in use. Try from Case No {0},رقم الحالة مستخدم بالفعل. حاول من رقم حالة {0}
+Case No. cannot be 0,رقم الحالة لا يمكن ان يكون 0
+"A user with ""Expense Approver"" role","مستخدم لديه صلاحية ""اعتماد المصاريف"""
+Expense Date,تاريخ الاستحقاق
+"Further accounts can be made under Groups, but entries can be made against non-Groups",يمكن انشاء المزيد من الحسابات تحت المجموعات ، ولكن يمكن انشاء حسابات بدون مجموعات.
+Accounting Details,تفاصيل الحساب
+More Details,مزيد من التفاصيل
+Is Paid,مدفوع
+Expense Claim is pending approval. Only the Expense Approver can update status.,مطالبة المستحقات المالية في انتظار الموافقة. فقط الموافق على الطلب يستطيع تغيير حالته.
+Series is mandatory,الاسم المتسلسل مطلوب
+Same Company is entered more than once,تم إدخال نفس الشركة أكثر من مره
+Account does not match with Company,الحساب لا يتطابق مع الشركة
+Please contact to the user who have Sales Master Manager {0} role,الرجاء الاتصال بالمستخدم الذي له صلاحية مدير المبيعات الرئيسي {0}
+Score must be less than or equal to 5,يجب أن تكون النقاط أقل من أو تساوي 5
+Support Analytics,تحليلات الدعم
+End Date can not be less than Start Date,تاريخ النهاية لا يمكن أن يكون اقل من تاريخ البدء
+Minutes to First Response for Issues,دقائق إلى الرد الأول للمشكلات
+Appraisal {0} created for Employee {1} in the given date range,تم إنشاء التقييم {0} للموظف {1} في النطاق الزمني المحدد
+Issue Date,تاريخ المشكلة
+Issue,المشكلات
+Total weightage assigned should be 100%. It is {0},يجب أن يكون إجمالي الوزن المعين 100٪. إنه {0}
+Total cannot be zero,لا يمكن ان يكون المجموع صفر
+Key Responsibility Area,النقاط الرئيسية
+Goal,الهدف
+"Any other remarks, noteworthy effort that should go in the records.",أي ملاحظات أخرى، يجب أن تأخذ بعين اﻹعتبار.
+Sum of points for all goals should be 100. It is {0},مجموع النقاط لجميع الأهداف يجب أن تكون 100. مجموع النقاط الحالية {0}
+Creation Time,وقت الإنشاء
+Rate of Interest,نسبة الفائدة
+Required by Date,مطلوبة في تاريخ
+Clearance Date not mentioned,تاريخ التخليص لم يذكر
+No permission for {0},لا يوجد صلاحية لـ {0}
+Please save the document before uploading.,الرجاء حفظ المستند قبل تحميلها
+You have entered duplicate items. Please rectify and try again.,لقد أدخلت عناصر مكررة. يرجى تصحيح وإعادة المحاولة.
+Raised By,رفعت المشكلة بواسطة
+Mute Sounds,كتم الأصوات
+Clearance date cannot be before check date in row {0},تاريخ التخليص لا يمكن أن يكون قبل تاريخ الشيك في الصف {0}
+Different UOM for items will lead to incorrect (Total) Net Weight value. Make sure that Net Weight of each item is in the same UOM.,UOM المختلفة للعناصر سوف ترتبط بقيمة الحجم الصافي الغير صحيحة . تاكد الحجم الصافي لكل صنف هي نفس UOM
+Role Name,اسم الدور
+Please Delivery Note first,يرجى ملاحظة التسليم أولا
+Group same items,جمع نفس الأصناف
+Desk Access,الوصول إلى سطح المكتب
+Set Role For,تعيين دور ل
+The resource you are looking for is not available,المصدر الذي تبحث عنه غير متاح
+Please specify from/to range,يرجى التحديد من / إلى النطاق
+From Range has to be less than To Range,من المدى يجب أن يكون أقل من إلى المدى
+Repaid/Closed,مسدد/مغلق
+Increment cannot be 0,لا يمكن أن تكون الزيادة 0
+{0} must appear only once,{0} يجب أن يظهر مرة واحدة فقط
+Successfully Reconciled,تمت التسوية بنجاح
+Session Expiry,إنتهاء الجلسة
+Session Expiry in Hours e.g. 06:00,انتهاء الجلسة في ساعات مثلا 06:00
+Session Expiry Mobile,إنتهاء جلسة الموبايل
+Note: Multiple sessions will be allowed in case of mobile device,ملاحظة: سيتم السماح جلسات متعددة في حالة جهاز الموبايل
+Disable Standard Email Footer,تعطيل تذييل البريد الإلكتروني الأساسي
+Email Footer Address,عنوان تذييل البريد الإلكتروني
+{0} must be set first,يجب تعيين {0} أولا
+Please enter Item Code.,الرجاء إدخال رمز الصنف.
+Trainer Name,اسم المتدرب
+Posting Date cannot be future date,لا يمكن أن يكون تاريخ النشر تاريخا مستقبلا
+Trainer Email,البريد اﻹلكتروني
+Start Time,بداية الوقت
+Not allowed to change {0} after submission,لا يسمح بتغيير {0} بعد الارسال
+Attendees,الحضور
+"If disable, 'In Words' field will not be visible in any transaction",إذا تعطيل، حقل 'في كلمات' لا يكون مرئي في أي صفقة
+Disable Rounded Total,تعطيل المجموع التقريبي
+Serial No {0} created,الرقم التسلسلي {0} تم إنشاؤه
+"If disable, 'Rounded Total' field will not be visible in any transaction",إذا تعطيل،حقل 'المجموع التقريبي' لا يكون مرئي في أي صفقة
+New Serial No cannot have Warehouse. Warehouse must be set by Stock Entry or Purchase Receipt,"الرقم التسلسلي الجديد لا يمكن أن يكون مستودع. يجب تعيين المستودع عن طريق ""دخول المخزون"" أو ""إيصال الشراء"""
+Item Code cannot be changed for Serial No.,لا يمكن تغيير رمز الصنف للرقم التسلسلي
+Submit all salary slips for the above selected criteria,تسجيل إيصال الراتب بناء على المعايير السابقة
+Warehouse cannot be changed for Serial No.,المستودع لا يمكن ان يكون متغير لرقم تسلسلى.
+"Cannot delete Serial No {0}, as it is used in stock transactions",لا يمكن حذف الرقم المتسلسل {0}، كما يتم استخدامه في معاملات الأسهم
+"Sorry, Serial Nos cannot be merged",عذرا، لا يمكن دمج الرقم التسلسلي
+Serial No {0} quantity {1} cannot be a fraction,الرقم المتسلسل {0} الكمية {1} لا يمكن أن يكون كسر
+Smallest Currency Fraction Value,أصغر قيمه كسر العملة
+Duplicate Serial No entered for Item {0},لم يتم إدخال الرقم المتسلسل المكرر للصنف {0}
+Serial No {0} has already been received,الرقم المتسلسل {0} قد تم استلامه بالفعل
+Serial No {0} does not belong to Warehouse {1},الرقم المتسلسل {0} لا ينتمي إلى المستودع {1}
+Serial No {0} does not belong to any Warehouse,الرقم المتسلسل {0} لا يرتبط باي المستودع
+Serial No {0} not in stock,الرقم المتسلسل {0} غير متوفر
+Serial Nos Required for Serialized Item {0},الرقم التسلسلي المطلوب للصنف المتسلسل {0}
+Please select Company first,الرجاء تحديد الشركة أولا
+Company,شركة
+Will send an email about the event to employees with status 'Open',سيتم إرسال بريد الكتروني الى الموظفين بخصوص الحدث وحالته 'مفتوح'
+Address Title,اسم العنوان
+Delete {0} items permanently,هل تود بالتأكيد حذف السجل {0} نهائياً
+Units of Measure,وحدات القياس
+Safety Stock,مخزون الأمان
+Invited,مدعو
+Attended,حضر
+Withdrawn,منسحب
+Policy No,رقم السياسة
+Last Carbon Check,آخر فحص للكربون
+Petrol,بنزين
+Diesel,ديزل
+Natural Gas,غاز طبيعي
+Electric,كهربائي
+Frequency,تكرر
+Days for which Holidays are blocked for this department.,الأيام التي يتم فيها حظر العطل لهذا القسم.
+Daily Work Summary for {0},ملخص العمل اليومي ل {0}
+No replies from,لا توجد ردود من
+There must be a default incoming Email Account enabled for this to work. Please setup a default incoming Email Account (POP/IMAP) and try again.,يجب أن يكون هناك حساب بريد الكتروني وارد افتراضي نشط. الرجاء اعداد حساب البريد الكتروني الوارد الافتراضي (pop/imap) والمحاولة مره أخرى.
+"Emails will be sent to all Active Employees of the company at the given hour, if they do not have holiday. Summary of responses will be sent at midnight.",سيتم إرسال رسائل البريد الإلكتروني إلى جميع الموظفين العاملين في الشركة حسب الساعة المدخلة، إذا لم يكن لديهم عطلة. سيتم إرسال ملخص للردود في منتصف الليل.
+Tip: Double click cell to edit,تلميح: انقر نقرا مزدوجا فوق خليه لتحريرها
+Sorting Preferences,معلومات ترتيب البيانات
+Sort By,ترتيب حسب
+Feedback,اقتراحات
+Customer,العميل
+Customer Address,عنوان العميل
+Contact Person,الشخص الذي يمكن الاتصال به
+Random,عشوائي
+Fully Completed,أنجزت كلياً
+Unscheduled,غير مجدول
+Warranty / AMC Status,الضمان / حالة عقد الصيانة الدوري
+Lead Time in days,المهلة بالايام
+Delivered by Supplier (Drop Ship),سلمت من قبل المورد (شحن مباشر)
+This is based on transactions against this Customer. See timeline below for details,يستند هذا على معاملات خاصة بهذا العميل. أنظر الى الجدول الزمني أدناه للتفاصيل
+Total Unpaid,إجمالي الغير مدفوع
+Row {0}: UOM Conversion Factor is mandatory,الصف {0}: عامل تحويل UOM إلزامي
+{0} is not a stock Item,{0} ليس صنف مخزون
+Open Issues,فتح المشكلات
+Open Projects,فتح المشاريع
+Row #{0}: Please specify Serial No for Item {1},الصف # {0}: يرجى تحديد الرقم التسلسلي للصنف {1}
+Atleast one warehouse is mandatory,على الأقل مستودع واحد إلزامي
+Annual Expenses,المصروفات السنوية
+Source warehouse is mandatory for row {0},مستودع المصدر إلزامي للصف {0}
+Target warehouse is mandatory for row {0},المستودع المستهدف إلزامي للصف {0}
+Target warehouse in row {0} must be same as Production Order,يجب أن يكون المستودع المستهدف في الصف {0} هو نفس طلب الإنتاج
+Source and target warehouse cannot be same for row {0},المصدر والمستودع المستهدف لا يمكن أن يكون نفس الصف {0}
+For Quantity (Manufactured Qty) is mandatory,للكمية (الكمية المصنعة) إلزامية
+Pending Quotations,قيد إنتظار عروض الأسعار
+Row #{0}: Operation {1} is not completed for {2} qty of finished goods in Production Order # {3}. Please update operation status via Time Logs,الصف # {0}: العملية {1} لم تكتمل ل {2} الكمية من السلع تامة الصنع في أمر الإنتاج رقم {3}. يرجى تحديث حالة التشغيل عبر سجلات الوقت
+New Quotations,جديد عروض الأسعار
+Price List not found or disabled,قائمة الأسعار ليست موجودة أو معطلة
+Row {0}: Qty not available for {4} in warehouse {1} at posting time of the entry ({2} {3}),الصف {0}: الكمية غير متاحة ل {4} في المستودع {1} عند وقت النشر للادخال ({2} {3})
+New Sales Orders,جديد أوامر البيع
+Not allowed to transfer more {0} than {1} against Purchase Order {2},غير مسموح بنقل أكثر {0} من {1} ضد أمر الشراء {2}
+Pending Sales Orders,قيد إنتظار أوامر البيع
+New Purchase Orders,جديد أوامر الشراء
+Pending Purchase Orders,قيد إنتظار أوامر الشراء
+Upcoming Calendar Events,أحداث التقويم القادم
+New Expenses,جديد المصروفات
+New Income,جديد الدخل
+No of Rows (Max 500),عدد الصفوف (بحد أقصى 500)
+Select items to save the invoice,تحديد عناصر لحفظ الفاتورة
+Email Account Name,إسم حساب البريد الإلكتروني
+Enable Outgoing,تمكين البريد الصادر
+Academic Term,الفصل الأكاديمي
+Activity Type,نوع النشاط
+Finished Item {0} must be entered for Manufacture type entry,غير مسموح بنقل أكثر {0} من {1} ضد أمر الشراء {2}
+Manufacturing Quantity is mandatory,كمية التصنيع إلزامية
+"Payment Mode is not configured. Please check, whether account has been set on Mode of Payments or on POS Profile.",لم يتم إعداد وضع الدفع. الرجاء التحقق ، ما إذا كان قد تم تعيين الحساب علي نمط الدفع أو علي نظام نقاط البيع.
+User must always select,يجب تحديد المستخدم دائما
+Serial no %(serial_no)s is already taken,الرقم التسلسلي %(serial_no)s تم استخدامه بالفعل
+Error: Serial no is mandatory for item %(item)s,خطأ: الرقم التسلسلي مطلوب للصنف %(item)s
+Serial no item cannot be a fraction,الرقم التسلسلي للصنف لا يمكن أن يكون كسر
+Max 500 records at a time,حد أقصى 500 سجل في وقت واحد
+Total nos of serial no is not equal to quantity.,مجموع أرقام الرقم التسلسلي لا يساوي للكمية
+Error: Batch no is mandatory for item %(item)s,خطأ: رقم الدفعة مطلوب للصنف %(item)s
+Print Style,نمط الطباعة
+Font,الخط
+"Multiple Price Rules exists with same criteria, please resolve conflict by assigning priority. Price Rules: %(pricing_rule)s","قواعد الأسعار المتعددة موجودة لنفس المعايير, الرجاء حل التعارض بإعطاء أولوية. قواعد التسعير: %(pricing_rule)s"
+Send Print as PDF,إرسال الطباعة بصيغة PDF
+Default warehouse is required for selected item,المستودع الافتراضي مطلوب للصنف المحدد
+A4,A4
+Enter value must be positive,الرقم المدخل يجب أن يكون موجب
+Letter,رسالة
+Please enter Item Code to get Batch Number,الرجاء إدخال رمز الصنف للحصول على رقم الدفعة
+Please select customer,الرجاء تحديد زبون
+Get Items from Material Requests,الحصول على الأصناف من طلبات المواد
+"LocalStorage is full , did not save","التخزين المحلي ممتليء, لم يتم الحفظ"
+BOM and Manufacturing Quantity are required,BOM وكمية التصنيع المطلوبة
+Allow Print for Cancelled,السماح بالطباعة للإلغاء
+"Status must be ""Done"" in order to submit a request","يجب أن تكون حالة الطلب ""تم"" من أجل إعتماد الطلب"
+Serial No {0} does not exist,الرقم المتسلسل {0} غير موجود
+Allow page break inside tables,السماح بفواصل الصفحات داخل الجداول
+Serial No {0} does not belong to Delivery Note {1},الرقم المتسلسل {0} لا ينتمي الى مذكرة تسليم {1}
+Stock balance in Batch {0} will become negative {1} for Item {2} at Warehouse {3},رصيد المخزون في الدفعة {0} سلبيا {1} للصنف {2} في مستودع {3}
+Disabled template must not be default template,القالب معطل لا يمكن أن يكون القالب الافتراضي
+Item {0} must be a stock Item,يجب أن يكون الصنف {0} صنفا للمخزون
+The Item {0} cannot have Batch,لا يمكن أن يحتوي الصنف {0} على دفعة
+Stock transactions before {0} are frozen,معاملات المخزون قبل {0} جمدت
+Not allowed to update stock transactions older than {0},غير مسموح بتحديث معاملات الأسهم الأقدم من {0}
+Removed items with no change in quantity or value.,إزالة العناصر مع أي تغيير في كمية أو قيمة.
+"Payment Entry {0} is linked against Order {1}, check if it should be pulled as advance in this invoice.","مدخل الدفع {0} مرتبط بالطلب {1},تحقق ما إذا كان يجب سحبه كسلفه في هذه الفاتورة"
+Warning: System will not check overbilling since amount for Item {0} in {1} is zero,Warning: System will not check overbilling since amount for Item {0} in {1} is zero
+Duplicate entry,إدخال مكرر
+Please enter Expense Account,الرجاء إدخال حساب النفقات
+None of the items have any change in quantity or value.,لا يوجد أي من الأصناف لديها أي تغيير في كمية أو قيمة.
+`Freeze Stocks Older Than` should be smaller than %d days.,`تجميد المخزن الاقدم  `يجب أن تكون أصغر من٪ d أيام.
+Make,إنشاء
+Multiple fiscal years exist for the date {0}. Please set company in Fiscal Year,يوجد سنوات مالية متعددة لنفس التاريخ {0}. الرجاء تحديد الشركة لهذه السنة المالية
+Account head {0} created,الحساب الاساسي انشأ {0}
+Due Date is mandatory,تاريخ الاستحقاق مطلوب
+Send Email Print Attachments as PDF (Recommended),إرسال مرفقات طباعة البريد الإلكتروني بصيغة PDF
+Please create an Account for this Warehouse and link it. This cannot be done automatically as an account with name {0} already exists,يرجى إنشاء حساب لهذا المستودع وربطه. لا يمكن القيام بذلك تلقائيا كحساب باسم {0} موجود بالفعل
+Make Maintenance Visit,اجراء زيارة الصيانة
+Cannot automatically create Account as there is already stock balance in the Account. You must create a matching account before you can make an entry on this warehouse,لا يمكن إنشاء الحساب تلقائيا نظرا لوجود رصيد مخزون بالفعل في الحساب. يجب عليك إنشاء حساب مطابق قبل أن تتمكن من إجراء إدخال على هذا المستودع
+PDF Page Size,حجم صفحة صيغة PDF
+Warehouse {0}: Company is mandatory,مستودع {0}: الشركة إلزامية
+Row {0}:Start Date must be before End Date,الصف {0}: يجب أن يكون تاريخ البدء أقل من تاريخ الانتهاء
+Warehouse {0}: Parent account {1} does not bolong to the company {2},مستودع {0}: حساب الاب {1} لا ينتمي إلى الشركة {2}
+Warehouse can not be deleted as stock ledger entry exists for this warehouse.,لا يمكن حذف مستودع كما دخول دفتر الأستاذ موجود لهذا المستودع.
+Account {0} is invalid. Account Currency must be {1},الحساب {0} غير فعال. عملة الحساب يجب أن تكون {1}
+"Cannot overbill for Item {0} in row {1} more than {2}. To allow overbilling, please set in Stock Settings",لا يمكن تجاوز الفاتورة للصنف {0} في الصف {1} أكثر من {2}. للسماح بالفوترة الزائدة ، يرجى تعيين في إعدادات المخزون
+Total advance ({0}) against Order {1} cannot be greater than the Grand Total ({2}),لا يمكن ان يكون إجمالي السلفة ({0}) مقابل الأمر {1} أكبر من الإجمالي الكلي ({2})
+Accounting Entry for {0}: {1} can only be made in currency: {2},المدخل المحاسبي ل {0}: {1} يمكن أن يكون فقط بالعملة {1}.
+Send document web view link in email,إرسال رابط صفحة ويب عبر البريد الإلكتروني
+"Row #{0}: Qty must be 1, as item is a fixed asset. Please use separate row for multiple qty.",الصف # {0}: يجب ان تكون الكمية 1 ، لان الصنف هو أصل ثابت. الرجاء استخدام صف منفصل للعديد من الكميات.
+Please save the document before generating maintenance schedule,الرجاء حفظ المستند قبل إنشاء جدول الصيانة
+In points. Default is 9.,في النقاط. الافتراضي هو 9.
+Warehouse {0} does not exist,مستودع {0} غير موجود
+Child warehouse exists for this warehouse. You can not delete this warehouse.,مستودع فرعي موجود لهذا المستودع. لا يمكنك حذف هذا المستودع.
+Please click on 'Generate Schedule' to get schedule,الرجاء الضغط علي ` إنشاء الجدول ` للحصول علي جدول
+Both Warehouse must belong to same Company,يجب أن ينتمي المستودع إلى نفس الشركة
+Row #{0}: Asset is mandatory for fixed asset purchase/sale,الصف # {0}: الأصل إلزاميا لشراء/بيع الأصول الثابتة
+Warehouses with existing transaction can not be converted to ledger.,لا يمكن تحويل المستودعات مع المعاملات الحالية إلى دفتر الأستاذ.
+Row #{0}: Asset {1} does not belong to company {2},الصف # {0}: لا ينتمي الأصل {1} إلى الشركة {2}
+"Setting Events to {0}, since the Employee attached to the below Sales Persons does not have a User ID{1}",تعيين الاحداث إلى {0} ، حيث أن الموظف المرفق بأشخاص المبيعات أدناه ليس له معرف مستخدم {1}
+Warehouses with existing transaction can not be converted to group.,لا يمكن تحويل المستودعات مع المعاملات الحالية إلى مجموعة.
+Row #{0}: Asset {1} does not linked to Item {2},الصف #{0}: الأصل {1} غير مرتبط بالصنف {1}
+Row #{0}: Asset {1} must be submitted,الصف # {0}: يجب اعتماد الأصل {1}
+Please pull items from Delivery Note,الرجاء سحب الأصناف من مذكرة التسليم
+"Row {0}: To set {1} periodicity, difference between from and to date \
+						must be greater than or equal to {2}","الصف {0}: لتعيين الدورية {1} ، الفرق بين من والي تاريخ 
+يجب أن يكون أكبر من أو يساوي {2}"
+Please enter Maintaince Details first,الرجاء إدخال تفاصيل الصيانة أولا
+Lead Source,مصدر مبادرة البيع
+Source Name,اسم المصدر
+Row #{0}: Asset {1} is already {2},الصف # {0}: الأصل {1} هو بالفعل {2}
+Hide Standard Menu,إخفاء القائمة الرئيسية
+Please select Start Date and End Date for Item {0},الرجاء تحديد تاريخ البدء وتاريخ الانتهاء للصنف {0}
+Please mention no of visits required,يرجى ذكر عدد الزيارات المطلوبة
+Row #{0}: Posting Date must be same as purchase date {1} of asset {2},الصف # {0}: يجب ان يكون تاريخ الإنشاء هو نفس تاريخ الشراء {1} للأصل {2}
+Please select Incharge Person's name,الرجاء تحديد اسم الشخص المسؤول
+Standard Sidebar Menu,قائمة الشريط الجانبي الرئيسية
+Start date should be less than end date for Item {0},يجب أن يكون تاريخ البدء أقل من تاريخ الانتهاء للصنف {0}
+Row #{0}: Purchase Invoice cannot be made against an existing asset {1},الصف # {0}: لا يمكن انشاء فاتورة الشراء مقابل الأصل الموجود {1}
+Custom Sidebar Menu,قائمة الشريط الجانبي المخصص
+Restore to default settings?,استعادة الإعدادات الافتراضية؟
+Maintenance Schedule {0} exists against {0},جدول الصيانة {0} موجود مقابل {0}
+Serial No {0} not found,لم يتم العثور علي الرقم التسلسلي {0}
+Serial No {0} is under warranty upto {1},الرقم التسلسلي {0} تحت الضمان حتى {1}
+Serial No {0} is under maintenance contract upto {1},الرقم التسلسلي {0} يتبع عقد الصيانة حتى {1}
+Company Description for website homepage,وصف الشركة للموقع الرئيسي
+"Higher the number, higher the priority",كلما زادت قمية الرقم كلما زادت الاولوية
+Maintenance start date can not be before delivery date for Serial No {0},تاريخ بدء الصيانة لا يمكن أن يكون قبل تاريخ التسليم للرقم التسلسلي {0}
+Maintenance Schedule is not generated for all the items. Please click on 'Generate Schedule',لم يتم إنشاء جدول الصيانة لكافة العناصر. الرجاء الضغط علي ` إنشاء جدول `
+Payment Success Url,رابط نجاح الدفع
+Please click on 'Generate Schedule',الرجاء الضغط علي ` إنشاء جدول `
+Queued for backup. It may take a few minutes to an hour.,قائمة الانتظار للنسخ الاحتياطي. قد يستغرق الأمر بضع دقائق إلى ساعة.
+Please click on 'Generate Schedule' to fetch Serial No added for Item {0},الرجاء الضغط علي `إنشاء جدول` لجلب الرقم التسلسلي المضاف للصنف {0}
+"If selected Pricing Rule is made for 'Price', it will overwrite Price List. Pricing Rule price is the final price, so no further discount should be applied. Hence, in transactions like Sales Order, Purchase Order etc, it will be fetched in 'Rate' field, rather than 'Price List Rate' field.",إذا تم تحديد قاعده التسعير ل ' السعر ' ، فانها ستقوم بالكتابة فوق قائمه الأسعار. سعر قاعده التسعير هو السعر النهائي ، لذلك لا ينبغي تطبيق اي خصم آخر. وبالتالي ، في المعاملات مثل أمر التوريد ، وأمر الشراء وما إلى ذلك ، فانه سيتم جلبه في الحقل ' معدل ' ، بدلا من حقل ' سعر قائمه الأسعار '
+Discount Percentage can be applied either against a Price List or for all Price List.,نسبة الخصم ممكن أن تطبق على قائمة الأسعار أو على جميع قوائم الأسعار
+Max working hours against Timesheet,ساعات العمل القصوى ضد الجدول الزمني
+Seems ldap is not installed on system,يبدو لم يتم تثبيت ldap على النظام
+'Update Stock' cannot be checked for fixed asset sale,لا يمكن التحقق من ` تحديث المخزون ` لبيع الأصول الثابتة
+Goals cannot be empty,الأهداف لا يمكن أن تكون فارغة
+"Row #{0}: Asset {1} cannot be submitted, it is already {2}",الصف # {0}: لا يمكن اعتماد الأصل {1} ، وهو بالفعل {2}
+Employee {0} on Half day on {1},الموظف {0} في نصف يوم في {1}
+Consider Tax or Charge for,النظر في الضرائب ورسوم الشحن
+Employee {0} on Leave on {1},الموظف {0} في اجازه في {1}
+No leave record found for employee {0} for {1},لم يتم العثور على سجل إجازات للموظف {0} ل {1}
+Company is missing in warehouses {0},الشركة مفقودة للمستودع {0}
+Attendance date can not be less than employee's joining date,تاريخ الحضور لا يمكن أن يكون أقل من تاريخ التحاق الموظف
+User {0} is already assigned to Employee {1},تم تعيين المستخدم {0} بالفعل إلى الموظف {1}
+Seems API Key or API Secret is wrong !!!,يبدو مفتاح API أو API السري خاطئ!
+Please enter,الرجاء إدخال
+Birthday Reminder for {0},تذكير عيد ميلاد {0}
+Today is {0}'s birthday!,اليوم عيد ميلاد {0} !
+Account {0}: Parent account {1} does not exist,الحساب {0}: الحساب الأب {1} غير موجود
+Leave and Attendance,اﻹجازات والحضور
+This is based on the attendance of this Employee,هذا يستند على حضور الموظف
+Subject: Birthday Reminder for {0},الموضوع: تذكير عيد ميلاد ل {0}
+Default Bank / Cash account will be automatically updated in POS Invoice when this mode is selected.,سيتم تحديث حساب البنك / النقدي الافتراضي تلقائيا في فاتورة نقاط البيع عند تحديد هذا الوضع.
+Year End Date,تاريخ نهاية السنة
+Number Format,تنسيق الأرقام
+Please enter Repayment Periods,الرجاء إدخال فترات السداد
+Cannot set as Lost as Sales Order is made,لا يمكن وضعها كمفقودة لانه تم عمل أمر بيع لهذه التسعيرة
+Rate of Interest (%) / Year,نسبة الفائدة (٪) / السنة
+Make Disbursement Entry,إدخال دفتر اليومية
+Parent Warehouse,المستودع الأساسي
+Against Employee Loan: {0},مقابل قرض الموظف: {0}
+Account {0}: Parent account {1} can not be a ledger,الحساب {0}: لا يمكن للحساب الأب {1} ان يكون دفتر الأستاذ
+Account {0}: You can not assign itself as parent account,الحساب {0}: لا يمكنك تعيين نفسه كحساب أب
+Please create Customer from Lead {0},الرجاء انشاء عميل من مبادرة البيع {0}
+UOM Name,إسم وحدة القياس
+Disbursed Amount cannot be greater than Loan Amount {0},المبلغ المدفوع لا يمكن أن يكون أكبر من مبلغ القرض {0}
+Account {0}: Parent account {1} does not belong to company: {2},الحساب {0}: الحساب الأب {1} لا ينتمي للشركة {2}
+Root cannot be edited.,الجذر لا يمكن تعديله
+Please enter repayment Amount,الرجاء إدخال مبلغ السداد
+Root Account must be a group,الحساب الجذر يجب أن يكون مجموعة
+Monthly Repayment Amount cannot be greater than Loan Amount,مبلغ السداد الشهري لا يمكن أن يكون أكبر من مبلغ القرض
+Account with existing transaction cannot be converted to ledger,لا يمكن تحويل الحساب مع الحركة الموجودة إلى دفتر الأستاذ
+Transaction,حركة
+Task Weight,وزن المهمة
+Cannot covert to Group because Account Type is selected.,لا يمكن تغيير لمجموعة بسبب أنه تم تحديد نوع الحساب.
+Loan Amount cannot exceed Maximum Loan Amount of {0},مبلغ القرض لا يمكن أن يتجاوز الحد الأقصى للقرض {0}
+Account with child nodes cannot be set as ledger,الحساب لديه حسابات فرعية لا يمكن إضافته لدفتر الأستاذ.
+You are not authorized to set Frozen value,لا تمتلك صلاحية لتعديل القيمة المجمدة
+"Account balance already in Debit, you are not allowed to set 'Balance Must Be' as 'Credit'",رصيد الحساب بالفعل مدين ، لا يسمح لك لتعيين ` الرصيد يجب ان يكون ` ك ` دائن`
+Select Transaction,حدد الحركة
+Bank Entry,إدخال بنكي
+Currency can not be changed after making entries using some other currency,لا يمكن تغيير العملة بعد اجراء الإدخالات باستخدام بعض العملات الأخرى
+"Account balance already in Credit, you are not allowed to set 'Balance Must Be' as 'Debit'",رصيد الحساب بالفعل دائن ، لا يسمح لك لتعيين ` الرصيد يجب ان يكون ` ك ` مدين `
+You are the Expense Approver for this record. Please Update the 'Status' and Save,"أنت المصادق علي المصروفات لهذا السجل. الرجاء تحديث ""الحالة"" وحفظ الطلب"
+Account with child nodes cannot be converted to ledger,لا يمكن تحويل الحساب إلى دفتر الأستاذ لأن لديه حسابات فرعية
+Bank Entries,مدخلات بنكية
+Root Type is mandatory,نوع الجذر إلزامي
+Report Type is mandatory,نوع التقرير إلزامي
+Please select a value for {0} quotation_to {1},الرجاء اختيار قيمة ل {0}.عرض سعر الى {1}
+Warehouse is mandatory for non group Accounts of type Stock,المستودع إلزامي لحسابات غير المجموعات من نوع مخزن.
+Fill the form and save it,قم بتعبئة النموذج وحفظه
+Warehouse company must be same as Account company,شركة المستودع يجب أن تكون مثل شركة الحساب
+WARRANTY / AMC DETAILS,تفاصيل AMC/الضمان
+Account balance ({0}) and stock value ({1}) must be same,يجب ان يكون رصيد الحساب ({0}) وقيمه المخزون ({1}) نفسه
+{0}: From {0} for {1},{0}: من {0} ل {1}
+"Stock entries exist against Warehouse {0}, hence you cannot re-assign or modify it",توجد مدخلات مخزون في المستودع {0} ، التالي لا يمكنك أعاده تعيينه أو تعديله
+There were errors.,هنالك أخطاء.
+Cost center is required to book an expense claim,مركز التكلفة مطلوب لحجز مستحقات مالية
+Account with existing transaction can not be deleted,الحساب لديه معاملات موجودة لا يمكن حذفه
+Account {0} does not exist,الحساب {0} غير موجود
+Please set default payable account in the employee {0},الرجاء تعيين حساب الدفع الافتراضي للموظف {0}
+"Merging is only possible if following properties are same in both records. Is Group, Root Type, Company",الدمج ممكن فقط إذا كانت الخصائص التالية هي نفسها في كلا السجلين. هو مجموعه ، نوع الجذر ، الشركة
+Mode of payment is required to make a payment,طريقه الدفع مطلوبه لإجراء الدفع
+Name or Email is mandatory,الاسم أو البريد الإلكتروني إلزامي
+Please set Depreciation related Accounts in Asset Category {0} or Company {1},الرجاء تعيين الحسابات المرتبطة بالإهلاك في فئة الأصول {0} أو الشركة {1}
+Asset {0} must be submitted,الأصل {0} يجب أن يتم اعتماده
+Track this Sales Order against any Project,تتبع أمر البيع هذا مقابل أي مشروع
+"Asset {0} cannot be scrapped, as it is already {1}",لا يمكن إلغاء الأصل {0} ، كما هو بالفعل {1}
+Please set 'Gain/Loss Account on Asset Disposal' in Company {0},الرجاء تعيين ` حساب الربح/الخسارة في التخلص من الأصول ` في الشركة {0}
+Please set 'Asset Depreciation Cost Center' in Company {0},الرجاء تعيين ` مركز تكلفه اهلاك الأصول ` في الشركة {0}
+Only Leave Applications with status 'Approved' and 'Rejected' can be submitted,يمكن إعتماد الطلبات التي حالتها `معتمدة` و `مرفوضة` فقط
+% of materials delivered against this Sales Order,% من المواد المسلمة مقابل أمر البيع هذا
+Asset scrapped via Journal Entry {0},ألغت الأصول عن طريق قيد اليومية {0}
+{0} asset cannot be transferred,الأصل لا يمكن نقله {0}
+Asset {0} does not belong to company {1},الأصل {0} لا ينتمي للشركة {1}
+Delivery Date,تاريخ التسليم
+Half Day Date should be between From Date and To Date,تاريخ نصف اليوم ينبغي أن يكون بين `من تاريخ` و `الى تاريخ`
+"Bank Account, From Date and To Date are Mandatory",الحساب البنكي ، من تاريخ وحتى تاريخ حقول إلزامية
+Date,التاريخ
+Clearance Date updated,تم تحديث تاريخ التخليص
+API Password,باسورد مستخدم API
+Unread Notification Sent,إرسال الإشعارات غير المقروءة
+Use Sandbox,استخدام ساندبوكس
+Reference Owner,صاحب المرجع
+Check this if you are testing your payment using the Sandbox API,تحقق من ذلك إذا كنت تختبر دفعتك باستخدام واجهة برمجة تطبيقات ساندبوكس
+API Username,اسم مستخدم API
+Customer's Purchase Order,رقم طلب الشراء الخاص بالعميل
+Row #{0}: Payment document is required to complete the transaction,الصف # {0}: مطلوب مستند الدفع لإكمال الاجراء النهائي
+Leave Application,طلب الاجازة
+Row #{0}: Clearance date {1} cannot be before Cheque Date {2},الصف # {0}: لا يمكن ان يكون تاريخ التخليص {1} قبل تاريخ الشيك
+Mention transaction completion page URL,ذكر عنوان url لصفحة إتمام المعاملة
+New Leave Application,طلب اجازة جديد
+Expected Delivery Date cannot be before Sales Order Date,تاريخ التسليم المتوقع لا يمكن أن يكون قبل تاريخ أمر البيع
+Another Budget record '{0}' already exists against {1} '{2}' for fiscal year {3},سجل الموازنة الآخر ` {0} ` موجود بالفعل مقابل {1} `{2}` للسنه المالية {3}
+Expected Delivery Date cannot be before Purchase Order Date,تاريخ التسليم المتوقع لا يمكن ان يكون قبل تاريخ أمر الشراء
+Budget cannot be assigned against Group Account {0},لا يمكن تعيين الموازنة لحساب مجموعة {0}
+Are you sure you want to create Lead from this email,هل أنت متأكد من هذا الاجراء؟
+Warning: Sales Order {0} already exists against Customer's Purchase Order {1},تحذير: أمر البيع {0} موجود مسبقاً لأمر الشراء الخاص بالعميل {1}
+Account {0} does not belongs to company {1},الحساب {0} لا ينتمي للشركة {1}
+Warning: Same item has been entered multiple times.,تحذير: نفس الأصناف تم ادخالها عدة مرات.
+"Budget cannot be assigned against {0}, as it's not an Income or Expense account",لا يمكن تعيين الموازنة ل {0} ، لأنه ليس حساب ايرادات أو مصروفات
+Quotation {0} not of type {1},عرض السعر {0} ليس من نوع {1}
+Account {0} has been entered multiple times,الحساب {0} تم إدخاله عدة مرات
+{0} Budget for Account {1} against {2} {3} is {4}. It will exceed by {5},الميزانية {0} للحساب {1} مقابل {2} {3} هو {4}. وسوف يتجاوز ذلك ب {5}
+C-form is not applicable for Invoice: {0},النموذج C لا يمكن تطبيقه للفاتورة : {0}
+Communication Type,نوع الإتصال
+Are you sure you want to create Opportunity from this email,مممممممممم
+"Invoice {0} is tagged in another C-form: {1}. If you want to change C-form no  or this invoice,please remove invoice no from the previous c-form and then try again",يتم تمييز الفاتورة {0} في نموذج c آخر: {1}. إذا كنت ترغب في تغيير  رقم النموذج c أو هذه الفاتورة ، الرجاء أزاله رقم الفاتورة من نموذج c السابق ثم المحاولة مره أخرى
+Frappe,فرابي
+No employee found,لم يتم العثور على أي موظف
+LDAP Server Url,رابط خادم LDAP
+Leaves Allocated Successfully for {0},تم تخصيص اﻹجازات بنجاح ل {0}
+"Row {0}: Invoice {1} is invalid, it might be cancelled / does not exist.Please enter a valid Invoice",الصف {0}: الفاتورة {1} غير صالحه ، قد يتم إلغاؤها/غير موجودة. الرجاء إدخال فاتورة صالحة
+Please enter atleast 1 invoice in the table,الرجاء إدخال فاتورة واحدة على الأقل في الجدول
+LDAP Search String,سلسلة بحث LDAP
+LDAP First Name Field,الاسم الأول لحقل LDAP
+Print settings updated in respective print format,تم تحديث إعدادات الطباعة في تنسيق الطباعة الخاصة
+LDAP Email Field,حقل ايميل LDAP
+Do you really want to Submit all Salary Slip from {0} to {1},هل تريد اعتماد جميع كشوف المرتبات من {0} إلى {1}
+LDAP Username Field,حقل مستخدم LDAP
+Please enter parent cost center,الرجاء إدخال مركز التكلفة الأب
+Root cannot have a parent cost center,الجذر لا يمكن أن يكون له مركز تكلفة أب
+Skip Authorization,تجاهل حق الوصول
+"If checked, users will not see the Confirm Access dialog.",إذا تم تحديدها، فلن يرى المستخدمون مربع حوار تأكيد الوصول.
+Cannot convert Cost Center to ledger as it has child nodes,لا يمكن تحويل مركز التكلفة إلى دفتر الأستاذ لأن لديها فروع
+Redirect URIs,إعادة توجيه عناوين URIs
+No employee for the above selected criteria OR salary slip already created,لا يوجد موظف أو قسيمة راتب بناءا على المعايير المحددة أعلاه
+Cost Center with existing transactions can not be converted to ledger,مركز التكلفة موجود لديه حركات مالية. لا يمكن نقلها لدفتر الأستاذ.
+Customer {0} does not belong to project {1},العميل {0} لا ينتمي الى المشروع {1}
+Please enter 'Expected Delivery Date',الرجاء ادخال تاريخ التسليم المتوقع.
+Cost Center with existing transactions can not be converted to group,"مركز التكلفة لديه حركات مالية, لا يمكن تحويه لمجموعة"
+No salary slip found to submit for the above selected criteria,لم يتم العثور علي أي قسيمة رواتب لاعتمادها بناءا على المعايير المحددة أعلاه
+{0} is now the default Fiscal Year. Please refresh your browser for the change to take effect.,{0} هو الآن السنه المالية الافتراضية. الرجاء تحديث المستعرض لكي يسري مفعول التغيير.
+Accural Journal Entry Submitted,تم اعتماد دفتر اليومية المدخل
+Cannot change Fiscal Year Start Date and Fiscal Year End Date once the Fiscal Year is saved.,لا يمكن تغيير تاريخ بدء السنه المالية وتاريخ انتهاء السنه المالية بمجرد حفظ السنه المالية.
+Quotation {0} is cancelled,تم الغاء عرض السعر {0}
+Fiscal Year Start Date should not be greater than Fiscal Year End Date,يجب الا يكون تاريخ بدء السنه المالية أكبر من تاريخ نهاية السنه المالية
+You cannot delete Fiscal Year {0}. Fiscal Year {0} is set as default in Global Settings,لا يمكنك حذف السنه المالية {0}. يتم تعيين السنه المالية {0} كافتراضي في الإعدادات العمومية
+Year start date or end date is overlapping with {0}. To avoid please set company,تاريخ البدء أو تاريخ الانتهاء العام يتداخل مع {0}. لتجنب ذلك الرجاء تعيين الشركة
+A list of resources which the Client App will have access to after the user allows it.,وهناك قائمة من الموارد الي العميل سوف يكون له حق الوصول إليها بعد ما يتم السماح للمستخدم بذلك.مثلا مشروع
+Fiscal Year Start Date and Fiscal Year End Date are already set in Fiscal Year {0},تم بالفعل تعيين تاريخ بدء السنه المالية وتاريخ انتهاء السنه المالية في السنه المالية {0}
+Closed order cannot be cancelled. Unclose to cancel.,أمر البيع المغلق لا يمكن الغاؤه. قم بفتح أمر البيع لكي تتمكن من الغاؤه
+Please set Default Payroll Payable Account in Company {0},الرجاء تعيين حساب الدفع الافتراضي لكشوف المرتبات في الشركة {0}
+{0} {1}: Customer is required against Receivable account {2},{0} {1}:العميل مطلوب لحساب الاستحقاق.
+{0} {1}: Supplier is required against Payable account {2},{0} {1}: المورد مطلوب لحساب الدفع {2}
+Delivery Notes {0} must be cancelled before cancelling this Sales Order,مذكرات التسليم {0} يجب أن يتم الغاؤها قبل الغاء أمر البيع هذا
+{0} {1}: Either debit or credit amount is required for {2},{0} {1}: اما المبلغ المدين أو الدائن مطلوب ل {2}
+Sales Invoice {0} must be cancelled before cancelling this Sales Order,فاتورة المبيعات {0} يجب أن يتم الغاؤها قبل الغاء أمر البيع هذا
+Maintenance Schedule {0} must be cancelled before cancelling this Sales Order,جدول الصيانة {0} يجب أن يتم الغاؤه قبل الغاء أمر البيع هذا
+{0} {1}: Cost Center is required for 'Profit and Loss' account {2}. Please set up a default Cost Center for the Company.,{0} {1}: مركز التكلفة مطلوب لحساب ` الربح والخسارة ` {2}. الرجاء اعداد مركز التكلفه الافتراضي للشركة.
+Maintenance Visit {0} must be cancelled before cancelling this Sales Order,زيارة الصيانة {0} يجب أن يتم الغاؤها قبل الغاء أمر البيع هذا
+App Access Key,مفتاح الوصول للتطبيق
+{0} {1}: 'Profit and Loss' type account {2} not allowed in Opening Entry,{0} {1}: الحساب من النوع ` الربح والخسارة ` لا يسمح به في مدخل افتتاحي
+{0} {1}: Account {2} cannot be a Group,{0} {1}: الحساب {2} لا يمكن أن يكون مجموعة
+{0} {1}: Account {2} is inactive,{0} {1}: الحساب {2} غير فعال
+{0} {1}: Account {2} does not belong to Company {3},{0} {1}: الحساب {2} لا ينتمي إلى الشركة {3}
+{0} {1}: Cost Center {2} does not belong to Company {3},{0} {1}: مركز التكلفة {2} لا ينتمي للشركة {3}
+{0} {1}: Accounting Entry for {2} can only be made in currency: {3},{0} {1}: المدخل المحاسبي {2} ممكن انشاؤه فقط بالعملة {3}
+Balance for Account {0} must always be {1},الرصيد للحساب {0} يجب أن يكون دائما {1}
+You are not authorized to add or update entries before {0},غير مصرح لك باضافه إدخالات أو تحديثها قبل {0}
+Against Journal Entry {0} is already adjusted against some other voucher,مدخل قيد اليومية {0} تم تعديله بالفعل لقسيمة أخرى
+Outstanding for {0} cannot be less than zero ({1}),لا يمكن ان يكون المعلقة ل {0} اقل من الصفر ({1})
+Account {0} is frozen,الحساب {0} مجمد
+Not authorized to edit frozen Account {0},غير مصرح له بتحرير الحساب المجمد {0}
+Production Order {0} must be cancelled before cancelling this Sales Order,أمر الانتاج {0} يجب أن يتم الغاؤه قبل الغاء أمر البيع هذا
+{0} {1} has been modified. Please refresh.,{0} {1} تم تعديلها. الرجاء التحديث
+Row #{0}: Not allowed to change Supplier as Purchase Order already exists,الصف رقم {0}: غير مسموح تغيير المورد لأن أمر الشراء موجود مسبقاً
+Paid,مدفوع
+Not Paid and Not Delivered,غير مدفوع وغير مسلم
+Paid and Not Delivered,مدفوع وغير مسلم
+Expected Delivery Date is be before Sales Order Date,تاريخ التسليم المتوقع قبل تاريخ أمر البيع
+App Secret Key,مفتاح السري للتطبيق
+Accural Journal Entry for salaries from {0} to {1},إدخال دفتر يومية الخاص بالرواتب من {0} إلى {1}
+Re-open,اعادة فتح
+Production Order not created,لم يتم انشاء أمر الانتاج
+Error in formula or condition: {0},خطأ في المعادلة أو الشرط: {0}
+No Items with Bill of Materials to Manufacture,لا توجد مواد مع فاتورة المواد للتصنيع
+From Date {0} for Employee {1} cannot be before employee's joining Date {2},لا يمكن أن يكون من تاريخ {0} للموظف {1} قبل تاريخ انضمام الموظف.
+Production Order already created for all items with BOM,أمر الانتاج منشأ مسبقاً لكل الأصناف مع فاتورة المواد
+Select BOM and Qty for Production,اختر فاتورة المواد و الكمية للانتاج
+Select BOM,اختر فاتورة المواد
+Qty,الكمية
+Category Description,وصف الفئة
+Select Items to Manufacture,اختر الأصناف للتصنيع
+Active Salary Structure {0} found for employee {1} for the given dates,تم العثور على هيكل رواتب نشط {0} للموظف {1} للتواريخ المعطية
+Production Orders Created: {0},تم انشاء أمر الانتاج
+You are invited for to attend {0} - {1} scheduled from {2} to {3} at {4}.,أنت مدعو للحضور {0} - {1} المقرر من {2} إلى {3} في {4}.
+Closing Account {0} must be of type Liability / Equity,يجب ان يكون الحساب الختامي {0} من النوع متطلبات/الأسهم
+Thank You for attending {0}. You grade is {1},شكرا لحضورك {0} .الصف الخاص بك هو {1}
+{0} Results,{0} النتائج
+Another Period Closing Entry {0} has been made after {1},تمت إدخال الإغلاق {0} لفتره أخرى بعد {1}
+Import Failed!,فشل الاستيراد!
+Import Successful!,نجح اﻹستيراد!
+Currency of the Closing Account must be {0},العملة لحساب الاغلاق يجب أن تكون {0}
+Error for row (#%d) %s : %s,حدث خطأ في الصف (#٪ d)٪ s:٪ s
+Duplicate item group found in the item group table,تم العثور علي مجموعه عناصر مكرره في جدول مجموعه الأصناف
+Insurance Start date should be less than Insurance End date,يجب أن يكون تاريخ بدء التامين أقل من تاريخ انتهاء التامين
+Current Odometer reading entered should be greater than initial Vehicle Odometer {0},يجب أن تكون قراءة العدادات الحالية أكبر من عداد المركبات الأولية {0}
+Duplicate customer group found in the cutomer group table,تم العثور علي مجموعه العملاء المكررة في جدول مجموعه العملاء
+"Service Item,Type,frequency and expense amount are required",صنف الخدمة ، النوع ، الدورية ومبلغ المصاريف مطلوبة
+Expense Claim {0} already exists for the Vehicle Log,حساب المصاريف {0} موجود بالفعل لسجل المركبة
+POS Profile {0} already created for user: {1} and company {2},ملف تعريف نقاط البيع {0} الذي تم إنشاؤه بالفعل للمستخدم: {1} والشركة {2}.
+Global POS Profile {0} already created for company {1},ملف نقطة البيع العام {0} تم إنشاؤه بالفعل للشركة {1}
+Atleast one of the Selling or Buying must be selected,يجب اختيار واحده علي الأقل من بيع أو شراء
+"Selling must be checked, if Applicable For is selected as {0}",يجب تحديد البيع ، إذا تم تطبيقه للمحدد {0}
+"Buying must be checked, if Applicable For is selected as {0}","يجب تحديد البيع, إذا تم تطبيقه للمحدد ك {0}."
+To Deliver and Bill,للتسليم و الفوترة
+Min Qty can not be greater than Max Qty,الكمية الأدنى لا يمكن أن تكون أكبر من القيمة الأقصى
+To Deliver,للتسليم
+Expense Claim for Vehicle Log {0},مطالبه المصروفات لسجل المركبات {0}
+{0} can not be negative,{0} لا يمكن أن تكون سالب
+Completed,مكتمل
+Amount Based On Field,المبلغ استنادا إلى الحقل
+Amount Field,حقل المبلغ
+Please specify Company to proceed,الرجاء تحديد الشركة للمضى قدما
+Amount,المبلغ
+Item Code required at Row No {0},رمز الصنف المطلوب في الصف رقم {0}
+Upload Attendance,رفع الحضور
+Warehouse required at Row No {0},المستودع المطلوب في الصف رقم {0}
+Job Applicant,مقدم الطلب
+Expense account is mandatory for item {0},حساب المصروفات إلزامي للصنف {0}
+First set the name and save the record.,أولا قم بتعيين الإسم وحفظ السجل.
+Website Slideshow,عرض شرائح الموقع
+Purchse Order number required for Item {0},رقم طلب الشراء مطلوب للصنف {0}
+Leave Allocation,تخصيص اﻹجازات
+Leave Allocation Tool,أداة تخصيص اﻹجازة
+Purchase Receipt number required for Item {0},رقم وصل استلام الشراء للصنف {0} إلزامي
+Include Search in Top Bar,وتشمل البحث في الشريط الأعلى
+Leave Block List,قائمة الإجازات المحظورة
+Please enter Write Off Account,الرجاء إدخال حساب الشطب
+Banner,الترويسة
+Banner HTML,ترويسة HTML
+Banner is above the Top Menu Bar.,الترويسة أعلى شريط القائمة العلوي.
+Footer,تذييل الصفحة
+Purchase Order {0} is not submitted,طلب الشراء {0} يجب أن يعتمد
+Salary Components,مكونات الرواتب
+Purchase Receipt {0} is not submitted,لم يتم اعتماد إيصال الشراء {0}
+Expense Claims,المستحقات المالية
+Stock cannot be updated against Purchase Receipt {0},لا يمكن تحديث المخزون مقابل إيصال الشراء {0}
+"Illegal rule {0}. Cannot use ""__""","قاعدة غير قانونية {0}. لا يمكن استخدام ""__"""
+Website Theme,شكل الموقع
+Link to the page you want to open. Leave blank if you want to make it a group parent.,رابط إلى الصفحة التي تريد فتحها. اتركه فارغا إذا كنت تريد أن تجعله من مجموعة الأصل
+Not allowed from this IP Address,غير مسموح به من عنوان IP
+Right,يمين
+Login not allowed at this time,تسجيل الدخول غير مسموح في هذا الوقت
+For top bar,للشريط الأعلى
+Please select Category first,الرجاء تحديد التصنيف أولا
+Cannot edit standard fields,لا يمكنك تعديل الحقول القياسية
+Employees working on a holiday,الموظفون العاملين في يوم عطلة
+Only 200 inserts allowed in one request,يسمح فقط ب 200 إدراج في طلب واحد
+Salary Register,سجل الرواتب
+Invalid file path: {0},مسار الملف غير صالح: {0}
+"Select target = ""_blank"" to open in a new page.","حدد الهدف = "" _blank "" لفتح في صفحة جديدة ."
+Monthly Attendance Sheet,تقرير الحضور الشهري
+Too many writes in one request. Please send smaller requests,يكتب عدد كبير جدا في طلب واحد. الرجاء إرسال طلبات أصغر
+"Your subscription expired on {0}. To renew, {1}.",انتهت صلاحية اشتراكك على {0}. للتجديد، {1}.
+Download with Data,تحميل مع البيانات
+"Your subscription expired on {0}. To renew, please send an email to {1}.",انتهت صلاحية اشتراكك على {0}. للتجديد، يرجى إرسال بريد إلكتروني إلى {1}.
+You have exceeded the max space of {0} for your plan. {1}.,لقد تجاوزت الحد الأقصى للمساحة {0} لخطتك. {1}.
+Cannot deduct when category is for 'Valuation' or 'Vaulation and Total',لا يمكن خصمها عند الفئة ` التقييم ` أو ` التقييم والمجموع `
+Click here to check your usage or upgrade to a higher plan,انقر هنا للتحقق من استخدامك أو الترقية إلى خطة أعلى
+Google Analytics ID,تحليلات جوجل ID
+No permission to {0} {1} {2},لا يوجد إذن {0} {1} {2}
+Sales Order {0} is not submitted,لا يتم اعتماد أمر التوريد {0}
+Invalid limit {0},حد غير صالح {0}
+Delivery Note {0} is not submitted,لم يتم اعتماد ملاحظه التسليم {0}
+Cannot create a {0} against a child document: {1},لا يمكن إنشاء {0} ضد مستند طفل: {1}
+Parent Label,الإسم الأصل
+Sorry! You cannot delete auto-generated comments,معذرة! لا يمكنك حذف التعليقات التي تم إنشاؤها تلقائيا
+Select change amount account,تحديد تغيير حساب المبلغ
+Cannot restore Cancelled Document,يتعذر استعادة المستند الذي تم إلغاؤه
+Title Prefix,إختصار العنوان
+Please set default Cash or Bank account in Mode of Payment {0},الرجاء تحديد الحساب البنكي أو النقدي الافتراضي في نوع الدفع
+"Show title in browser window as ""Prefix - title""","عرض العنوان في نافذة المتصفح كما ""اختصار- عنوان"""
+"Link that is the website home page. Standard Links (index, login, products, blog, about, contact)",الرابط هو الصفحة الرئيسية لموقع الويب. الروابط الرئيسية (الفهرس، تسجيل الدخول، المنتجات، المدونة، حول، الاتصال)
+"Brand is what appears on the top-left of the toolbar. If it is an image, make sure it has a transparent background and use the <img /> tag. Keep size as 200px x 30px",العلامة التجارية هي ما يظهر في أعلى يسار شريط الأدوات. إذا كانت صورة، تأكد من أنه لديه خلفية شفافة واستخدام علامة <img />. إبقاء الحجم كما 200px x 30px
+At least one mode of payment is required for POS invoice.,يلزم وضع واحد نمط واحد للدفع لفاتورة نقطة البيع.
+Set Banner from Image,تعيين ترويسة من الصورة
+Timesheet {0} is already completed or cancelled,الجدول الزمني {0} اكتمل بالفعل أو تم إلغاؤه
+Select a Brand Image first.,حدد صورة العلامة التجارية أولا.
+Debit To is required,الخصم مطلوب
+Debit To account must be a Balance Sheet account,يجب ان يكون الحساب المدين بحساب الميزانية العمومية
+Debit To account must be a Receivable account,يجب ان يكون الحساب المدين حساب مستحق
+User is mandatory for Share,المستخدم إلزامي للمشاركة
+Paid amount + Write Off Amount can not be greater than Grand Total,المبلغ المدفوع + المبلغ المشطوب لا يمكن ان يكون أكبر من المجموع الكلي
+"You need to have ""Share"" permission","تحتاج إلى الحصول على إذن ""مشاركة"""
+"Standard DocType cannot have default print format, use Customize Form",لا يمكن أن يكون تنسيق دوكتيب القياسي تنسيق طباعة افتراضي، استخدام نموذج مخصص
+FavIcon,أيقونة المفضلة
+Not in Developer Mode! Set in site_config.json or make 'Custom' DocType.,"ليس في وضع المطور! تعيين في site_config.json أو جعل دوكتيب ""مخصص""."
+"Field ""route"" is mandatory for Web Views","حقل ""route"" إلزامي لصفحات الويب"
+"Could not update stock, invoice contains drop shipping item.",تعذر تحديث المخزون ، تحتوي الفاتورة علي صنف الشحن مفقود.
+"URL for ""All Products""",الرابط لجميع المنتجات
+Invalid fieldname '{0}' in autoname,اسم الحقل غير صالح '{0}' في الااسم تلقائي
+Series {0} already used in {1},السلسلة {0} المستخدمة بالفعل في {1}
+Javascript,Javascript
+DocType can only be renamed by Administrator,لا يمكن إعادة تسمية دوكتيب إلا بواسطة المسؤول
+Website Script,نص الموقع
+{0} is mandatory for Item {1},{0} إلزامي للصنف {1}
+Stock cannot be updated against Delivery Note {0},لا يمكن تحديث المخزون مقابل ملاحظه التسليم {0}
+Category Name,اسم التصنيف
+Please enter Account for Change Amount,الرجاء إدخال الحساب لمبلغ التغيير
+Title,العنوان
+Please remove this Invoice {0} from C-Form {1},الرجاء إزالة الفاتورة {0} من النموذج C {1}
+POS Profile required to make POS Entry,ملف نقطة البيع مطلوبة لإنشاء مدخل نقطة بيع
+Help Article,صفحة المساعدة
+Please specify a country for this Shipping Rule or check Worldwide Shipping,الرجاء تحديد بلد لقاعدة الشحن أو التحقق من الشحن في جميع انحاء العالم
+From value must be less than to value in row {0},القيمة الابتدائية يجب ان تكون اقل من القيمة في الصف {0}
+"There can only be one Shipping Rule Condition with 0 or blank value for ""To Value""","يمكن ان يكون هناك شرط قاعده شحن واحد فقط مع 0 أو قيمه فارغه ل ""قيمه"""
+Overlapping conditions found between:,الشروط المتداخله التي تم العثور عليها بين:
+"Enabling 'Use for Shopping Cart', as Shopping Cart is enabled and there should be at least one Tax Rule for Shopping Cart",تمكين ` استخدام لسله التسوق ` ، وعربه التسوق ممكن وينبغي ان يكون هناك علي الأقل قاعده ضرائب واحدة لعربه التسوق
+DocType can not be merged,لا يمكن دمج دوكتيب
+Maintenance Schedule,جدول الصيانة
+"DocType's name should start with a letter and it can only consist of letters, numbers, spaces and underscores",يجب أن يبدأ اسم دوكتيب بحرف ويمكن أن يتكون فقط من الحروف والأرقام والمسافات والشرطات السفلية
+Maintenance Visit,زيارة الصيانة
+Field {0} of type {1} cannot be mandatory,الخيارات المطلوبة للارتباط أو حقل نوع الجدول {0} في الصف {1}
+Further cost centers can be made under Groups but entries can be made against non-Groups,يمكن جعل مراكز التكلفة الاضافيه تحت المجموعات ولكن يمكن انشاءها من غير مجموعات
+Options must be a valid DocType for field {0} in row {1},يجب أن تكون الخيارات دوكتيب صالح للحقل {0} في الصف {1}
+New Cost Center Name,اسم مركز التكلفة الجديد
+Field {0} in row {1} cannot be hidden and mandatory without default,الحقل {0} في الصف {1} لا يمكن أن تكون مخفية وإلزامية دون الافتراضي
+'In List View' not allowed for type {0} in row {1},'في عرض القائمة' غير مسموح للنوع {0} في الصف {1}
+Options 'Dynamic Link' type of field must point to another Link Field with options as 'DocType',"يجب أن يشير حقل ""الارتباط الديناميكي"" للخيارات إلى حقل رابط آخر يحتوي على خيارات باسم ""دوكتيب"""
+Default for 'Check' type of field must be either '0' or '1',"يجب أن يكون الخيار الافتراضي لنوع ""التحقق"" إما ""0"" أو ""1"""
+Default for {0} must be an option,الافتراضي ل {0} يجب أن يكون خيارا
+Precision should be between 1 and 6,وينبغي أن تكون الدقة بين 1 و 6
+Fieldtype {0} for {1} cannot be unique,نوع الحقل {0} ل {1} لا يمكن أن يكون فريدا
+Field '{0}' cannot be set as Unique as it has non-unique values,الحقل '{0}' لا يمكن تعيينه على أنه فريد لأنه يحتوي على قيم غير فريدة
+Fieldtype {0} for {1} cannot be indexed,نوع الحقل {0} ل {1} لا يمكن فهرسته
+There can be only one Fold in a form,يمكن أن يكون هناك طية واحدة فقط في نموذج
+Fold must come before a Section Break,يجب أن تأتي أضعاف قبل فاصل القسم
+Fold can not be at the end of the form,لا يمكن أن تكون الطية في نهاية النموذج
+Write Off Account,حساب الخصم
+Standard Terms and Conditions Example,مثال الشروط والأحكام
+Data,البيانات
+Sales Partner Addresses And Contacts,عناوين وجهات اتصال شركاء المبيعات
+Search field {0} is not valid,حقل البحث {0} غير صالح
+Title field must be a valid fieldname,يجب أن يكون حقل العنوان حقل اسم صالح
+Credit Balance,رصيد الإئتمان
+Type of document to rename.,نوع المستند الذي سيتم تعديله
+{{{0}}} is not a valid fieldname pattern. It should be {{field_name}}.,{{{}}}} ليس نمط اسم ملف صالحا. يجب أن يكون {{أسم_الحقل}}.
+Make Payment via Journal Entry,جعل الدفع من خلال قيد يومية
+Image field must be a valid fieldname,يجب أن يكون حقل الصورة اسم حقل صالحا
+Image field must be of type Attach Image,يجب أن يكون حقل الصورة من النوع إرفاق صورة
+Unlink Payment on Cancellation of Invoice,إلغاء ربط الدفع عند إلغاء الفاتورة
+Is Published Field must be a valid fieldname,"""تم نشر"" الحقل يجب أن يكون اسم حقل صالح"
+Customer Name,اسم العميل
+Timeline field must be a valid fieldname,يجب أن يكون حقل المخطط الزمني اسم حقل صالحا
+Timeline field must be a Link or Dynamic Link,يجب أن يكون حقل المخطط الزمني رابطا أو رابطا ديناميا
+Days Since Last Order,الأيام منذ أخر أمر بيع
+Sort field {0} must be a valid fieldname,يجب أن يكون حقل التصنيف {0} اسم حقل صالح
+Last Order Date,تاريخ أخر أمر بيع
+Fieldname is required in row {0},اسم الحقل مطلوب في الصف {0}
+Enter at least one permission row,أدخل صف إذن واحد على الأقل
+{0}: No basic permissions set,{0}: لم يتم تعيين أذونات أساسية
+"{0}: Only one rule allowed with the same Role, Level and {1}",{0}: قاعدة واحدة فقط مسموح بها بنفس الدور والمستوى و {1}
+{0}: Permission at level 0 must be set before higher levels are set,{0}: يجب تعيين الإذن في المستوى 0 قبل تعيين مستويات أعلى
+{0}: Cannot set Cancel without Submit,{0}: لا يمكن تعيين إلغاء بدون إرسال
+"{0}: Cannot set Submit, Cancel, Amend without Write",{0}: لا يمكن تعيين إرسال، إلغاء، تعديل بدون كتابة
+Source and Target Warehouse cannot be same,المستودع المصدر لا يمكن أن يكون نفس المستودع الهدف
+{0}: Cannot set Amend without Cancel,{0}: لا يمكن تعيين تعديل بدون إلغاء
+{0}: Cannot set Import without Create,{0}: لا يمكن تعيين استيراد بدون إنشاء
+{0}: Cannot set Assign Submit if not Submittable,{0}: لا يمكن تعيين تعيين إرسال إذا لم يتم إرسالها
+Last Order Amount,مبلغ أخر أمر بيع
+{0}: Cannot set Assign Amend if not Submittable,{0}: لا يمكن تعيين معدل إذا لم يتم إرساله
+{0}: Cannot set import as {1} is not importable,{0}: لا يمكن تعيين استيراد كما {1} غير قابل للاستيراد
+Total Order Considered,اجمالي أمر البيع التقديري
+Total Order Value,اجمالي قيمة أمر البيع
+Folder is mandatory,المجلد إلزامي
+File {0} does not exist,الملف {0} غير موجود
+Number of Order,رقم أمر البيع
+Same file has already been attached to the record,تم إرفاق الملف نفسه بالسجل
+Set prefix for numbering series on your transactions,تعيين إختصار لسلسلة الترقيم على الحركات الخاصة بك
+Customer Group,مجموعة العملاء
+Cannot delete Home and Attachments folders,لا يمكن حذف المجلدات الرئيسية والمرفقات
+Folder {0} is not empty,المجلد {0} غير فارغ
+Prefix,إختصار
+No permission to write / remove.,لا يوجد إذن لكتابة / إزالة.
+Folder {0} does not exist,المجلد {0} غير موجود
+Folder name should not include / !!!,يجب ألا يتضمن اسم المجلد / !!!
+Days Since Last Order' must be greater than or equal to zero,الأيام منذ أخر أمر بيع يجب أن تكون أكبر أو يساوي صفر
+This is the number of the last created transaction with this prefix,هذا هو عدد آخر معاملة تم إنشاؤها باستخدام هذه الإختصار
+Please select file to copy,الرجاء تحديد ملف للنسخ
+User '{0}' already has the role '{1}',المستخدم {{}} 'له الدور' {1} '
+Not in Developer Mode,ليس في وضع مطور البرامج
+Only Administrator can edit,يمكن فقط للمشرف تعديله
+Cannot edit a standard report. Please duplicate and create a new report,لا يمكن تعديل تقرير قياسي. يرجى تكرار وإنشاء تقرير جديد
+Only Administrator can save a standard report. Please rename and save.,يمكن فقط للمسؤول حفظ تقرير قياسي. يرجى إعادة تسمية وحفظ.
+Only Administrator allowed to create Query / Script Reports,يسمح فقط للمسؤول بإنشاء تقارير الاستعلام / النص البرمجي
+Standard roles cannot be renamed,لا يمكن إعادة تسمية الأدوار القياسية
+Standard roles cannot be disabled,لا يمكن تعطيل الأدوار القياسية
+Mandatory field: set role for,حقل إلزامي: تعيين دور ل
+Mandatory field: {0},حقل إلزامي: {0}
+Session Expiry must be in format {0},يجب أن يكون انتهاء الجلسة بالتنسيق {0}
+Cannot change user details in demo. Please signup for a new account at https://erpnext.com,لا يمكن تغيير تفاصيل المستخدم في العرض التوضيحي. يرجى الاشتراك للحصول على حساب جديد في https://erpnext.com
+User {0} cannot be disabled,لا يمكن تعطيل المستخدم {0}
+Sorry! User should have complete access to their own record.,معذرة! يجب أن يكون المستخدم الوصول الكامل إلى سجل الخاصة بهم.
+Sorry! Sharing with Website User is prohibited.,معذرة! المشاركة مع مستخدم الموقع محظور.
+There should remain at least one System Manager,يجب أن يظل هناك مدير نظام واحد على الأقل
+User {0} cannot be deleted,لا يمكن حذف المستخدم {0}
+User {0} cannot be renamed,لا يمكن إعادة تسمية المستخدم {0}
+Sorry. You have reached the maximum user limit for your subscription. You can either disable an existing user or buy a higher subscription plan.,معذرة. لقد بلغت الحد الأقصى المسموح به من اشتراكك. يمكنك إما تعطيل مستخدم موجود أو شراء خطة اشتراك أعلى.
+Email Account added multiple times,تمت إضافة حساب البريد الإلكتروني عدة مرات
+Sign Up is disabled,تم تعطيل الاشتراك
+Attachment Limit (MB),حد المرفق (MB)
+Port,المنفذ
+If non standard port (e.g. 587),إذا غير المنفذ الرئيسي (على سبيل المثال 587)
+Max Attachments,الحد الأقصى للمرفقات
+Search Fields,حقول البحث
+"Fields separated by comma (,) will be included in the ""Search By"" list of Search dialog box","سيتم تضمين الحقول المفصولة بفواصل (،) في قائمة ""البحث حسب"" من مربع حوار البحث"
+Image Field,حقل الصورة
+Use this fieldname to generate title,استخدم إسم الحقل هذا لإنشاء العنوان
+Default Print Format,تنسيق الطباعة الإفتراضي
+Perm Level,مستوى الصلاحيات
+Print Width,عرض الطباعة
+In Standard Filter,في التصفية الرئيسية
+Email Id,البريد الالكتروني
+Quarterly,ربع سنوي
+Delivered Items To Be Billed,الأصناف التي تم تسليمها لفوترتها
+Sales Person-wise Transaction Summary,ملخص العمليات على مستوى مندوبي العمليات
+Territory Target Variance Item Group-Wise,تقرير فروقات الأقاليم المستهدفة على مستوى مجموعة الأصناف
+Brake Oil,زيت الفرامل
+cannot be greater than 100,لايمكن أن يكون أكبر من 100
+Brake Pad,المكابح
+Initial Sync Count,عدد المزامنة الأولية
+Total number of emails to sync in initial sync process,إجمالي عدد الرسائل الإلكترونية المراد مزامنتها في عملية المزامنة الأولية
+Please do not change the rows above {0},يرجى عدم تغيير الصفوف أعلاه {0}
+No data found,لاتوجد بيانات
+Only allowed {0} rows in one import,تم السماح ب {0} من الصفوف في عملية استيراد واحدة فقط
+There must be atleast one permission rule.,يجب أن يكون هناك على الأقل قاعدة إذن واحد.
+Clutch Plate,الكلتش
+Cannot remove permission for DocType: {0} and Name: {1},Cannot remove permission for DocType: {0} and Name: {1}
+Engine Oil,زيت المحرك
+Cannot set permission for DocType: {0} and Name: {1,لا يمكن تعيين الإذن ل دوكتيب: {0} و الاسم: {1
+Oil Change,تغيير زيت
+Please upload using the same template as download.,الرجاء التحميل باستخدام نفس نموذج التنزيل.
+Show Section Headings,عرض عناويين القسم
+Please select Document Type first,يرجى تحديد نوع المستند أولا
+Wheels,العجلات
+Please specify user,يرجى تحديد المستخدم
+Show Line Breaks after Sections,عرض فواصل الأسطر بعد الأقسام
+Please specify doctype,يرجى تحديد دوكتيب
+Label is mandatory,التسمية إلزامية
+Address Template,نموذج العنوان
+Inspection,تفتيش
+Fieldname not set for Custom Field,لم يتم تعيين اسم الحقل للحقل المخصص
+Service,خدمة
+"Insert After field '{0}' mentioned in Custom Field '{1}', with label '{2}', does not exist",إدراج بعد الحقل '{0}' المذكورة في الحقل المخصص '{1}'، مع التصنيف '{2}'، غير موجود
+Change,تغيير
+Insert After cannot be set as {0},الإدراج بعد لا يمكن تعيينه ك {0}
+Mileage,عدد الأميال
+cannot delete custom field,لا يمكن حذف الحقل المخصص
+Fieldtype cannot be changed from {0} to {1} in row {2},لا يمكن تغيير نوع الحقل من {0} إلى {1} في الصف {2}
+Module Not Found,لم يتم العثور على الوحدة
+You don't have access to Report: {0},ليس لديك حق الوصول إلى التقرير: {0}
+You don't have permission to get a report on: {0},ليس لديك إذن للحصول على تقرير عن: {0}
+Report {0} is disable,تم تعطيل التقرير {0}
+This query style is discontinued,تم إيقاف نمط طلب البحث هذا
+has been Changed to,تم تغيرها الى
+"Field ""value"" is mandatory. Please specify value to be updated","حقل ""قيمة"" إلزامي. يرجى تحديد قيمة ليتم تحديثها"
+; not allowed in condition,; غير مسموح به في حالة
+{0} records updated,العناصر {0} تم تحديثها
+Already in user's To Do list,موجود بالفعل في قائمة المهام الواجبة للمستخدم
+This method can only be used to create a Comment,يمكن استخدام هذه الطريقة فقط لإنشاء تعليق
+{0} not found,{0} غير موجود
+Listing app not allowed,لا يسمح بإدراج التطبيق
+You cannot install this app,لا يمكنك تثبيت هذا التطبيق
+Unknown app {0},تطبيق غير معروف {0}
+Please select Price List,الرجاء اختيار قائمة الأسعار
+Event end must be after start,نهاية الحدث يجب أن يكون بعد بدايته
+Every day events should finish on the same day.,كل حدث يومي يجب أن ينتهي بنفس اليوم
+Name of the new Print Format,إسم تنسيق الطباعة الجديد
+Quantity should be greater than 0,الكمية يجب أن تكون أبر من 0
+Column Name cannot be empty,اسم العمود لا يمكن أن يكون فارغا
+Select a DocType to make a new format,أختر DocType لتنشئ تنسيق جديد
+Currency of the price list {0} is not similar with the selected currency {1},عملة قائمة الأسعار {0} ليست نفس العملة التي تم اختيارها {1}
+Column <b>{0}</b> already exist.,"العمود <b>{0}<b> موجود بالفعل
+Column <b>{0}</b> already exist."
+Cannot send this email. You have crossed the sending limit of {0} emails for this month.,لا يمكن إرسال هذه الرسالة الإلكترونية. لقد تجاوزت حد الإرسال لعدد {0} من رسائل البريد الإلكتروني لهذا الشهر.
+Select an existing format to edit or start a new format.,حدد تنسيق حالي للتعديل أو بدء تنسيق جديد.
+Raw Materials cannot be blank.,المواد الخام لايمكن أن تكون فارغة
+Can not find UIDVALIDITY in imap status response,لا يمكن العثور على UIDVALIDITY ردا وضع IMAP
+Invalid login or password,عنوان المستلم غير صالح
+Please setup default Email Account from Setup > Email > Email Account,الرجاء إعداد حساب البريد الإلكتروني الافتراضي من الإعداد> البريد الإلكتروني> حساب البريد الإلكتروني
+Only {0} emailed reports are allowed per user,لا يسمح سوى بتقارير {0} عبر البريد الإلكتروني لكل مستخدم
+%s is not a valid report format. Report format should \ one of the following %s,٪ s ليس تنسيق تقرير صالحا. يجب أن يكون تنسيق التقرير \ أحد٪ s التالية
+Invalid Output Format,تنسيق الإخراج غير صالح
+Please set filters value in Report Filter table.,الرجاء تعيين قيمة عوامل التصفية في جدول تصفية التقرير.
+Permission Level,مستوى الصلاحيات
+Please set Email Address,يرجى تعيين عنوان البريد الإلكتروني
+Login Id is required,مطلوب معرف تسجيل الدخول
+"Email id must be unique, Email Account is already exist \ for {0}",يجب أن يكون معرف البريد الإلكتروني فريدا،حساب البريد الإلكتروني موجود بالفعل \ ل {0}
+Authorized Value,القيمة المعتمدة
+BOM recursion: {0} cannot be parent or child of {2},فاتورة المواد مكررة: {0} لايمكن أن تكون كفاتورة رئيسية أو فاتورة فرعية من {2}
+Password is required or select Awaiting Password,كلمة المرور مطلوبة أو اختر كلمة المرور
+{0} is mandatory,{0} إلزامي
+Append To can be one of {0},إلحاق يمكن أن يكون واحدا من {0}
+Cannot deactivate or cancel BOM as it is linked with other BOMs,لايمكن تعطيل أو الغاء فاتورة المواد لأنها مرتبطة بفواتير مواد أخرى
+Please specify which date field must be checked,يرجى تحديد حقل التاريخ الذي يجب التحقق منه
+Please specify which value field must be checked,يرجى تحديد حقل القيمة الذي يجب التحقق منه
+The Condition '{0}' is invalid,الشرط '{0}' غير صالح
+Operations cannot be left blank,العمليات لايمكن تركها فارغة
+Cannot set Email Alert on Document Type {0},لا يمكن ضبط تنبيه البريد الإلكتروني على نوع الوثيقة {0}
+Bill of Materials,فاتورة المواد
+Error while evaluating Email Alert {0}. Please fix your template.,حدث خطأ أثناء تقييم تنبيه البريد الإلكتروني {0}. الرجاء إصلاح النموذج.
+Incoming email account not correct,حساب البريد الإلكتروني الوارد غير صحيح
+Outgoing email account not correct,حساب البريد الإلكتروني الصادر غير صحيح
+Please Upgrade to add more than {0} subscribers,يرجى الترقية لإضافة أكثر من {0} مشتركين
+Only Administrator can delete Email Queue,يمكن فقط للمسؤول حذف قائمة انتظار البريد الإلكتروني
+BOM {0} must be active,فاتورة المواد {0} يجب أن تكون نشطة
+Reference DocType and Reference Name are required,مطلوب مرجع دوكتيب واسم مرجع
+Custom Tags,العلامات المخصصة
+BOM {0} must be submitted,فاتورة المواد {0} يجب أن تكون مسجلة
+Delete this record to allow sending to this email address,احذف هذا السجل للسماح بالإرسال إلى عنوان البريد الإلكتروني هذا
+{0} already unsubscribed,{0} تم إلغاء الاشتراك من قبل
+{0} already unsubscribed for {1} {2},{0} تم إلغاء الاشتراك في {1} {2}
+Newsletter has already been sent,تم إرسال الرسالة الإخبارية بالفعل
+Unable to find attachment {0},تعذر العثور على المرفق {0}
+Please save the Newsletter before sending,يرجى حفظ النشرة الإخبارية قبل إرسالها
+Address Title is mandatory.,عنوان العنوان إلزامي.
+"Company is mandatory, as it is your company address",الشركة إلزامية، كما هو عنوان شركتك
+There is an error in your Address Template {0},هناك خطأ في قالب العناوين {0}
+No default Address Template found. Please create a new one from Setup > Printing and Branding > Address Template.,لم يتم العثور على قالب عنوان افتراضي. الرجاء إنشاء ملف جديد من الإعداد> الطباعة والعلامة التجارية> نموذج العنوان.
+Default Address Template cannot be deleted,لا يمكن حذف قالب العنوان الافتراضي
+Please select Party Type first,يرجى تحديد نوع الطرف أولا
+Define Frappe Server URL in Social Login Keys,تعريف Frappe Server URL في مفاتيح تسجيل الدخول الاجتماعي
+Logged in as Guest or Administrator,تم تسجيل الدخول كضيف أو مسؤول
+{0} Settings not found,{0} لم يتم العثور على الإعدادات
+Incorrect UserId or Password,معرف المستخدم أو كلمة السر غير صحيحة
+LDAP Not Installed,لم يتم تثبيت LDAP
+Not a valid LDAP user,ليس مستخدما LDAP صالحا
+Please select another payment method. PayPal does not support transactions in currency '{0}',يرجى تحديد طريقة دفع أخرى. لا يدعم بايبال المعاملات بالعملة '{0}'
+Invalid payment gateway credentials,بيانات اعتماد مدخل الدفع غير صالحة
+Looks like something is wrong with this site's Paypal configuration.,يبدو أن هناك شيئا خاطئا في اعدادات باي بال لهذا الموقع.
+Please select another payment method. Razorpay does not support transactions in currency '{0}',يرجى تحديد طريقة دفع أخرى. رازورباي لا يدعم المعاملات بالعملة '{0}'
+Unable to make request to the Frappe Server URL,تعذر تقديم طلب إلى عنوان  Frappe Server URL
+Check Frappe Server URL,تحقق من عنوان Frappe Server URL
+Seems Publishable Key or Secret Key is wrong !!!,يبدو مفتاح النشر أو المفتاح السري خاطئ!
+Please select another payment method. Stripe does not support transactions in currency '{0}',يرجى تحديد طريقة دفع أخرى. Stripe لا يدعم المعاملات بالعملة '{0}'
+Options not set for link field {0},لم يتم تعيين خيارات لحقل الرابط {0}
+Value for {0} cannot be a list,يجب تعيين {0} أولا
+"{0} {1} cannot be ""{2}"". It should be one of ""{3}""","{0} {1} لا يمكن أن يكون {{}}. يجب أن تكون واحدة من ""{3}"""
+Value cannot be changed for {0},لا يمكن تغيير القيمة ل {0}
+"{0}: '{1}' ({3}) will get truncated, as max characters allowed is {2}",{0}: '{1}' ({3}) سيتم اقتطاعه، حيث أن الحد الأقصى المسموح به هو {2}
+No permission to read {0},ليس هناك إذن لقراءة {0}
+Cannot use sub-query in order by,لا يمكن استخدام طلب البحث الفرعي بالترتيب
+Please select atleast 1 column from {0} to sort/group,يرجى تحديد عمود واحد على الأقل من {0} إلى التصنيف / المجموعة
+Fieldname is limited to 64 characters ({0}),اسم الحقل مقتصر على 64 حرفا ({0})
+Length of {0} should be between 1 and 1000,يجب أن يكون طول {0} بين 1 و 1000
+"{0} field cannot be set as unique in {1}, as there are non-unique existing values",لا يمكن أن يحتوي اسم الحقل {0} على أحرف خاصة مثل {1}
+"Cannot delete or cancel because {0} <a href=""#Form/{0}/{1}"">{1}</a> is linked with {2} <a href=""#Form/{2}/{3}"">{3}</a>","لا يمكن الحذف أو الإلغاء لأن {0}<a href=""#Form/{0}/{1}""> {1} </a>مرتبط {2}<a href=""#Form/{2}/{3}""> {3} </a>"
+{0} {1} not found,{0} {1} غير موجود
+Record does not exist,سجل غير موجود
+Could not find {0},تعذر العثور على {0}
+Cannot link cancelled document: {0},لا يمكن ربط المستند الملغى: {0}
+Table {0} cannot be empty,جدول {0} لا يمكن أن يكون فارغا
+This document is currently queued for execution. Please try again,هذه الوثيقة في قائمة الانتظار حاليا للتنفيذ. حاول مرة اخرى
+Document Queued,المستند في قائمة الانتظار
+{0} is required,{0} مطلوب
+Name not set via prompt,لم يتم تعيين الاسم عبر المطالبة
+Naming Series mandatory,تسمية سلسلة إلزامية
+Invalid naming series (. missing),سلسلة التسمية غير صالحة (. مفقود)
+"There were some errors setting the name, please contact the administrator",كانت هناك بعض الأخطاء التي تحدد الاسم، يرجى الاتصال بالمشرف
+Name of {0} cannot be {1},اسم {0} لا يمكن أن يكون {1}
+Name cannot contain special characters like {0},لا يمكن أن يحتوي الاسم على أحرف خاصة مثل {0}
+Please select a valid csv file with data,يرجى تحديد ملف CSV ساري المفعول مع البيانات
+Maximum {0} rows allowed,الحد الأقصى المسموح به {0} من الصفوف
+Invalid include path,مسار تضمين غير صالح
+App not found,لم يتم العثور على التطبيق
+Standard Print Format cannot be updated,لا يمكن تحديث تنسيق الطباعة القياسي
+Incomplete Request,طلب غير مكتمل
+File size exceeded the maximum allowed size of {0} MB,تجاوز حجم الملف الحد الأقصى المسموح به لحجم {0} ميغابايت
+field not found:,لم يتم العثور على الحقل:
+name required,اسم مطلوب
+Please save the document before assignment,الرجاء حفظ المستند قبل التعيين
+Please save the document before removing assignment,الرجاء حفظ المستند قبل إزالة التعيين
+"""this"" is null or not defined","""هذا"" فارغ أو غير محدد"
+You have unsaved changes in this form. Please save before you continue.,لديك تغييرات لم يتم حفظها في هذا النموذج. يرجى الحفظ قبل المتابعة.
+parentfield not found for,لم يتم العثور على الحقل الرئيسي ل
+No doctype,لا يوجد doctype
+Please specify,رجاء حدد
+Filters required,الفلاتر المطلوبة
+No permission to edit,ليس هناك إذن للتعديل
+ID field is required to edit values using Report. Please select the ID field using the Column Picker,حقل ID مطلوب لتعديل القيم باستخدام تقرير. الرجاء تحديد حقل ID باستخدام منتقي الأعمدة
+Please save before attaching.,يرجى حفظ قبل إرفاق.
+Maximum Attachment Limit for this record reached.,تم بلوغ الحد الأقصى للمرفق لهذا السجل.
+No permission to '{0}' {1},لا يوجد إذن ل '{0}' {1}
+Transport not open,Transport not open
+JSONP disabled,معطل JSONP
+after called too many times,بعد أن دعا مرات عديدة جدا
+Invalid byte index,فهرس byte غير صالح
+Invalid continuation byte,استمرار byte غير صالح
+Invalid UTF-8 detected,تم اكتشاف UTF-8 غير صالح
+got binary data when not reconstructing a packet,حصلت على البيانات الثنائية عند عدم إعادة بناء حزمة
+Unknown type:,نوع غير معروف:
+Illegal attachments,المرفقات غير القانونية
+The style-loader cannot be used in a non-browser environment,لا يمكن استخدام محمل النمط في بيئة غير متصفح
+Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.,"قيمة غير صالحة للمعلمة ""insertAt. يجب أن يكون ""أعلى"" أو ""أسفل""."
+Called start() while test already started running,بدء التشغيل () أثناء بدء الاختبار بالفعل
+Called start() outside of a test context too many times,بداية () خارج سياق الاختبار مرات كثيرة جدا
+Called start() outside of a test context when,بداية () خارج سياق الاختبار عندما
+QUnit.config.autostart was true,QUnit.config.autostart كان صحيحا
+QUnit.start cannot be called inside a test context. This feature is removed in,لا يمكن استدعاء QUnit.start داخل سياق الاختبار. تتم إزالة هذه الميزة في
+"QUnit 2.0. For async tests, use QUnit.test() with assert.async() instead.\n",QUnit 2.0. للاختبارات غير المتزامنة، استخدم QUnit.test () مع assert.async () بدلا من ذلك. \ n
+Details in our upgrade guide at https://qunitjs.com/upgrade-guide-2.x/,التفاصيل في دليل الترقية على https://qunitjs.com/upgrade-guide-2.x/
+"pushFailure() assertion outside test context, was",كان pushFailure () التأكيد خارج سياق الاختبار،
+"assertion outside test context, in",تأكيد خارج سياق الاختبار، في
+QUnit has already been defined.,وقد تم بالفعل تعريف QUnit.
+Null input. (DiffMain),إدخال فارغ. (DiffMain)
+Unknown unit,وحدة غير معروفة
+Each data element must implement a unique 'id' property,"يجب أن يمتلك كل صنف خاصية ""id"" فريدة"
+At least one grouping must be specified before calling setAggregators().,يجب تحديد تجمع واحد على الأقل قبل استدعاء setAggregators ().
+Invalid or non-matching id,معرف غير صالح أو غير متطابق
+Invalid id,بطاقة التعريف غير صالحة
+{0} is not a valid Email Address,{0} ليس عنوان بريد إلكتروني صالحا
+Queue should be one of {0},يجب أن تكون قائمة الانتظار واحدة من {0}
+Unable to open attached file. Did you export it as CSV?,تعذر فتح الملف المرفق. هل تم تصديره ك CSV؟
+{0} must be one of {1},{0} يجب أن يكون واحدا من {1}
+Filter must be a tuple or list (in a list),يجب أن يكون الفلتر عبارة عن قائمة أو قائمة (في قائمة)
+"Filter must have 4 values (doctype, fieldname, operator, value): {0}",يجب أن يكون المرشح 4 القيم (نوع المستند، اسم الحقل، المشغل، قيمة): {0}
+Operator must be one of {0},يجب أن يكون المشغل واحدا من {0}
+There is some problem with the file url: {0},هناك بعض المشاكل مع رابط الملف: {0}
+Syntax error in template,خطأ في بناء الجملة في القالب
+Root {0} cannot be deleted,لا يمكن حذف الجذر {0}
+Cannot delete {0} as it has child nodes,لا يمكن حذف {0} كما أن لديها العقد الفرعية
+Merging is only possible between Group-to-Group or Leaf Node-to-Leaf Node,دمج ممكن فقط بين المجموعة إلى المجموعة أو ورقة عقدة إلى  ورقة عقدة
+Multiple root nodes not allowed.,لا يسمح العقد الجذرية متعددة.
+{0} {1} cannot be a leaf node as it has children,{0} {1} لا يمكن أن يكون عقدة أوراق كما لديها أطفال
+Email not verified with {1},لم يتم التحقق من البريد الإلكتروني باستخدام {1}
+Password not found,كلمة المرور لم يتم العثور
+Password cannot be more than 100 characters long,فشل انشاء PDF بسبب صورة الروابط مكسورة
+You need to be in developer mode to edit a Standard Web Form,يجب أن تكون في وضع مطور البرامج لتعديل نموذج ويب قياسي
+Following fields are missing:,الحقول التالية مفقودة:
+Please select a Amount Field.,الرجاء تحديد حقل مبلغ.
+Amount must be greater than 0.,يجب أن يكون المبلغ أكبر من 0.
+You need to be logged in to access this {0}.,يجب تسجيل الدخول للوصول إلى هذا {0}.
+You don't have the permissions to access this document,ليس لديك الأذونات للوصول إلى هذا المستند
+Mandatory Information missing:,معلومات إلزامية مفقودة:
+Invalid Request,طلب غير صالح
+You are not allowed to update this Web Form Document,لا يسمح لك بتحديث مستند نموذج ويب هذا
+You must login to submit this form,يجب عليك تسجيل الدخول لإرسال هذا النموذج
+{0} does not exist in row {1},{0} غير موجود في الصف {1}
+"""You are not allowed to delete a standard Website Theme",لا يسمح لك بحذف موضوع ويب قياسي
+Please Duplicate this Website Theme to customize.,يرجى تكرار هذا الموقع موضوع لتخصيص.
+Top Bar Color and Text Color are the same. They should be have good contrast to be readable.,لون الشريط الاعلي و لون النص هي نفسها. وينبغي أن يكون لديهم تباين جيد لتكون قابلة للقراءة.
+{0} not a valid State,{0} ليست حالة صالحة
+Cannot change state of Cancelled Document. Transition row {0},لا يمكن تغيير حالة المستند الملغى. صف الانتقال {0}
+Submitted Document cannot be converted back to draft. Transition row {0},لا يمكن تحويل المستند المقدم مرة أخرى إلى المسودة. صف الانتقال {0}
+Cannot cancel before submitting. See Transition {0},لا يمكن الإلغاء قبل الإرسال. انظر الانتقال {0}
+You are not permitted to access this page.,لا يسمح لك بالدخول إلى هذه الصفحة.
+Invalid reference doctype and reference name,doctype المرجعي غير صالح واسم المرجع
+Link is expired,انتهت صلاحية الرابط
+Please give both Rating and Detailed Feedback,يرجى إعطاء كل من التقييم وردود الفعل التفصيلية
+"Can not submit feedback, Please try again later",لا يمكن إرسال تعليقات، يرجى إعادة المحاولة لاحقا
+You need to be logged in to access this page,يجب تسجيل الدخول للوصول إلى هذه الصفحة
+Not allowed to print draft documents,غير مسموح بطباعة مستندات المستندات
+Not allowed to print cancelled documents,لا يسمح بطباعة المستندات الملغاة
+Print Format {0} is disabled,تم تعطيل تنسيق الطباعة {0}
+No template found at path: {0},لم يتم العثور على نموذج في المسار: {0}
+Activity Cost exists for Employee {0} against Activity Type - {1},تكلفة النشاط موجودة للموظف {0} مقابل نوع النشاط - {1}
+Default Activity Cost exists for Activity Type - {0},تكلفة النشاط الافتراضي موجودة لنوع النشاط - {0}
+Total of all task weights should be 1. Please adjust weights of all Project tasks accordingly,وينبغي أن يكون مجموع جميع أوزان المهمة يساوي 1. يرجى ضبط أوزان جميع مهام المشروع وفقا لذلك
+Expected End Date can not be less than Expected Start Date,لا يمكن أن يكون تاريخ الانتهاء المتوقع أقل من تاريخ البدء المتوقع
+'Expected Start Date' can not be greater than 'Expected End Date',"""تاريخ البدء المتوقع"" لا يمكن أن يكون أكبر من ""تاريخ الانتهاء المتوقع"""
+'Actual Start Date' can not be greater than 'Actual End Date',"""تاريخ البدء الفعلي"" لا يمكن أن يكون أكبر من ""تاريخ الانتهاء الفعلي"""
+Cannot close task as its dependant task {0} is not closed.,لا يمكن إغلاق المهمة كمهمة تابعة لها {0} غير مغلقة.
+Progress % for a task cannot be more than 100.,لا يمكن أن يكون التقدم٪ للمهمة أكثر من 100.
+Circular Reference Error,خطأ مرجع دائري
+Row {0}: From Time and To Time is mandatory.,الصف {0}: من وقت لآخر إلزامي.
+Row {0}: Activity Type is mandatory.,الصف {0}: نوع النشاط إلزامي.
+Row {0}: Hours value must be greater than zero.,الصف {0}: يجب أن تكون قيمة الساعات أكبر من الصفر.
+Row {0}: Completed Qty must be greater than zero.,الصف {0}: يجب أن تكون الكمية المكتملة أكبر من الصفر.
+"""Row {0}: Completed Qty cannot be more than {1} for operation {2}","""الصف {0}: الكمية المكتملة لا يمكن أن تكون أكثر من {1} للتشغيل {2}"
+To date cannot be before from date,حتى الآن لا يمكن أن يكون قبل من التاريخ
+Row {0}: From Time and To Time of {1} is overlapping with {2},الصف {0}: من وقت إلى وقت {1} يتداخل مع {2}
+UOM Conversion factor is required in row {0},مطلوب عامل تحويل أوم في الصف {0}
+Please enter quantity for Item {0},الرجاء إدخال الكمية للصنف {0}
+Same item cannot be entered multiple times.,لا يمكن إدخال نفس الصنف عدة مرات.
+{0} {1} status is {2},{0} {1} الحالة {2}
+Same supplier has been entered multiple times,تم إدخال نفس المورد عدة مرات
+Row {0}: For supplier {0} Email Address is required to send email,الصف {0}: للمورد {0} عنوان البريد الإلكتروني مطلوب لإرسال البريد الإلكتروني
+"Request for Quotation is disabled to access from portal, for more check portal settings.",يتم تعطيل طلب عرض الأسعار للوصول من البوابة، لمزيد من الاختيار إعدادات البوابة.
+Cost Updated,تم تحديث التكلفة
+Scrap,متلف
+Conversion Rate,معدل التحويل
+Current BOM and New BOM can not be same,فاتورة المواد الحالية وفاتورة المواد الجديدة لايمكن أن يكونوا نفس الفاتورة
+BOM replaced,تم استبدال فاتورة المواد
+Current BOM,فاتورة المواد الحالية
+New BOM,فاتورة مواد جديدة
+Replace,استبدال
+BOM Replace Tool,أداة استبدال فاتورة المواد
+Default Workstation,محطة العمل الافتراضية
+Sales Order {0} is not valid,أمر البيع {0} غير موجود
+Production Order status is {0},حالة أمر الانتاج {0}
+{0} ({1}) cannot be greater than planned quanitity ({2}) in Production Order {3},{0} ({1}) لايمكن أن تكون أكبر من الكمية المرصودة ({2}) في أمر الانتاج
+Work-in-Progress Warehouse is required before Submit,مستودع أعمال جارية مطلوب قبل التسجيل
+For Warehouse is required before Submit,مستودع (الى) مطلوب قبل التسجيل
+"Stopped Production Order cannot be cancelled, Unstop it first to cancel",أمر الانتاج الموقوف لايمكن الغاؤه. قم بفتحه أولاً كي تتمكن من الغاؤه
+Cannot cancel because submitted Stock Entry {0} exists,لايمكنك الالغاء لأن مدخل المخزون المسجل {0} موجود
+Unable to find Time Slot in the next {0} days for Operation {1},لا يوجد وقت في الأيام {0} القادمة كافية للعملية {1}
+Timesheet created:,تم انشاء جدول زمني:
+Capacity Planning Error,خطأ في تخطيط قدرة الاستيعاب
+Completed Qty can not be greater than 'Qty to Manufacture',الكمية المكتملة لايمكن أن تكون أكبر من الكمية للتصنيع
+Quantity to Manufacture must be greater than 0.,الكمية للتصنيع يجب أن تكون أكبر من 0
+Operation Time must be greater than 0 for Operation {0},زمن العملية يجب أن يكون أكبر من 0 للعملية {0}
+Default BOM for {0} not found for Project {1},فاتورة المواد الافتراضية ل {0} غير موجودة للمشروع {1}
+Default BOM for {0} not found,فاتورة المواد ل {0} غير موجودة
+Already completed,مكتمل مسبقا
+Submit this Production Order for further processing,قم بتسجيل أمر الانتاج هذا لإجراء عمليات أخرى
+Production Order,أمر الانتاج
+Quantity must not be more than {0},الكمية يجب أن لاتكون أكبر من {0}
+Please enter Sales Orders in the above table,الرجاء ادخال أوامر بيع في الجدول أعلاه
+Please enter Material Requests in the above table,الرجاء ادخال طلبات مواد في الجدول أعلاه
+No Production Orders created,لم يتم انشاء أوامر انتاج
+Please enter Warehouse for which Material Request will be raised,الرجاء ادخال مستودع الذي سيتم رفع طلب مواد منه
+Material Requests {0} created,تم انشاء طلبات المواد {0}
+Nothing to request,لاشيئ يمكن طلبه
+Row #{0}: Timings conflicts with row {1},الصف رقم {0}: التوقيت متعارض مع صف {1}
+"Operation {0} longer than any available working hours in workstation {1}, break down the operation into multiple operations",العملية {0} أطول من اي عدد ساعات عمل متوفرة في محطة عمل {1}. جزء العملية الى عدة عمليات
+Workstation is closed on the following dates as per Holiday List: {0},محطة العمل مغلقة في التواريخ التالية وفقا لقائمة العطل: {0}
+Source Warehouse (for reserving Items),المستودع المصدر (لتخزين الأصناف)
+Scrap Warehouse,مستودع المتلف
+Manufacture against Material Request,تصنيع مقابل طلب المواد
+"To import or update records, you must first download the template for importing.",لاستيراد أو تحديث السجلات، يجب أولا تحميل القالب للإستيراد.
+Select Type of Document to Download,حدد نوع الوثيقة للتحميل
+Update the template and save in CSV (Comma Separate Values) format before attaching.,تحديث القالب وحفظ بصيغة CSV (استخدم الفاصلة للفصل بين القيم) قبل إرفاقه.
+"Do not update, but insert new records.","إضافة القيم الجديدة, دون تحديثها"
+Submit after importing.,اعتماد بعد اﻹستيراد
+Do not send Emails.,لا ترسل رسائل بريد إلكتروني.
+Sale Asset,بيع الأصل
+Scrap Asset,التخلص من الأصل
+Make Purchase Invoice,إنشاء فاتورة شراء
+Material Request {0} is cancelled or stopped,طلب المواد {0} تم إلغاؤه أو إيقافه
+Background Jobs,وظائف في الخلفية
+No pending or current jobs for this site,لا توجد وظائف معلقة أو حالية لهذا الموقع
+Install Apps,تثبيت تطبيقات
+Create User Email,انشاء بريد إلكتروني
+GitHub,جيت هب
+Facebook Client ID,اسم مستخدم الفيسبوك
+Facebook Client Secret,كلمة مرور الحساب
+Google Client Secret,كلمة مرور الحساب
+GitHub Client Secret,كلمة مرور الحساب
+Frappe Client Secret,كلمة مرور الحساب
+Google Client ID,اسم مستخدم جوجل
+GitHub Client ID,اسم مستخدم جيت هب
+Frappe Client ID,اسم مستخدم فرابي
+Frappe Server URL,عنوان URL لخادم فرابي
+Social Login Keys,تسجيل دخول مواقع التواصل اﻹجتماعي
+LDAP Settings,اعدادات LDAP
+OAuth Client,عميل المصادقة
+OAuth Provider Settings,إعدادات موفر المصادقة
+"URIs for receiving authorization code once the user allows access, as well as failure responses. Typically a REST endpoint exposed by the Client App.",عناوين url لتلقي رمز التفويض بمجرد السماح للمستخدم بالدخول، باﻹضافة الى استجابات الأخطاء. عادةََ نقطة الراحة يتعرض لها التطبيق العميل.
+Please enter Employee Id of this sales person,الرجاء إدخال معرف الموظف الخاص بشخص المبيعات هذا
+Not permitted,غير مسموح
+You do not have enough permissions to access this resource. Please contact your manager to get access.,ليس لديك الأذونات الكافية للوصول إلى هذا المورد. الرجاء الاتصال بالمدير للحصول علي الوصول.
+Reference Doctype,إشارة Doctype
+Breadcrumbs,مسار التصفح
+Route,مسار
+Pincode,رمز Pin
+Mail List,قائمه البريد
+State,الحالة
+Transition Rules,قوانين الإنتقال
+"Rules for how states are transitions, like next state and which role is allowed to change state etc.",قوانين لكيفية انتقال الحالات، مثل الحالة التالية والدور الذي يسمح لتغيير الحالة الخ.
+Rules defining transition of state in the workflow.,القوانين التي تحدد انتقال الحالة في سير العمل.
+States,الحالات
+"Different ""States"" this document can exist in. Like ""Open"", ""Pending Approval"" etc.","مختلف ""الحالات"" في هذه الوثيقة يمكن أن تكون موجودة في. مثل ""فتح"" أو ""في انتظار الموافقة"" الخ."
+Workflow Action Name,إسم إجراء سير العمل
+User Cannot Search,المستخدم لا يستطيع أن يبحث
+User Cannot Create,المستخدم لا يستطيع أن ينشئ
+Permission Rules,قواعد الصلاحيات
+Permissions Settings,إعدادات الصلاحيات
+Share,مشاركة
+Set User Permissions,تعيين صلاحيات المستخدم
+This role update User Permissions for a user,يقوم هذا الدور بتحديث صلاحيات المستخدم للمستخدم
+View Settings,إعدادات العرض
+Module,وحدة
+Timeline Field,حقل المخطط الزمني
+Quick Entry,إدخال سريع
+"Image Field (Must of type ""Attach Image"")","حقل الصورة (يجب أن يكون من نوع ""إرفاق صورة"")"
+Is Child Table,جدول تابع
+Allow Import (via Data Import Tool),السماح بالاستيراد (عبر أداة استيراد البيانات)
+Child Tables are shown as a Grid in other DocTypes.,يتم عرض الجداول التابعة كحقل في أنواع أخرى من المستندات.
+Ignore User Permissions,تجاهل صلاحيات المستخدم
+Single Types have only one record no tables associated. Values are stored in tabSingles,الأنواع المفردة لها قيمة واحدة فقط ولا يحتوي جداول مقترنة. يتم تخزين القيم في جدول مفرد
+Is Single,مفردة
+"Make ""name"" searchable in Global Search","اجعل ""الاسم"" قابلا للبحث في البحث العالمي"
+User permissions should not apply for this Link,يجب ألا تنطبق صلاحيات المستخدم على هذا الرابط
+Web View,عرض الويب
+Has Web View,لديه عرض الويب
+Track Seen,مشاهدة المسار
+Allow Guest to View,السماح للزائر بالعرض
+Bold,واضح
+Approving User  (above authorized value),موافقة على العضو (أعلى القيمة المعتمدة)
+Users and Permissions,المستخدمين والصلاحيات
+Report Hide,إخفاء التقرير
+Ignore XSS Filter,تجاهل فلتر XSS
+Approving Role (above authorized value),الموافقة على الدور (أعلى من القيمة المعتمدة)
+Permissions,الصلاحيات
+"Don't HTML Encode HTML tags like <script> or just characters like < or >, as they could be intentionally used in this field",عدم ترميز علامات HTML مثل <script> أو أحرف مثل <or>، حيث يمكن استخدامها في هذا الحقل
+Role Permission for Page and Report,صلاحيات الدور للصفحة والتقرير
+Print Hide,اخفاء الطباعة
+Profit & Loss,الربح والخسارة
+No Copy,لا يوجد نسخ
+Is Submittable,يستطيع الاعتماد
+List View Settings,إعدادات عرض القائمة
+ASC,تصاعدي
+InnoDB,InnoDB
+Style,النمط
+"Print Width of the field, if the field is a column in a table",حقل عرض الطباعة، إذا كان الحقل عمود في الجدول
+"Style represents the button color: Success - Green, Danger - Red, Inverse - Black, Primary - Dark Blue, Info - Light Blue, Warning - Orange",النمط يمثل لون الزر: النجاح-الأخضر ، الخطر-الأحمر ، معكوس-الأسود ، أساسي-أزرق داكن ، المعلومات-أزرق سماوي ، تحذير-برتقالي
+DocType on which this Workflow is applicable.,سيتم تطبيق سير العمل على هذا المستند.
+This field will appear only if the fieldname defined here has value OR the rules are true (examples): myfield eval:doc.myfield=='My Value' eval:doc.age>18,"سيظهر هذا الحقل فقط إذا كان اسم الحقل المحدد هنا له قيمة أو القواعد صحيحة (أمثلة): 
+myfield eval:doc.myfield=='My Value' eval:doc.age>18"
+All customizations will be removed. Please confirm.,سيتم إزالة كافة التخصيصات. يرجى التأكيد.
+Change Label (via Custom Translation),تغيير التسمية (عبر الترجمة المخصصة)
+"For Links, enter the DocType as range.
+For Select, enter list of Options, each on a new line.",للارتباطات ، أدخل نوع المستند كنطاق. للتحديد ، ادخل قائمه الخيارات ، كل ادخال في سطر جديد.
+If Checked workflow status will not override status in list view,حاله سير العمل المحددة لن تتجاوز الحالة في عرض القائمة
+Print Format Builder,منشئ تنسيق الطباعة
+Show Users,إظهار المستخدمين
+Leave Balance Before Application,رصيد الاجازه قبل الطلب
+Monthly Accumulated leave Balance,رصيد الإجازات التراكمي الشهري
+Pending,قيد التدقيق
+Delivery of the new card under the old card,تسليم البطاقة الجديدة بموجب البطاقة القديمة
+Lost or Renew,تجديد او فقدان
+Copy of identity card or residence,صورة من بطاقة الهويه او الاقامة
+Governmental Documents,مستندات حكومية
+Documents,مستندات
+Return From Leave Statement,العودة من الاجازة
+Expired Date,تاريخ الانتهاء
+Attached Image,ارفاق
+Employee Badge Request,طلب بطاقة عمل
+May Concern Letter,تعريف بالعمل (الى من يهمه الامر)
+Health Insurance Info,معلومات التأمين الطبي
+Submit to,مرسل الى
+To whom it may concern,الى من يهمه الامر
+Type in target,اضافة الوجهة
+Medical Examination,الفحص الطبي
+Other (Visit HR Team),جهات اخرى (راجع الموارد البشرية)
+Salary selection,خانة الراتب
+Medical Insurance Application,طلب تأمين طبي
+Total Salary,الراتب الكلي
+Basic Salary,الراتب الرئيسي
+salary,الراتب
+Badge Received,تم استلام بطاقة العمل
+No salary,بدون راتب
+Special Case,حالة خاصة
+Job Assignment,انتداب
+Reports To,المدير المباشر
+Internal Assign,داخلي
+External Assign,خارجي
+Reason,السبب
+Assignment Type,نوع الانتداب
+Internal Per Diem Rate,تكاليف يومية داخلي
+External Per Diem Rate,تكاليف يومية خارجي
+World Countries,مدن العالم
+Days,الايام
+Commitment with bank,الالتزام مع بنك
+Internal Ticket Class,تصنيف التذكرة الداخلي
+External Ticket Class,تصنيف التذكرة الخارجي
+Ticket Cost,قيمة التذكرة
+Cost Total,المجموع الكلي
+Sponsor,الراعي
+Dependents,أفراد الأسرة
+Work Start Date,تاريخ البدء في العمل
+Type of Contract,نوع العقد
+Family Documents,وثائق الأسرة
+Reason for end of service,سبب انهاء الخدمة
+Birthdate,تاريخ الميلاد
+Passport,جواز السفر
+End of Service Award,مكافاة نهاية الخدمة
+Class,فئة
+Duration of Service,مدة الخدمة
+Number of Years,عدد السنوات
+Award,المكافاة
+Number of Months,عدد الاشهر
+Employee Civil Number,الرقم الوطني للموظف
+Find,ايجاد القيم
+Application Type,نوع الطلب
+Number of Days,عدد الايام
+Over Time,خارج الدوام
+Approval,الموافق على خارج الدوام
+Approval Name,اسم الموافق
+Hours Count,عدد الساعات
+Approved Hours,الساعات الموافق عليها
+Reson,السبب
+Attachement,المرفق
+Financial Custody,العهد المالية
+Permanent,دائم
+Cancel Leave Application,الغاء طلب الاجازة
+Employee Resignation,الاستقالة
+Cancel Date,تاريخ الالغاء
+Last Working Date,تاريخ اخر يوم عمل
+Penalty,عقوبة
+Submission Date,تاريخ الطلب
+Days Count,عدد الأيام
+Notice period length,مدة الاعلام قيل الانهاء
+Penalty Type,نوع العقوبة
+Upload resignation document,رفع ملف الاستقالة
+Bank Definition,تعريف البنوك
+Opening (Cr),افتتاحي-دائن
+Opening (Dr),افتتاحي-مدين
+New credit limit is less than current outstanding amount for the customer. Credit limit has to be atleast {0},حد الدائن الجديد أقل من المبلغ المستحق الحالي للعميل. حد الدائن يجب أن يكون على الأقل {0}
+Credit limit has been crossed for customer {0} {1}/{2},تم تجاوز حد الدائن للعميل {0} {1}/{2}
+Total Difference,اجمالي الدائن
+Credit,دائن
+Closing (Dr),اغلاق-مدين
+Closing (Cr),اغلاق-دائن
+Please enter Item first,الرجاء ادخال صنف أولا
+Please enter Planned Qty for Item {0} at row {1},الرجاء ادخال الكمية للصنف {0} في الصف {1}
+Please enter Production Item first,الرجاء ادخال صنف انتاج أولا
+Please select BOM for Item in Row {0},الرجاء ادخال فاتورة مواد للصنف في صف {0}
+Production Order cannot be raised against a Item Template,أمر الانتاج لا يمكن أن يرتفع مقابل قالب الصنف
+Cannot produce more Item {0} than Sales Order quantity {1},لايمكن انتاج الصنف {0} بأكثر من الكمية المرصودة في أمر البيع {1}
+The selected BOMs are not for the same item,فواتير المواد المحددة ليست لنفس الصنف
+You can not change rate if BOM mentioned agianst any item,لايمكنك تغيير المعدل اذا كانت فاتورة المواد مدرجة مع أي صنف
+Quantity of item obtained after manufacturing / repacking from given quantities of raw materials,كمية الصنف المراد الحصول عليها بعد التصنيع/ اعادة التغليف من الكميات المحددة من المواد الخام
+Item to be manufactured or repacked,الصنف المراد تصنيعه أو اعادة تغليفه
+Item {0}: Ordered qty {1} cannot be less than minimum order qty {2} (defined in Item).,الصنف {0}: الكمية المطلوبة {1} لا يمكن أن تكون أقل من  {2} (المعرفة في الصنف كحد ادنى).
+Warehouse is mandatory for stock Item {0} in row {1},المستودع إلزامي لمخزون الصنف {0} في الصف {1}
+{0} in row {1} cannot have both URL and child items,{0} في الصف {1} لا يمكن أن يكون كلا الصنفين URL و صنف فرعي
+BOM {0} does not belong to Item {1},فاتورة المواد {0} لا تنتمي الى الصنف {1}
+Same item has been entered multiple times.,نفس الصنف تم ادخاله عدة مرات
+Quantity required for Item {0} in row {1},الكمية مطلوبة للصنف {0} في الصف {1}
+Item {0} does not exist in the system or has expired,الصنف {0} غير موجود في النظام أو انتهت صلاحيته
+Row {0}: Currency of the BOM #{1} should be equal to the selected currency {2},السطر {0}: عملة فاتورة المواد رقم {1} يجب ان يساوي العملة التي تم اختيارها
+Raw material cannot be same as main Item,المواد الخام لايمكن أن تكون كصنف رئيسي
+Item: {0} does not exist in the system,الصنف: {0} غير موجود في النظام
+Cost Center For Item with Item Code,مركز التكلفة للصنف برمز الصنف
+Service Item,صنف الخدمة
+Item Serial No,رقم تسلسل الصنف
+"For 'Product Bundle' items, Warehouse, Serial No and Batch No will be considered from the 'Packing List' table. If Warehouse and Batch No are same for all packing items for any 'Product Bundle' item, those values can be entered in the main Item table, values will be copied to 'Packing List' table.",الاصناف حزمة المنتج والمستودع والرقم المتسلسل ورقم الدفعة ستأخذ بعين الاعتبار من جدول قائمة التغليف. اذا كان للمستودع ورقم الدفعة نفس  الصنف من اصناف التغليف لأي صنف من حزمة المنتج. هذه القيم يمكن ادخالها في جدول الصنف الرئيسي. والقيم سيتم نسخها الى جدول قائمة التغليف.
+Item Naming By,تسمية الصنف بواسطة
+Please enter Item Code to get batch no,الرجاء ادخال رمز الصنف للحصول على رقم الدفعة
+No Item with Barcode,لا يوجد صنف مع هذا الباركود
+Row #{0}: Set Supplier for item {1},الصف رقم {0}: أدخل مورد الصنف {1}
+Please enter item details,الرجاء ادخال تفاصيل الصنف
+Item Attribute,سمة الصنف
+"Please select Item where ""Is Stock Item"" is ""No"" and ""Is Sales Item"" is ""Yes"" and there is no other Product Bundle","الرجاء اختيار الصنف حيث ""صنف مستودعي"" معلمة ب""لا"" و ""صنف مبيعات"" معلمة ب""نعم"" ولا يوجد هناك حزمة منتج أخرى"
+Delivery warehouse required for stock item {0},مستودع التسليم مطلوب للصنف المستودعي {0}
+Item Group Tree,شجرة مجموعة الصنف
+Actual type tax cannot be included in Item rate in row 1,ضريبة النوع الفعلي لا يمكن تضمينها في معدل الصنف في الصف 1
+Compact Item Print,طباعة صنف مضغوط
+{0} is not a valid Batch Number for Item {1},{0} ليس رقما صالحا للصنف {1}
+Child Item should not be a Product Bundle. Please remove item `{0}` and save,الصنف الفرعي يجب أن لا يكون حزمة منتج. الرجاء ازالة الصنف `{0}` والحفظ
+Please select item code,الرجاء تحديد رمز الصنف
+Has Serial No' can not be 'Yes' for non-stock item,"الرقم غير التسلسلي ""لا يمكن أن يكون"" نعم ""للصنف الذي لا يخزن"
+Parent Item {0} must not be a Stock Item,الصنف الرئيسي {0} يجب أن لا يكون صنف مستودعي
+"The total Issue / Transfer quantity {0} in Material Request {1}  \
+							cannot be greater than requested quantity {2} for Item {3}","إجمالي العدد / كمية النقل {0} في طلب المواد {1} 
+لا يمكن أن تكون أكبر من الكمية المطلوبة {2} للصنف {3}"
+"Reference: %s, Item Code: %s and Customer: %s",المرجع: %s ، رمز الصنف: %s والعميل: %s
+Purchase Order number required for Item {0},عدد طلب الشراء مطلوب للصنف
+Warehouse {0} can not be deleted as quantity exists for Item {1},المستودع {0} لا يمكن حذفه كما توجد الكمية للصنف {1}
+Website Image {0} attached to Item {1} cannot be found,صورة الموقع {0} المرفقة بالصنف {1} لا يمكن العثور عليها
+Item {0} not found in 'Raw Materials Supplied' table in Purchase Order {1},الصنف  لا يوجد في جدول المواد الخام المعروضة في طلب الشراء {1}
+Installation date cannot be before delivery date for Item {0},تاريخ التثبيت لايمكن أن يكون قبل تاريخ التسليم للصنف {0}
+Stock cannot exist for Item {0} since has variants,المخزون لا يمكن ان يكون موجود الصنف {0} نظرا لوجود متغيرات
+"Is Fixed Asset"" cannot be unchecked, as Asset record exists against the item","الأصول الثابتة ""لا يمكن إلغاء تحديدها، حيث يوجد سجل الأصول مقابل هذا للصنف"
+Default Unit of Measure for Item {0} cannot be changed directly because you have already made some transaction(s) with another UOM. You will need to create a new Item to use a different Default UOM.,لا يمكن تغيير وحدة القياس الافتراضية للصنف {0} مباشرة لأنك قمت بالفعل ببعض المعاملات (المعاملة) مع UOM أخرى. ستحتاج إلى إنشاء صنف جديد لاستخدام واجهة مستخدم افتراضية مختلفة.
+Item {0} is not a serialized Item,الصنف {0} ليس صنف متسلسلا
+Validate Selling Price for Item against Purchase Rate or Valuation Rate,التحقق من صحة سعر البيع للصنف مقابل معدل الشراء أو معدل التقييم
+"About Product Bundle
+
+Aggregate group of Items into another Item. This is useful if you are bundling a certain Items into a package and you maintain stock of the packed Items and not the aggregate Item.
+
+The package Item will have Is Stock Item as No and Is Sales Item as Yes.
+
+Example:
+
+If you are selling Laptops and Backpacks separately and have a special price if the customer buys both, then the Laptop + Backpack will be a new Product Bundle Item.","حول حزمة المنتج
+
+المجموعة الإجمالية من العناصر إلى صنف آخر. هذا مفيد إذا كنت تجميع عناصر معينة في حزمة وتحافظ على المخزون من العناصر معبأة وليس الصنف التجميعي.
+
+حزمة الصنف سيكون مخزون الصنف كما لا و مبيعات الصنف كما نعم.
+
+مثال:
+
+إذا كنت تبيع أجهزة الكمبيوتر المحمولة وحقائب الظهر بشكل منفصل ولها سعر خاص إذا كان العميل يشتري على حد سواء، ثم المحمول + حقيبة الظهر سيكون منتج جديد حزمة الصنف."
+Warehouse required for stock Item {0},المستودع مطلوب لتخزين الصنف{0}
+Sales Order required for Item {0},طلب البيع مطلوب للصنف {0}
+Batch number is mandatory for Item {0},رقم الدفعة إلزامي للصنف {0}
+UOM coversion factor required for UOM: {0} in Item: {1},عامل تحويل UOM المطلوب لUOM : {0} في الصنف: {1}
+Set Item Group-wise budgets on this Territory. You can also include seasonality by setting the Distribution.,تعيين ميزانيات على مستوى مجموعة الصنف في هذا الإقليم. يمكنك أيضا تضمين الموسمية عن طريق تعيين التوزيع.
+Serial No is mandatory for Item {0},الرقم التسلسلي مطلوب للصنف {0}
+Fixed Asset Item must be a non-stock item.,يجب أن يكون صنف الأصول الثابتة صنفا غير مخزون.
+Serial No {0} does not belong to Item {1},الرقم المتسلسل {0} لا ينتمي إلى الصنف {1}
+Material Request of maximum {0} can be made for Item {1} against Sales Order {2},الحد الأقصى لطلب المواد {0} للصنف {1} من أمر المبيعات {2}
+{0} Serial Numbers required for Item {1}. You have provided {2}.,{0} الأرقام التسلسلية المطلوبة للصنف {1}. لقد قدمت {2}.
+The total Issue / Transfer quantity {0} in Material Request {1}  \cannot be greater than requested quantity {2} for Item {3},إجمالي العدد / كمية النقل {0} في طلب المواد {1}  لا يمكن أن تكون أكبر من الكمية المطلوبة {2} للصنف {3}
+Invalid quantity specified for item {0}. Quantity should be greater than 0.,كمية غير صالحة محددة للصنف {0}. يجب أن تكون الكمية أكبر من 0.
+Item cannot be added to its own descendents,الصنف لا يمكن أن تضاف الى أحفادها
+Item {0} is not setup for Serial Nos. Check Item master,الصنف {0} لم يتم إعداد الرقم المسلسل تحقق من الصنف الرئيسي
+Item number,رقم  الصنف
+Account Number,رقم الحساب
+Account Budget Expense,نفقات ميزانية الحساب
+Financial Item,الصنف المالي
+Account,حساب
+Item {0} is not setup for Serial Nos. Column must be blank,الصنف {0} لم يتم إعداده للأرقام التسلسلية يجب أن يكون العمود فارغا
+{0} entered twice in Item Tax,{0} ادخل مرتين في ضريبة الصنف
+Item Tax Row {0} must have account of type Tax or Income or Expense or Chargeable,صف ضريبة الصنف يجب أن يكون له {0} حسابا من نوع الضريبة أو الدخل أو المصاريف أو الرسوم
+Sell Asset,بيع الأصول
+Freight and Forwarding Charges,رسوم الشحن والتخليص
+Opening Balance Equity,الرصيد الافتتاحي
+Current Liabilities,الخصوم المتداولة
+Accounts Receivable,المقبوضات
+Stock In Hand,المخزون في المستودع
+Stock Assets,المخزون
+Securities and Deposits,الودائع والضمانات
+Loans and Advances (Assets),القروض والدفعات المقدمة
+Temporary Opening,حسابات مؤقتة افتتاحية
+Capital Equipments,معدات رأسمالية
+Furnitures and Fixtures,الآثاث
+Plants and Machineries,المصانع والآلات
+Exchange Gain/Loss,فرق عملة
+Depreciation,مصاريف الاستهلاك
+Direct Income,الإيرادات المباشرة
+Indirect Income,الإيرادات الغير مباشرة
+Income,الإيرادات
+Office Rent,الإيجار
+Utility Expenses,نفقات المرافق
+Indirect Expenses,المصروفات غير المباشرة
+Stock Adjustment,تسويات المستودع
+Direct Expenses,المصروفات المباشرة
+Expenses,المصروفات
+Equity,حقوق الملكية
+Loans (Liabilities),القروض (الخصوم)
+Stock Received But Not Billed,بضاعة مستلمة غير مفوترة
+Stock Liabilities,خصوم المخزون
+Item Group Name,اسم مجموعة الصنف
+All Customer Groups,جميع مجموعات العملاء
+Price List Rate (SAR),معدل قائمة الأسعار(ريال سعودي)
+Item Balance,رصيد الصنف
+Print Style Name,اسم نمط الطباعة
+Move,نقل
+Project wise Stock Tracking,تتبع المخزون على مستوى المشروع
+Operation Name,اسم العملية
+Total Costing Amount,اجمالي مبلغ التكلفة
+Set rate of sub-assembly item based on BOM,تعيين معدل صنف التجميع الفرعي استنادا إلى فاتورة المواد
+Projected Quantity as Source,الكمية المتوقعة كمصدر
+Type,نوع
+Email Digest Settings,إعدادات حصاد البريد الإلكتروني
+Queued for updating latest price in all Bill of Materials. It may take a few minutes.,قائمة الانتظار لتحديث أحدث الأسعار في جميع فواتير المواد. قد يستغرق بضع دقائق.
+Scorecard Actions,إجراءات بطاقة الأداء
+Scoring Setup,إعداد النتيجة
+The BOM which will be replaced,فاتورة المواد التي سيتم استبدالها
+The new BOM after replacement,فاتورة مواد جديدة بعد الإستبدال
+Update latest price in all BOMs,تحديث أخر الأسعار في جميع فواتير المواد
+Replace BOM,استبدال فاتورة المواد
+BOM Update Tool,أداة تحديث فاتورة المواد
+Production Planning Tool,أداة تخطيط الإنتاج
+Get Items From,الحصول على الأصناف من
+Your subscription will expire on {0}.,صلاحية اشتراكك ستنتهي في {0}.
+Stock Qty,الكمية في المخزن
+Follow Up,متابعة
+Get current stock,الحصول على المخزون الحالي
+"Update BOM cost automatically via Scheduler, based on latest valuation rate / price list rate / last purchase rate of raw materials.",تحديث تكلفة فاتورة المواد تلقائيا عبر جدولة، استنادا إلى أحدث معدل تقييم / معدل قائمة السعر / آخر معدل شراء المواد الخام.
+Disables creation of time logs against Production Orders. Operations shall not be tracked against Production Order,تعطيل إنشاء سجلات زمنية مقابل أوامر الإنتاج. لا يجوز تتبع العمليات مقابل أمر الإنتاج
+Over Production Allowance Percentage,أعلى نسبة ترخيص الإنتاج
+Allow Production on Holidays,السماح بالإنتاج في الإجازة
+Default Work In Progress Warehouse,العمل الافتراضي قيد تنفيذ المستودع
+Update BOM Cost Automatically,تحديث تكلفة فاتورة المواد اتوماتيكيا
+Get Suppliers By,الحصول على موردين من قبل
+Add All Suppliers,إضافة جميع الموردين
+Parameter Name,اسم العامل
+Standing Name,اسم البطاقة
+Path,المسار
+Orange,برتقالي
+Yellow,أصفر
+Purple,أرجواني
+Please set default Stock Adjustment Account in Company,الرجاء تعيين حساب تعديل المخزون في شركة
+Please enter User ID,الرجاء ادخال مستخدم النظام
+Get Items From Purchase Receipts,الحصول على أصناف من ايصالات الشراء
+Receipt Document,وثيقة الاستلام
+Receipt Document Type,نوع الوثيقة المستلمة
+is the current company,هي الشركة الحالية
+Mandatory fields required in,حقول إلزامية مطلوبة في
+Latest,أحدث
+Earliest,أسبق
+Ordered Qty,كمية الطلبية
+Reserved Qty for Production,الكمية المحجوزة للإنتاج
+Requested Qty,الكمية المطلوبة
+Planned Qty,الكمية المخطط لها
+Balance Value,قيمة الرصيد
+Opening Qty,الكمية الافتتاحية
+Opening Value,القيمة الافتتاحية
+Out Value,خارج القيمة
+At least one of the Selling or Buying must be selected,يجب اختيار واحدة على الأقل من مبيعات أو مشتريات
+Sales Order,أمر البيع
+From Delivery Note,من مذكرة التسليم
+Installation Date,تاريخ التثبيت
+Installation Time,زمن التثبيت
+Delivery Document Type,نوع وثيقة التسليم
+Music,موسيقي
+sr,تسلسل
+For Quantity,لكمية
+To Receive and Bill,للإستلام والفوترة
+Check Supplier Invoice Number Uniqueness,التحقق من تفرد رقم فاتورة المورد
+Kanban Board Name,اسم لوحة كانبان
+User Permission,إذن المستخدم
+"If you un-check this, you will have to apply manually for each Role + Document Type combination",إذا قمت بإلغاء تحديد هذا، سيكون لديك تطبيق يدويا لكل دور + مجموعة نوع المستند
+Apply for all Roles for this User,تطبيق لجميع الأدوار لهذا المستخدم
+For Value,للقيمة
+Allow,السماح
+Stock User,عضو المخزن
+Projects User,عضو المشاريع
+Accounts User,عضو الحسابات
+Sales User,عضو المبيعات
+Link to material requests,رابط إلى طلبات المواد
+Get Suppliers,الحصول على موردين
+Customer / Lead Address,عنوان العميل
+With Items,مع الأصناف
+Customer / Lead Name,إسم العميل
+Allow Item to be added multiple times in a transaction,السماح للصنف بإضافته اكثر من مرة فى نفس المعاملة
+If Owner,إذا كان المالك
+Is Primary Contact,هو جهة الاتصال الرئيسي
+First Name,الإسم الأول
+Last Name,الإسم الأخير
+Mobile No,رقم الموبايل
+Invoiced Amount,مبلغ الفاتورة
+Debit Note,ملاحظة الخصم
+To Package No.,إلى رقم حزمة
+Brand Name,اسم العلامة التجارية
+Attribute Value,قيمة السمة
+Attribute Name,اسم السمة
+Item-wise Price List Rate,معدل قائمة الأسعار على مستوى الأصناف
+Creation Document No,انشاء رقم الوثيقة
+Delivery Document No,رقم وثيقة التسليم
+Warranty Expiry Date,تاريخ انتهاء الضمان
+Stock Ledger,دفتر أستاذ المخزون
+Vehicle Date,تاريخ المركبة
+Stock UOM,وحدة قياس المخزون
+Required Date,التاريخ مطلوب
+Rate at which customer's currency is converted to company's base currency,معدل تحويل عملة العملاء إلى العملة الأساسية للشركة
+Rate at which Price list currency is converted to company's base currency,المعدل الذي يتم فيه تحويل عملة قائمة الأسعار إلى العملة الأساسية للشركة
+Transporter Info,معلومات الناقل
+Vehicle No,رقم المركبة
+Transporter Name,اسم الناقل
+Vehicle Dispatch Date,تاريخ إرسال المركبة
+Remarks,ملاحظات
+Use Multi-Level BOM,استخدام متعدد المستويات لفاتورة المواد
+From BOM,من فاتورة المواد
+Default Source Warehouse,مستودع المصدر الافتراضي
+Source Warehouse,مستودع المصدر
+Make Material Request,إنشاء طلب المواد
+Vehicle Number,رقم المركبة
+Item with child nodes cannot be converted to Non Group,الصنف مع عقد فرعية لا يمكن تحويلها إلى غير مجموعة
+"Shown Number must be unique, Shown Number is already exist",الرقم الظاهر يجب أن يكون فريد وموجود بالفعل
+Has Batch No,له رقم دفعة
+Has Serial No,له رقم تسلسلي
+Default Selling Cost Center,مركز تكلفة البيع
+Valuation Method,طريقة التقييم
+Default Material Request Type,نوع طلب المواد
+Valid Till,صالح لغاية
+New Customer Details,تفاصيل العملاء الجديدة
+Income Account,حساب الدخل
+Quotation Trends,اتجاهات عرض السعر
+Supplier Scorecard,بطاقة أداء المورد
+Prevent RFQs,منع طلب عرض الأسعار
+Warn RFQs,تحذير طلب عرض الأسعار
+Total Accepted Items,مجموع الأصناف المقبولة
+Max Score,أقصى درجة
+Criteria Weight,معايير الوزن
+Criteria Formula,معايير الصيغة
+Criteria Setup,إعدادات المعايير
+Criteria Name,إسم المعايير
+Variable Name,اسم المتغير
+Warn Purchase Orders,تحذير طلبات الشراء
+Prevent Purchase Orders,منع طلبات الشراء
+Poor,رديء
+Average,متوسط
+Excellent,ممتاز
+Max Grade,أقصى درجة
+Min Grade,أقل درجة
+Per Year,كل سنة
+Per Week,كل أسبوع
+Per Month,كل شهر
+Evaluation Period,فترة التقييم
+Item Price,سعر الصنف
+City,المدينة
+Role Allowed to edit frozen stock,الدور يسمح لتعديل الأسهم المجمدة
+Notify by Email on creation of automatic Material Request,إشعار عن طريق البريد الإلكتروني على إنشاء طلب المواد تلقائيا
+Allow user to edit Price List Rate in transactions,السماح للمستخدم بتعديل معدل قائمة الأسعار في المعاملات
+Default Customer Group,مجموعة العملاء
+Campaign Naming By,تسمية الحملة بواسطة
+Buying Price List,شراء قائمة الأسعار
+Supplier Naming By,تسمية المورد بواسطة
+Default Supplier Type,نوع المورد
+Supplier Scorecard Variable,متغير بطاقة أداء المورد
+Billing Currency,عملة الفاتورة
+shown_number,الرقم الظاهر
+account_number,رقم الحساب
+Total (Company Currency),المجموع (عملة الشركة)
+Total Advance,مجموع المبلغ المدفوع مقدما
+Outstanding Amount,المبلغ المستحق
+Rounded Total (Company Currency),المجموع التقريبي (عملة الشركة)
+Grand Total (Company Currency),المجموع الكلي (عملة الشركة)
+Time Sheet,الجدول الزمني
+Time Sheet List,قائمة الجدول الزمني
+Price List Currency,عملة قائمة السعر
+Price List Exchange Rate,معدل قائمة اسعار الصرف
+Asset Depreciation Ledger,دفتر أستاذ استهلاك الأصول
+Date Settings,إعدادات التسجيل
+Message to show,رسالة للعرض
+Cheque Height,إرتفاع الشيك
+Cheque Size,حجم الشيك
+Is Account Payable,حساب الدفع
+View Ledger,عرض دفتر الأستاذ
+Publish on website,نشر على الموقع
+Supplier Delivery Note,مذكرة تسليم المورد
+Mention if non-standard receivable account,أذكر إزا كان الحساب المستحق غير قياسي
+Delete Company Transactions,حذف معاملات الشركة
+Round Off Account,حساب ختم
+Round Off Cost Center,مركز تكلفة ختم
+Purchase Invoice Trends,اتجاهات فاتورة الشراء
+Unreconciled Payment Details,تفاصيل الدفع لم تتم تسويتها
+Please select Company and Party Type first,الرجاء تحديد الشركة ونوع المستفيد أولا
+Maximum Invoice Amount,الحد الأقصى لمبلغ الفاتورة
+Minimum Invoice Amount,الحد الأدنى لمبلغ الفاتورة
+Receivable / Payable Account,ذمم دائنة/مدينة
+Payment Gateway Account,حساب بوابة الدفعة
+Default Payment Request Message,رسالة طلب الدفعة
+Amount to Bill,المبلغ إلى الفاتورة
+Suplier,المورد
+Suplier Name,اسم المورد
+Next Depreciation Date,تاريخ الإستهلاك المقبل
+Cost Center Name,اسم مركز تكلفة جديد
+Asset Category Name,اسم فئة الأصول
+Billing Country,دولة الفاتورة
+Shipping Country,دولة الشحن
+Shipping County,مقاطعة الشحن
+Billing County,مقاطعة الفاتورة
+Profit and Loss Statement,بيان الربح والخسارة
+Accounts Receivable Summary,ملخص الذمم المدينة
+Excise Entry,قيد الإستهلاك
+account_name,اسم الحساب
+Account Name,اسم حساب جديد
+items,أصناف
+Exchange Gain / Loss Account,حساب تبادل الربح/الخسارة
+Letter Head,ترويسة الرسالة
+Default Letter Head,ترويسة الرسالة
+Activity Cost,تكلفة النشاط
+Write Off Entry,قيد مشطوب
+Depreciation Entry,قيد الإهلاك
+Opening Entry,قيد مفتوح
+Credit Card Entry,قيد بطاقة الإئتمان
+Cash Entry,قيد نقدي
+Entry Type,نوع القيد
+Series for Asset Depreciation Entry (Journal Entry),سلسلة إهلاك الأصول (إدخال دفتر اليومية)
+Invoice Posting Date,تاريخ نشر الفاتورة
+Period Closing Voucher,قسيمة انتهاء الفترة
+Supplier Invoice Date,تاريخ فاتورة المورد
+Payment Type,نوع الدفع
+Bank / Cash Account,حساب البنك /النقدي
+Reconcile,تسوية
+Payment Reconciliation,تسوية الدفع
+Global Defaults,الإعدادات الافتراضية العالمية
+Sales Partners and Territory,شركاء المبيعات والمناطق
+Supplier Type,نوع المورد
+Landed Cost Voucher,قسيمة هبوط التكلفة
+Search Term,البحث عن
+Required Qty,الكمية المطلوبة
+Raw Material Item Code,رمز صنف المواد الخام
+Supplier Warehouse,مستودع المورد
+Email Digest,حصاد البريد الإلكتروني
+POS,نقاط البيع
+Sales Partners Commission,عمولة شركاء المبيعات
+To Bill,إلى الفاتورة
+"Optional. Sets company's default currency, if not specified.",اختياري.لتعيين العملة الافتراضية للشركة،إذا لم يتم تحديدها.
+.Due Date cannot be before Posting Date,التاريخ المحدد لا يمكن أن يكون قبل تاريخ النشر.
+Total Monthly Sales,مجموع المبيعات شهريا
+Default Inventory Account,حساب المخزون الافتراضي
+Enable Perpetual Inventory,تفعيل المخزون بشكل دائم
+Validity in Days,الصلاحية في أيام
+Bank Guarantee Number,رقم الضمان البنكي
+Bank Guarantee,الضمان البنكي
+New ToDo,جديد قائمة المهام
+Setting up Email,إعدادات البريد الإلكتروني
+Auto,تلقاءي
+Resource Owner Password Credentials,وثائق كلمة مرور مالك المورد
+Grant Type,نوع المنحة
+Please enter values for App Access Key and App Secret Key,الرجاء إدخال بيانات مفتاح الوصول للتطبيقات ومفتاح سر التطبيقات
+API Secret,سر API
+Email Group Member,عضو مجموعة البريد الإلكتروني
+"If enabled, users will be notified every time they login. If not enabled, users will only be notified once.",إذا تم تمكينه، فسيتم إشعار المستخدمين في كل مرة يسجلون فيها الدخول. إذا لم يتم تمكينه، فسيتم إشعار المستخدمين مرة واحدة فقط.
+Notify Users On Every Login,إشعار المستخدمين عند كل تسجيل دخول
+Notify users with a popup when they log in,إشعار المستخدمين بالنوافذ المنبثقة عند تسجيل الدخول
+Public,عام
+All Customer Contact,إتصالات جميع العملاء
+Only leaf nodes are allowed in transaction,يسمح عقد الأوراق فقط في المعاملة
+Campaign,الحملة التسويقية
+Minutes to First Response for Opportunity,دقائق للرد الأول على الفرصة
+Role Permissions Manager,مدير صلاحيات الأدوار
+User Permissions Manager,مدير صلاحيات المستخدم
+Issued Items Against Production Order,الأصناف الصادرة مقابل أوامر الانتاج
+Show Quantity in Website,إظهار الكمية في الموقع
+No salary slip found between 2017-04-30 and 2017-05-31,لا إيصال راتب موجود في هذه الفترة
+"Parent Course (Leave blank, if this isn't part of Parent Course)",المقرر الدراسي الأصل (اتركه فارغا إذا لم يكون جزء من المقرر الأصل)
+Validate the Student Group from Program Enrollment,التحقق من صحة مجموعة الطلاب من تسجيل البرنامج
+About Product Bundle,عن حزمة المنتج
+Optional. This setting will be used to filter in various transactions.,اختياري. سيتم استخدام هذا الإعداد للتصفية في المعاملات المختلفة.
+Hide Customer's Tax Id from Sales Transactions,إخفاء معرف ضريبة العميل من حركات المبيعات
+"If selected, the value specified or calculated in this component will not contribute to the earnings or deductions. However, it's value can be referenced by other components that can be added or deducted.",إذا تم تحديده، فإن القيمة المحددة أو المحسوبة في هذا المكون لن تساهم في الأرباح أو الاستقطاعات. ومع ذلك، فإنه يمكن الإشارة إلى القيمة من قبل المكونات الأخرى التي يمكن أن تضاف أو يتم خصمها.
+Statistical Component,المكون الإحصائي
+Are you sure you want to create Issue from this email,هل أنت متأكد أنك تريد إنشاء مشكلة من هذا البريد الإلكتروني
+Missing Values Required,البيانات المفقودة مطلوبة
+The page you are looking for is missing. This could be because it is moved or there is a typo in the link.,الصفحة التي تبحث عنها مفقودة. قد يكون هذا بسبب نقلها أو وجود خطأ في الرابط.
+Mandatory fields required in {0},الحقول التالية والقيم مفقودة:
+Tariff Number,رقم التعريفة
+Customs Tariff Number,رقم التعريفة الجمركية
+Foreign Trade Details,تفاصيل التجارة التجارية
+Country of Origin,بلد المنشأ
+"To add dynamic subject, use jinja tags like",لإضافة موضوع،استخدم علامات jinja مثل
+SMTP Server,خادم SMTP
+No Tags,رقم الكلمات
+"If enabled, the password strength will be enforced based on the Minimum Password Score value. A value of 2 being medium strong and 4 being very strong.",إذا تم تمكينه، سيتم فرض قوة كلمة المرور استنادا إلى قيمة الحد الأدنى لقيمة كلمة المرور. قيمة 2 كونها متوسطة قوية و 4 قوية جدا.
+Enable Password Policy,تمكين سياسة كلمة المرور
+"If not set, the currency precision will depend on number format",إذا لم يتم تعيينها، فإن دقة العملة تعتمد على تنسيق الأرقام
+Currency Precision,دقة العملة
+Default Receivable Account,حساب المقبوضات الافتراضي
+Passive,غير فعال
+Refresh,تحديث
+Templating,القولبة
+Standard Reply Example,نموذج على الرد القياسي
+"Templates are compiled using the Jinja 
+Templating Langauge. To learn more about Jinja,","يتم تجميع القوالب بإستخدام لغة القولبة Jinja
+لمعرفة المزيد عن Jinja"
+Attendance Freeze Date,تاريخ تجميد الحضور
+New Email Group,مجموعة البريد الإلكتروني جديد
+Add new row,إضافة سجل جديد
+Receipient,المستلم
+Ref Type,نوع المرجع
+Page Missing or Moved,الصفحة مفقودة أو منقولة
+Current Academic Term,الفصل الدراسي الحالي
+Current Academic Year,العام الدراسي الحالي
+School Settings,اعدادات المدارس
+CRM,إدارة علاقات العملاء
+Buying,مشتريات
+Selling,مبيعات
+Lead Owner Efficiency,كفاءة المالك الرئيسي
+Campaign Efficiency,كفاءة الحملة
+Item Variants,متغيرات الصنف
+Available Stock for Packing Items,المخزون المتاح للأصناف المعبأة
+Purchase Register,سجل المشتريات
+Item-wise Sales Register,سجل المبيعات على مستوى الصنف
+Item-wise Purchase Register,سجل المشتريات على مستوى الصنف
+Salary Structure,هيكل الرواتب
+Earning,الأرباح
+Process Payroll,عملية كشف الرواتب
+Salary Management,إدارة الرواتب
+Earning & Deduction,الأرباح والخصومات
+Gross Pay,إجمالي الراتب
+Sales Register,سجل المبيعات
+Terms and Conditions Template,نموذج الأحكام والشروط
+Payment Period Based On Invoice Date,فترة الدفع بناء على تاريخ الفاتورة
+Customer Acquisition and Loyalty,اكتساب العملاء
+Usage Info,معلومات الإستخدام
+Notification Control,التحكم في الإشعارات
+You must Save the form before proceeding,يجب حفظ النموذج قبل المتابعة
+Use Different Email Login ID,استخدام معرف تسجيل دخول مختلف للبريد الإلكتروني
+"For Links, enter the DocType as range. For Select, enter list of Options, each on a new line.",بالنسبة إلى الروابط، أدخل doctype كنطاق. للتحديد، أدخل قائمة الخيارات، كل منها على سطر جديد.
+"The application has been updated to a new version, please refresh this page",تم تحديث التطبيق إلى الإصدار الجديد، يرجى تحديث هذه الصفحة
+System Page,صفحة النظام
+"When any of the checked transactions are ""Submitted"", an email pop-up automatically opened to send an email to the associated ""Contact"" in that transaction, with the transaction as an attachment. The user may or may not send the email.","عندما يكون أي من المعاملات التي تم التحقق منها ""مقدم""، يتم فتح رسالة إلكترونية منبثقة تلقائيا لإرسال بريد إلكتروني إلى ""جهة الاتصال"" المقترنة في تلك المعاملة، مع المعاملة كمرفق. قد يقوم المستخدم أو لا يرسل البريد الإلكتروني."
+Please Enter Your Password to Continue,يرجى إدخال كلمة المرور للمتابعة
+Session Expired,انتهت الصلاحية
+Refreshing...,جاري التحديث ...
+Logged Out,تسجيل الخروج
+You have been successfully logged out,تم تسجيل الخروج بنجاح
+Request a timeout,طلب مهلة
+Get Items from BOM,الحصول على أصناف من فاتورة المواد
+Get Items from Product Bundle,الحصول على أصناف من حزمة المنتج
+Get Items,الحصول على أصناف
+Get From Sales Order,الحصول من أمر البيع
+Do you really want to Submit all Salary Slip from to,هل تريد اعتماد جميع كشوفات الرواتب من إلى
+Point-of-Sale Profile,ملف تعريف نقطة البيع
+POS Profile,ملف تعريف نقطة البيع
+Last Communication Date,تاريخ الإتصال الأخير
+Last Communication,الإتصال الأخير
+Organization,المنظمة
+Order Value,قيمة الطلب
+Order Count,عدد الطلبات
+Quot Count,عدد عروض الأسعار
+Opp Count,عدد الفرص
+Lead Count,عدد مبادرة البيع
+Quot/Lead %,عرض السعر /مبادرة البيع %
+Order/Quot %,الطلب/عرض السعر %
+Opp/Lead %,الطلب/مبادرة البيع %
+user_type,نوع المستخدم
+name,الإسم
+full_name,الإسم بالكامل
+job_title,المسمى الوظيفي
+applicant_name,إسم مقدم الطلب
+subject,الموضوع
+raised_by,رفعت بواسطة
+address_type,نوع العنوان
+priority,الأولوية
+Discussion,النقاش
+Stock Summary,ملخص المخزون
+Item Tax,ضريبة الصنف
+Download Backups,تحميل النسخ الإحتياطية
+File,الملف
+Book Asset Depreciation Entry Automatically,كتاب مدخل إستهلاك الأصول تلقائيا
+Action if Accumulated Monthly Budget Exceeded,العمل إذا تجاوز الميزانية السنوية المتراكمة
+Gross Profit / Loss,إجمالي الربح / الخسارة
+Expiry (In Days),انتهاء الصلاحية (بالأيام)
+Expires On,انتهاء الصلاحية في
+Report: Employee - Employee Information,تقرير :موظف - معلومات الموظف
+Processing Payroll,تجهيز كشوفات الرواتب
+Save Changes,حفظ التغيرات
+Choose File,اختر ملف
+Cancel,الغاء
+New,جديد
+Print,طباعة
+Show,عرض
+Tools,الأدوات
+Max Attachment Size (in MB),الحد الأقصى لحجم المرفقات (MB)
+Supplier Scorecard Criteria,معايير بطاقة أداء المورد
+Inactive Customers,عملاء غير نشطين
+Choose authentication method to be used by all users,اختر طريقة المصادقة ليتم استخدامها من قبل جميع المستخدمين
+Two Factor Authentication,مصادقة عاملان
+Two Factor Authentication method,طريقة مصادقة عاملان
+Is Group,مجموعة
+Default Warehouse,المستودع الافتراضي
+Billing and Delivery Status,حالة التسليم والفواتير
+Journal Entry,قيد دفتر اليومية
+Show tags,إظهار العلامات
+Default Account,الحساب الافتراضي
+Bank Account,حساب البنك
+Clearance Date,تاريخ التخليص
+Enable Two Factor Auth,تمكين مصادقة عاملان
+Write off,شطب
+Cash,نقدي
+Request Type,نوع الطلب
+Market Segment,قطاع السوق
+Valuation and Total,التقييم والمجموع
+Total,المجموع
+Credit Controller,وحدة تحكم الإئتمان
+Role that is allowed to submit transactions that exceed credit limits set.,الدور الذي يسمح له بتقديم المعاملات التي تتجاوز حدود الائتمان المحددة.
+Supplier Scorecard Standing,بطاقة أداء المورد الدائمة
+Please check your server logs or contact tech support.,يرجى التحقق من سجلات الخادم أو الاتصال بالدعم الفني.
+View Permitted Documents,عرض المستندات المسموح بها
+In Amount,في المبلغ
+Existing Company,الشركة القائمة
+Male,ذكر
+Female,أنثى
+Billing State,منطقة الفوترة
+Shipping State,منطقة الشحن
+Item Name,اسم الصنف
+Bank Draft,مسودة بنك
+Expenses Included In Valuation,وتشمل النفقات في التقييم
+Item has not barcode Number,الصنف ليس له رقم باركود
+print barcode,طباعة الباركود
+There is no barcode to print,لا يوجد باركود للطباعة
+Del,حذف
+Expected Start Date,تاريخ البدء المتوقع
+Activity Cost per Employee,تكلفة النشاط لكل موظف
+Execution,تنفيذ
+Both login and password required,إسم المستخدم أو كلمة المرور غير مدخل
+Item,صنف
+Payment Entry,دفع
+Committee,لجنة
+Ordered Items To Be Billed,الأصناف المطلوبة التي تم فوترتها
+Suggested Price Per Unit,السعر المقترح للوحدة
+Suggested Grand Total,السعر الاجمالي للسعر المقترح
+Suggested Total Price,السعر الكلي المقترح
+Payment Terms,شروط الدفع
+Account Head,حساب رئيسي
+Project Budget Controller,مراقب ميزانية المشروع
+depends_on_tasks,المهمات المعتمد عليها
+Old Code,رمز قديم
+ID Type,نوع الهوية
+ID Number,رقم الهوية
+User Id,معرف المستخدم
+Barcode,باركود
+Re-order Level,إعادة ترتيب المستوى
+Re-order Qty,إعادة ترتيب الكمية
+Show in Website,عرض في الموقع
+Parent Customer Group,مجموعة العملاء الأب
+Parent Item Group,مجموعة الصنف الأب
+Parent Territory,الإقليم الأب
+Personal Account,الحساب الشخصي
+Assets Setting,اعدادات الاصول
+Parent Sales Person,مندوب المبيعات الأب
+Fixed Asset Custody,عهدة الاصول الثابتة
+New Sales Person Name,اسم مندوب المبيعات
+Quotation Opening Reason,سبب اختيار التسعير
+Parameter,معامل
+Parent Account,حساب المستودعات الرئيسي
+Material Requester,طالب المواد
+Purchase Workflow,سير عمل الشراء
+Delivery Info,ملعومات التسليم
+Select Supplier Quotation,اختيار عرض أسعار
+Get last purchase rate,الحصول على آخر سعر شراء
+Quotation Opening,فتح المظاريف
+Supplier Quotation,عرض سعر المورد
+Bank Address,عنوان البنك
+Other Bank Dtails,تفاصيل بنكية أخرى
+Bank Info,معلومات البنك
+IBAN No,رقم حساب آيبان
+Default Buying Price List,قائمة الأسعار الافتراضية
+Value,قيمة
+Supplier Delivery Note Date,تاريخ مذكرة استخدام المورد
+CR No,رقم CR
+CR No Expiry Date,تاريخ انتهاء صلاحية رقم CR
+AC No,رقم AC
+Swift Code,رمز سريع
+Is Reverse,هو معكوس
+Reverse From,معكوس من
+Reverse Title,عنوان المعكوس
+Material Request Project,مشروع طلب المواد
+Account Paid From Name,الحساب المدفوع من الاسم
+Reason Code,كود السبب
+Account Paid From No,الحساب المدفوع من رقم
+Account Paid To Name,الحساب المدفوع للاسم
+Account Paid To No,الحساب المدفوع إلى رقم
+Reason Code (To Account),كود السبب (للحساب)
+Description (To Account),الوصف (للحساب)
+Rate,المعدل
+Is Canceled,ملغاه
+Revarse,عكس
+Payment Term Unit,وحدة الدفع الأجل
+Term,الشرط
+For reference only.,للاشارة فقط.
+Default Imprest Temporary,افتراضي السلف المؤقتة
+Default Imprest Permanent,افتراضي السلف الدائم
+Default Employee Payable Account,حساب الموظف الافتراضي للدفع
+Default Employee Recivable Account,حساب الموظف الافتراضي للاستلام
+Branch Code,رمز الفرع
+Bank Account No,رقم الحساب البنكي
+Asset Serial Number,الرقم التسلسلسي للاصول
+Is Existing Asset,اصل موجود مسبقا
+Barcode Image,صورة الباركود
+Freeze,تجميد
+Select Scrape Date to get all assets that scheduled to be scraped in that day,حدد تاريخ الاهلاك للحصول على كل الأصول التي من المقرر أن يتم اهلاكها في ذلك اليوم
+Custody Image,صورة العهدة
+Item code,رمز الصنف
+Employee Department,قسم الموظف
+Phone Number,رقم الهاتف
+Financial Statements,القوائم المالية
+Cost Centers,مراكز التكلفة
+All dimensions in centimeter only,جميع الأبعاد بالسنتيمتر فقط
+"1 Currency = [?] Fraction
+For e.g. 1 USD = 100 Cent",1 العملة = [؟] الكسر على سبيل المثال 1 دولار = 100 سينت
+Is Sales Item,هو صنف للبيع
+Is Purchase Item,هو صنف للشراء
