@@ -5,11 +5,11 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "client to all customer",
+			"module_name": "Social Working",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("client to all customer")
+			"label": _("Social Work")
 		},
 		{
 			"module_name": "HR Services",

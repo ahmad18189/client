@@ -21,13 +21,74 @@ class EndofServiceAward(Document):
         # self.switch_workflow_transition()
         # frappe.throw(str(self.months))
 
-    def get_salary(self,employee):
+    def on_submit(self):
+        ec_doc = frappe.get_doc({
+            "doctype":"Expense Claim",
+            "exp_approver": 'Administrator',
+            "posting_date": nowdate(),
+            "employee": self.employee,
+            "expenses": [
+                          # {
+                          #   "doctype": "Expense Claim Detail",
+                          #   "parenttype": "Expense Claim",
+                          #   "parentfield": "expenses",
+                          #   "expense_date": nowdate(),
+                          #   "expense_type": 'بدل راتب',
+                          #   "claim_amount": round(self.month_salary) if self.month_salary else 0,
+                          #   "sanctioned_amount": round(self.month_salary) if self.month_salary else 0
+                          # },
+                          {
+                            "doctype": "Expense Claim Detail",
+                            "parenttype": "Expense Claim",
+                            "parentfield": "expenses",
+                            "expense_date": nowdate(),
+                            "expense_type": 'بدل اجازات',
+                            "claim_amount": round(self.leave_total_cost) if self.leave_total_cost else 0,
+                            "sanctioned_amount": round(self.leave_total_cost) if self.leave_total_cost else 0
+                          },
+                          {
+                            "doctype": "Expense Claim Detail",
+                            "parenttype": "Expense Claim",
+                            "parentfield": "expenses",
+                            "expense_date": nowdate(),
+                            "expense_type": 'بدل تذاكر',
+                            "claim_amount": round(self.ticket_total_cost) if self.ticket_total_cost else 0,
+                            "sanctioned_amount": round(self.ticket_total_cost) if self.ticket_total_cost else 0
+                          },
+                          {
+                            "doctype": "Expense Claim Detail",
+                            "parenttype": "Expense Claim",
+                            "parentfield": "expenses",
+                            "expense_date": nowdate(),
+                            "expense_type": 'نهاية الخدمة',
+                            "claim_amount": round(self.award) if self.award else 0,
+                            "sanctioned_amount": round(self.award) if self.award else 0
+                          }
+                        ],
+            "employee_name": self.employee_name,
+            "company": frappe.defaults.get_user_default("Company")
+        }).insert(ignore_permissions=True)
+        msg = """تم انشاء المطالبة المالية: <b><a href="#Form/Expense Claim/{0}">{0}</a></b>""".format(ec_doc.name)
+        frappe.msgprint(msg)
 
-      result =frappe.db.sql("select gross_pay from `tabSalary Slip` where employee='{0}' order by creation desc limit 1".format(employee))
-      if result:
-          return result[0][0]
-      else:
-          frappe.throw(_("No salary slip found for this employee"))
+
+    def get_salary(self,employee):
+            
+        result =frappe.db.sql("select net_pay from `tabSalary Slip` where employee='{0}' order by creation desc limit 1".format(employee))
+        if result:
+            return result[0][0]
+        else:
+            frappe.throw(_("No salary slip found for this employee"))
+
+
+    def get_leave_balance(self,employee):
+        total_leave_balance = frappe.db.sql("select total_leaves_allocated,from_date,to_date,name from `tabLeave Allocation` where employee='{0}' order by creation desc limit 1".format(employee))
+        if total_leave_balance:
+            leave_days = frappe.db.sql("select sum(total_leave_days) from `tabLeave Application` where employee='{0}' and posting_date between '{1}' and '{2}'".format(employee,total_leave_balance[0][1],total_leave_balance[0][2]))[0][0]
+            if not leave_days:
+                leave_days = 0
+            leave_balance =  int(total_leave_balance[0][0])-int(leave_days)
+        return leave_balance
 
     def switch_workflow_transition(self):
         employee_user = frappe.get_value("Employee", filters = {"name": self.employee}, fieldname="user_id")
@@ -91,9 +152,8 @@ def get_award(start_date, end_date, salary, toc, reason):
         days = math.ceil(daysrem - (months * 30.416))
         ret_dict = {"days":days, "months":months, "years":years}
     # salary = doc['salary']
-    years = int(years) + (int(months) / 12) + (int(days) / 365)
+    years = flt(years) + (flt(months) / 12) + (flt(days) / 365)
     # reason = doc['reason']
-
     if not reason:
         frappe.throw("برجاء اختيار سبب انتهاء العلاقة العمالية")
     else:
@@ -117,9 +177,9 @@ def get_award(start_date, end_date, salary, toc, reason):
                 if years < 2:
                     result = 'لا يستحق الموظف مكافأة نهاية خدمة'
                 elif years <= 5:
-                    result = (1 / 6) *  salary * years
+                    result = (1.0 / 6.0) *  salary * years
                 elif years <= 10:
-                    result = ((1 / 3) *  salary * 5) + ((2 / 3) *  salary * (years - 5))
+                    result = ((1.0 / 3.0) *  salary * 5) + ((2.0 / 3.0) *  salary * (years - 5))
                 else:
                     result = (0.5 *  salary * 5) + ( salary * (years - 5))
                 ret_dict["award"] = result

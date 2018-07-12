@@ -8,25 +8,24 @@ cur_frm.add_fetch("employee", "date_of_joining", "work_start_date");
 
 frappe.ui.form.on('End of Service Award', {
     refresh: function(frm) {
-        if (!cur_frm.doc.__islocal) {
-            for (var key in cur_frm.fields_dict) {
-                cur_frm.fields_dict[key].df.read_only = 1;
-            }
-            cur_frm.disable_save();
-        } else {
-            cur_frm.enable_save();
-        }
-        frappe.call({
-            method: "unallowed_actions",
-            doc: frm.doc,
-            freeze: true,
-            callback: function(r) {
-                if (r.message && frappe.session.user != "Administrator") {
-                    frm.page.clear_actions_menu();
-                }
-            }
-        });
-        cur_frm.add_fetch("employee", "employment_type", "type_of_contract");
+        // if (!cur_frm.doc.__islocal) {
+        //     for (var key in cur_frm.fields_dict) {
+        //         cur_frm.fields_dict[key].df.read_only = 1;
+        //     }
+        //     cur_frm.disable_save();
+        // } else {
+        //     cur_frm.enable_save();
+        // }
+        // frappe.call({
+        //     method: "unallowed_actions",
+        //     doc: frm.doc,
+        //     freeze: true,
+        //     callback: function(r) {
+        //         if (r.message && frappe.session.user != "Administrator") {
+        //             frm.page.clear_actions_menu();
+        //         }
+        //     }
+        // });
         if (cur_frm.doc.employee) {
             if (cur_frm.doc.type_of_contract == "عقد") {
                 cur_frm.set_df_property("reason", "options", "\nانتهاء مدة العقد , أو باتفاق الطرفين على إنهاء العقد\nفسخ العقد من قبل صاحب العمل\nفسخ العقد من قبل صاحب العمل لأحد الحالات الواردة في المادة (80)\nترك الموظف العمل نتيجة لقوة قاهرة\nإنهاء الموظفة لعقد العمل خلال ستة أشهر من عقد الزواج أو خلال ثلاثة أشهر من الوضع\nترك الموظف العمل لأحد الحالات الواردة في المادة (81)\nفسخ العقد من قبل الموظف أو ترك الموظف العمل لغير الحالات الواردة في المادة (81)");
@@ -37,25 +36,56 @@ frappe.ui.form.on('End of Service Award', {
             }
         }
     },
-    employee: function() {
-        //        // cur_frm.set_value('award',"");
-        //        // cur_frm.set_value('salary'," ");
-        //        alert("kkk");
-        if (cur_frm.doc.employee){
+    employee: function(frm) {
+        
+        if(cur_frm.doc.employee){
             frappe.call({
                 "method": "get_salary",
                 doc: cur_frm.doc,
                 args: { "employee": cur_frm.doc.employee },
                 callback: function(data) {
                     if (data) {
+                        // cur_frm.set_value('ticket_number', );
+                        // cur_frm.set_value('leave_number', );
+                        // cur_frm.set_value('leave_cost', );
+                        // cur_frm.set_value('ticket_cost', );
+                        // cur_frm.set_value('ticket_total_cost', );
+                        // cur_frm.set_value('leave_total_cost', );
+                        // cur_frm.set_value('total', );
+
                         cur_frm.set_value('salary', data.message);
+                        cur_frm.set_value('leave_cost', Math.round(data.message/30));
                     }
                 }
             });
         }
 
+        if(cur_frm.doc.employee && cur_frm.doc.end_date){
+            cur_frm.set_value("worked_days", frappe.datetime.get_day_diff(cur_frm.doc.end_date,frappe.datetime.month_start(cur_frm.doc.end_date)))
+        }
+        if(cur_frm.doc.salary && cur_frm.doc.worked_days){
+            month_days_count = frappe.datetime.get_day_diff(frappe.datetime.month_end(cur_frm.doc.end_date),frappe.datetime.month_start(cur_frm.doc.end_date))
+            
+            cur_frm.set_value("month_salary",  Math.round((cur_frm.doc.salary/month_days_count) * cur_frm.doc.worked_days))
+        }
+
     },
-    type_of_contract: function() {
+    salary: function(frm) {
+        if(cur_frm.doc.salary){
+            frappe.call({
+                "method": "get_leave_balance",
+                doc: cur_frm.doc,
+                args: { "employee": cur_frm.doc.employee },
+                callback: function(data) {
+                    if (data) {
+                        cur_frm.set_value('leave_number', data.message);
+                        cur_frm.set_value('leave_total_cost', Math.round(data.message*cur_frm.doc.leave_cost));
+                    }
+                }
+            });
+        }
+    },
+    type_of_contract: function(frm) {
         if (cur_frm.doc.type_of_contract == "عقد") {
             cur_frm.set_df_property("reason", "options", "\nانتهاء مدة العقد , أو باتفاق الطرفين على إنهاء العقد\nفسخ العقد من قبل صاحب العمل\nفسخ العقد من قبل صاحب العمل لأحد الحالات الواردة في المادة (80)\nترك الموظف العمل نتيجة لقوة قاهرة\nإنهاء الموظفة لعقد العمل خلال ستة أشهر من عقد الزواج أو خلال ثلاثة أشهر من الوضع\nترك الموظف العمل لأحد الحالات الواردة في المادة (81)\nفسخ العقد من قبل الموظف أو ترك الموظف العمل لغير الحالات الواردة في المادة (81)");
         } else {
@@ -68,6 +98,15 @@ frappe.ui.form.on('End of Service Award', {
     end_date: function(frm) {
         frm.trigger("get_days_months_years");
 
+        if(cur_frm.doc.employee && cur_frm.doc.end_date){
+            cur_frm.set_value("worked_days", frappe.datetime.get_day_diff(cur_frm.doc.end_date,frappe.datetime.month_start(cur_frm.doc.end_date)))
+        }
+        if(cur_frm.doc.salary && cur_frm.doc.worked_days){
+            month_days_count = frappe.datetime.get_day_diff(frappe.datetime.month_end(cur_frm.doc.end_date),frappe.datetime.month_start(cur_frm.doc.end_date))
+
+            cur_frm.set_value("month_salary",  Math.round((cur_frm.doc.salary/month_days_count) * cur_frm.doc.worked_days))
+        }
+        
         // frappe.call({
         //     method: "erpnext.hr.doctype.end_of_service_award.end_of_service_award.get_award",
         //     args: {
@@ -90,8 +129,10 @@ frappe.ui.form.on('End of Service Award', {
         if (end < start) {
             cur_frm.set_value('years', 0);
             cur_frm.set_value('months', 0);
-            cur_frm.set_value('days', 0)
+            cur_frm.set_value('days', 0);
+            validated = false;
             frappe.throw("تاريخ نهاية العمل يجب أن يكون أكبر من تاريخ بداية العمل");
+            
 
         } else {
             var date1 = new Date(start);
@@ -115,7 +156,9 @@ frappe.ui.form.on('End of Service Award', {
     validate: function(frm) {
         frm.trigger("get_award");
     },
-
+    after_save:function(frm) {
+        cur_frm.set_value('total', cur_frm.doc.ticket_total_cost+cur_frm.doc.leave_total_cost+cur_frm.doc.award);
+    },
     find: function(frm) {
         frm.trigger("get_award");
     },
@@ -171,7 +214,7 @@ frappe.ui.form.on('End of Service Award', {
                     }
                     // calculate
                     result = (firstPeriod * cur_frm.doc.salary * 0.5) + (secondPeriod * cur_frm.doc.salary);
-                    cur_frm.set_value('award', result);
+                    cur_frm.set_value('award', Math.round(result*100)/100);
 
                 }
             } else if (cur_frm.doc.type_of_contract == "دوام كامل") {
@@ -190,12 +233,12 @@ frappe.ui.form.on('End of Service Award', {
                         result = (0.5 * cur_frm.doc.salary * 5) + (cur_frm.doc.salary * (years - 5));
                     }
                     if (typeof(result) === 'number') {
-                        cur_frm.set_value('award', result);
+                        cur_frm.set_value('award', Math.round(result*100)/100 );
                     } else {
-                        cur_frm.set_value('award', result);
+                        cur_frm.set_value('award', Math.round(result*100)/100);
                     }
                     // (result).toFixed(2)
-                    console.log(result);
+                    // console.log(result);
                 } else {
                     if (years <= 5) {
                         result = 0.5 * cur_frm.doc.salary * years;
@@ -203,11 +246,11 @@ frappe.ui.form.on('End of Service Award', {
                         result = (0.5 * cur_frm.doc.salary * 5) + (cur_frm.doc.salary * (years - 5));
                     }
                     if (typeof(result) === 'number') {
-                        cur_frm.set_value('award', result);
+                        cur_frm.set_value('award', Math.round(result*100)/100);
                     } else {
-                        cur_frm.set_value('award', result);
+                        cur_frm.set_value('award', Math.round(result*100)/100);
                     }
-                    console.log(result);
+                    console.log(Math.round(result*100)/100);
                 }
 
 
