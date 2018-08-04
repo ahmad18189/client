@@ -2,6 +2,7 @@
 // For license information, please see license.txt
 cur_frm.add_fetch("employee", "employee_name", "employee_name");
 cur_frm.add_fetch('employee', 'department', 'department');
+cur_frm.add_fetch('employee', 'direct_manager', 'direct_manager');
 
 frappe.ui.form.on('Employee Resignation', {
     refresh: function(frm) {

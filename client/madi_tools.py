@@ -18,6 +18,97 @@ from datetime import date
 from dateutil.relativedelta import relativedelta
 from erpnext.hr.doctype.expense_claim.expense_claim import get_expense_claim_account
 
+# def make_ss():
+#     import sys
+#     from frappe.utils.csvutils import read_csv_content
+#     from frappe.core.doctype.data_import.importer import upload
+#     # print "Importing " + path
+    
+#     with open('/home/frappe/frappe-bench/apps/client/client/ss.csv', "r") as infile:
+#         rows = read_csv_content(infile.read())
+
+#     for row in rows:
+#         emp = frappe.get_doc("Employee", {'employee_id': row[0]})
+#         print(emp.name)
+#         # if row[9] == emp.civil_id_no:
+#         #     if not frappe.db.exists("Salary Structure", emp.designation):
+#         #         print "Adding To New One"
+#         if emp:
+#             frappe.get_doc({
+#                 "doctype": "Salary Structure",
+#                 "name": emp.employee_name+"-"+emp.name,
+#                 "company": "Taab",
+#                 "payment_account": "Cash - T",
+#                 "employees":[{
+#                     "employee": emp.name,
+#                     "from_date": emp.date_of_joining,
+#                     "base": row[1]
+#                 }],
+#                 "earnings":[
+
+#                     {
+#                         "salary_component": "الراتب الاساسي",
+#                         "amount_based_on_formula": 0,
+#                         "amount": row[1]
+#                     },
+#                     {
+#                         "salary_component": "بدل السكن",
+#                         "amount_based_on_formula": 0,
+#                         "amount": row[2]
+#                     },
+
+#                     {
+#                         "salary_component": "بدل المواصلات",
+#                         "amount_based_on_formula": 0,
+#                         "amount": row[3]
+#                     },
+
+#                     {
+#                         "salary_component": "بدل الهاتف",
+#                         "amount_based_on_formula": 0,
+#                         "amount": row[4]
+#                     },
+#                     {
+#                         "salary_component": "بدل طعام",
+#                         "amount_based_on_formula": 0,
+#                         "amount": row[5]
+#                     },
+#                     {
+#                         "salary_component": "بدل طبيعة عمل",
+#                         "amount_based_on_formula": 0,
+#                         "amount": row[6]
+#                     },
+
+#                     {
+#                         "salary_component": "بدل اضافي",
+#                         "amount_based_on_formula": 0,
+#                         "amount": row[7]
+#                     }  
+#                 ]
+#             }).insert()
+#             frappe.db.commit()
+#             print(emp.employee_name)
+#             # else:
+#             #     print "Adding To Existing One"
+#             #     pre_saved_doc = frappe.get_doc("Salary Structure", {"name": emp.designation})
+                
+#             #     ss_emp = {
+#             #     "employee": emp.name,
+#             #     "from_date": "2018-01-15",
+#             #     "base": row[4]
+#             #     },
+
+#             #     {"employee": emp.name,
+#             #     "from_date": "2018-01-15",
+#             #     "base": row[4]
+#             #     }
+#             #     emps_list = pre_saved_doc.get("employees")
+#             #     emps_list.append(ss_emp)
+#             #     pre_saved_doc.set("employees", emps_list)
+#             #     pre_saved_doc.save(ignore_permissions=True)
+#             #     frappe.db.commit()
+#             # c+=1
+            
 
 def make_ss():
     import sys

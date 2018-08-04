@@ -17,7 +17,7 @@ class BusinessTrip(Document):
         self.validate_dates()
         self.get_number_of_leave_days()
         self.get_ja_cost()
-        # self.validate_emp()
+        self.validate_emp()
 
         if hasattr(self,"workflow_state"):
             if self.workflow_state:
@@ -30,23 +30,15 @@ class BusinessTrip(Document):
         if self.employee:
             employee_user = frappe.get_value("Employee", filters={"name": self.employee}, fieldname="user_id")
             if self.get('__islocal') and employee_user:
-                if u'CEO' in frappe.get_roles(employee_user):
-                    self.workflow_state = "Created By CEO"
-                elif u'Director' in frappe.get_roles(employee_user) and self.days>4:
-                    self.workflow_state = "Created By Director"
-                elif u'Director' in frappe.get_roles(employee_user) and self.days<4:
-                    self.workflow_state = "Create By Director"
-                elif u'Manager' in frappe.get_roles(employee_user) and self.days>4:
-                    self.workflow_state = "Created By Manager"
-                elif u'Manager' in frappe.get_roles(employee_user) and self.days<4:
-                    self.workflow_state = "Create By Manager"
-                elif u'Line Manager' in frappe.get_roles(employee_user):
-                    self.workflow_state = "Created By Line Manager"
+                if u'Direct Manager' in frappe.get_roles(employee_user):
+                    self.workflow_state = "Created by Direct Manager"
+                elif u'Employee TS' in frappe.get_roles(employee_user):
+                    self.workflow_state = "Pending TS"
                 elif u'Employee' in frappe.get_roles(employee_user):
                     self.workflow_state = "Pending"
 
             if not employee_user and self.get('__islocal'):
-                self.workflow_state = "Pending"
+                self.workflow_state = "Pending TS"
 
 
     def validate_dates(self):

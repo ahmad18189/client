@@ -4,6 +4,7 @@
 
 cur_frm.add_fetch("employee", "employee_name", "employee_name");
 cur_frm.add_fetch('employee','department','department');
+cur_frm.add_fetch('employee','direct_manager','direct_manager');
 
 frappe.ui.form.on('Business Trip', {
     refresh: function(frm) {
