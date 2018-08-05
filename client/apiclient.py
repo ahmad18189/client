@@ -20,16 +20,17 @@ def test_instance():
 
 @frappe.whitelist(allow_guest=True)
 def get_penalty_days(doc, method):
-    penalty_days = frappe.get_list("Penalty", filters=[
-		            ["docstatus", "=", 1],
-                    ["employee", "=", doc.employee],
-                    ["start_date", ">=", doc.start_date],
-                    ["end_date", "<=", doc.end_date]
-                ],
-                fields=["days_count"]
-            )
-    if penalty_days:
-        doc.penalty = penalty_days[0].days_count
+    pass
+    # penalty_days = frappe.get_list("Penalty", filters=[
+		  #           ["docstatus", "=", 1],
+    #                 ["employee", "=", doc.employee],
+    #                 ["start_date", ">=", doc.start_date],
+    #                 ["end_date", "<=", doc.end_date]
+    #             ],
+    #             fields=["days_count"]
+    #         )
+    # if penalty_days:
+    #     doc.penalty = penalty_days[0].days_count
     # doc.penalty = 0;
     # for penalty in penalties:
     #     if penalties:

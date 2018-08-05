@@ -18,6 +18,22 @@ from datetime import date
 from dateutil.relativedelta import relativedelta
 from erpnext.hr.doctype.expense_claim.expense_claim import get_expense_claim_account
 
+def add_branches():
+    import sys
+    from frappe.utils.csvutils import read_csv_content
+    from frappe.core.doctype.data_import.importer import upload
+    # print "Importing " + path
+    
+    with open('/home/frappe/frappe-bench/apps/client/client/branches.csv', "r") as infile:
+        rows = read_csv_content(infile.read())
+
+    for row in rows:
+        emp = frappe.get_doc("Employee", {'employee_id': row[0]})
+        if row[1]:
+            emp.branch = row[1]
+            emp.save(ignore_permissions=True)
+            print(emp.employee_name)
+
 # def make_ss():
 #     import sys
 #     from frappe.utils.csvutils import read_csv_content

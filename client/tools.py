@@ -873,42 +873,73 @@ def add_emp():
 
 
 
-def add_usres_email():
+def add_users_email():
 	import sys
 	from frappe.utils.csvutils import read_csv_content
 	from frappe.core.doctype.data_import.importer import upload
 	# print "Importing " + path
-	with open('/home/frappe/frappe-bench/apps/client/client/emp.csv', "r") as infile:
+	with open('/home/frappe/frappe-bench/apps/client/client/taab_users.csv', "r") as infile:
 		rows = read_csv_content(infile.read())
-
+		user_name_list = []
+		password_list = []
+		email_list = []
 		cc = 0
 		for index, row in enumerate(rows):
 
-			cc += 1
-			string = str(row[1])
-			tt = string.split()
-			if row[11]:
-				print tt[0]+'.'+tt[-1]
-
-
-				frappe.get_doc({
-					"doctype": "User",
-					"user_type": 'System User',
-					"email": row[11],
-					"first_name": tt[0],
-					"last_name": tt[-1],
-					"language": "ar",
-					"civil_id_no":row[9],
-					"username": tt[0]+'.'+tt[-1],
-					"new_password": 123,
-					"send_welcome_email": 0
-				}).insert(ignore_permissions=True)
-
-				_update_password(row[11], row[5])
-
+			password = str(row[0])
+			full_name = (str(row[1])).split(' ')
+			first_name = full_name[0]
+			last_name = full_name[-1]
+			email = str(row[2])
 			
-		print cc
+			middle_name = ""
+			if len(full_name) > 2:
+				if(full_name[-2] == "Al" or full_name[-2] == "AL"):
+					last_name = full_name[-2] + " " + full_name[-1]
+			user_name = email.split('@')[0]
+			print(full_name)
+			print(first_name)
+			print(last_name)
+			print(email)
+			print(password)
+			middle = full_name[1:len(full_name)-1]
+			if(middle):
+				if(middle[-1] == "Al" or middle[-1] == "AL"):
+					middle.pop()
+				middle_name = ' '.join(middle)
+			print("middle name: " + str(middle_name))
+			print(user_name)
+			print("*************************")
+			print ("Adding User " + str(user_name) )
+			user = frappe.get_doc({
+				"doctype": "User",
+				"user_type": 'System User',
+				"email": email,
+				"first_name": first_name,
+				"last_name": last_name,
+				"language": "ar",
+				"username": user_name,
+				"new_password": password,
+				"send_welcome_email": 0
+			})
+			user.insert(ignore_permissions=True)
+			emp = frappe.get_all('Employee', filters={'civil_id_no': password})
+			my_emp = frappe.get_doc("Employee",emp[0]['name'])
+			my_emp.user_id = email
+			my_emp.save()
 
+
+			user_name_list.append(user_name)
+			password_list.append(password)
+			email_list.append(email)
+			print ("Added User Successfully: " + str(user_name))
+		for i in user_name_list:
+			print i
+		for i in password_list:
+			print i
+		for i in email_list:
+			print i
+			
 
 
 def add_translation( ignore_links=False, overwrite=False, submit=False, pre_process=None, no_email=True):

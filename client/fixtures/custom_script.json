@@ -21,9 +21,9 @@
   "docstatus": 0, 
   "doctype": "Custom Script", 
   "dt": "Salary Slip", 
-  "modified": "2018-04-05 01:59:08.249554", 
+  "modified": "2018-08-04 15:14:59.815670", 
   "name": "Salary Slip-Client", 
-  "script": "/*\nfrappe.ui.form.on(\"Salary Slip\", {\n    validate: function(frm){\n        frappe.call({\n            method: \"frappe.client.get_list\",\n            args: {\n                doctype: \"Penalty\",\n                filters: [\n\t\t            [\"docstatus\", \"=\", 1],\n                    [\"start_date\", \">=\", frm.doc.start_date],\n                    [\"end_date\", \"<=\", frm.doc.end_date]\n                ],\n                fields:[\"days_count\"]\n            },\n            callback: function(r) {\n               frm.set_value(\"penalty\", r.message.days_count);\n            }\n        });\n    }\n});\n*/", 
+  "script": "", 
   "script_type": "Client"
  }, 
  {
