@@ -36,24 +36,56 @@ frappe.ui.form.on('End of Service Award', {
             }
         }
     },
-    employee: function() {
-        //        // cur_frm.set_value('award',"");
-        //        // cur_frm.set_value('salary'," ");
-        //        alert("kkk");
+    employee: function(frm) {
+        
+        if(cur_frm.doc.employee){
+            frappe.call({
+                "method": "get_salary",
+                doc: cur_frm.doc,
+                args: { "employee": cur_frm.doc.employee },
+                callback: function(data) {
+                    if (data) {
+                        // cur_frm.set_value('ticket_number', );
+                        // cur_frm.set_value('leave_number', );
+                        // cur_frm.set_value('leave_cost', );
+                        // cur_frm.set_value('ticket_cost', );
+                        // cur_frm.set_value('ticket_total_cost', );
+                        // cur_frm.set_value('leave_total_cost', );
+                        // cur_frm.set_value('total', );
 
-        frappe.call({
-            "method": "get_salary",
-            doc: cur_frm.doc,
-            args: { "employee": cur_frm.doc.employee },
-            callback: function(data) {
-                if (data) {
-                    cur_frm.set_value('salary', data.message);
+                        cur_frm.set_value('salary', data.message);
+                        cur_frm.set_value('leave_cost', Math.round(data.message/30));
+                    }
                 }
-            }
-        });
+            });
+        }
+
+        if(cur_frm.doc.employee && cur_frm.doc.end_date){
+            cur_frm.set_value("worked_days", frappe.datetime.get_day_diff(cur_frm.doc.end_date,frappe.datetime.month_start(cur_frm.doc.end_date)))
+        }
+        if(cur_frm.doc.salary && cur_frm.doc.worked_days){
+            month_days_count = frappe.datetime.get_day_diff(frappe.datetime.month_end(cur_frm.doc.end_date),frappe.datetime.month_start(cur_frm.doc.end_date))
+            
+            cur_frm.set_value("month_salary",  Math.round((cur_frm.doc.salary/month_days_count) * cur_frm.doc.worked_days))
+        }
 
     },
-    type_of_contract: function() {
+    salary: function(frm) {
+        if(cur_frm.doc.salary){
+            frappe.call({
+                "method": "get_leave_balance",
+                doc: cur_frm.doc,
+                args: { "employee": cur_frm.doc.employee },
+                callback: function(data) {
+                    if (data) {
+                        cur_frm.set_value('leave_number', data.message);
+                        cur_frm.set_value('leave_total_cost', Math.round(data.message*cur_frm.doc.leave_cost));
+                    }
+                }
+            });
+        }
+    },
+    type_of_contract: function(frm) {
         if (cur_frm.doc.type_of_contract == "عقد") {
             cur_frm.set_df_property("reason", "options", "\nانتهاء مدة العقد , أو باتفاق الطرفين على إنهاء العقد\nفسخ العقد من قبل صاحب العمل\nفسخ العقد من قبل صاحب العمل لأحد الحالات الواردة في المادة (80)\nترك الموظف العمل نتيجة لقوة قاهرة\nإنهاء الموظفة لعقد العمل خلال ستة أشهر من عقد الزواج أو خلال ثلاثة أشهر من الوضع\nترك الموظف العمل لأحد الحالات الواردة في المادة (81)\nفسخ العقد من قبل الموظف أو ترك الموظف العمل لغير الحالات الواردة في المادة (81)");
         } else {
@@ -65,6 +97,16 @@ frappe.ui.form.on('End of Service Award', {
     },
     end_date: function(frm) {
         frm.trigger("get_days_months_years");
+
+        if(cur_frm.doc.employee && cur_frm.doc.end_date){
+            cur_frm.set_value("worked_days", frappe.datetime.get_day_diff(cur_frm.doc.end_date,frappe.datetime.month_start(cur_frm.doc.end_date)))
+        }
+        if(cur_frm.doc.salary && cur_frm.doc.worked_days){
+            month_days_count = frappe.datetime.get_day_diff(frappe.datetime.month_end(cur_frm.doc.end_date),frappe.datetime.month_start(cur_frm.doc.end_date))
+
+            cur_frm.set_value("month_salary",  Math.round((cur_frm.doc.salary/month_days_count) * cur_frm.doc.worked_days))
+        }
+
 
         // frappe.call({
         //     method: "erpnext.hr.doctype.end_of_service_award.end_of_service_award.get_award",
@@ -115,7 +157,9 @@ frappe.ui.form.on('End of Service Award', {
     validate: function(frm) {
         frm.trigger("get_award");
     },
-
+    after_save:function(frm) {
+        cur_frm.set_value('total', cur_frm.doc.ticket_total_cost+cur_frm.doc.leave_total_cost+cur_frm.doc.award);
+    },
     find: function(frm) {
         frm.trigger("get_award");
     },

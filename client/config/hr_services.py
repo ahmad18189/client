@@ -23,11 +23,11 @@ def get_data():
 				# 	"name": "Employee Loan",
 				# 	"description":_("Employee Loan"),
 				# },
-				{
-					"type": "doctype",
-					"name": "Penalty",
-					"description":_("Penalty")
-				},
+				# {
+				# 	"type": "doctype",
+				# 	"name": "Penalty",
+				# 	"description":_("Penalty")
+				# },
 				# {
 				# 	"type": "doctype",
 				# 	"name": "Warrantor",
@@ -43,11 +43,11 @@ def get_data():
 					"name": "End of Service Award",
 					"description":_("End Of Service Award"),
 				},
-				{
-					"type": "doctype",
-					"name": "Overtime Request",
-					"description":_("Overtime Request"),
-				},
+				# {
+				# 	"type": "doctype",
+				# 	"name": "Overtime Request",
+				# 	"description":_("Overtime Request"),
+				# },
 				# {
 				# 	"type": "doctype",
 				# 	"name": "Financial Custody",
@@ -78,13 +78,13 @@ def get_data():
 				# 	"name": "Medical Insurance Application",
 				# 	"description": _("Medical Insurance Application."),
 				# },
-				{
-					"type": "doctype",
-					"label": _("Department Tree"),
-					"name": "MGR Department",
-					"route": "Tree/MGR Department",
-					"description": _("Organization unit (MGR department) master.")
-				},
+				# {
+				# 	"type": "doctype",
+				# 	"label": _("Department Tree"),
+				# 	"name": "MGR Department",
+				# 	"route": "Tree/MGR Department",
+				# 	"description": _("Organization unit (MGR department) master.")
+				# },
 
 			]
 		},
