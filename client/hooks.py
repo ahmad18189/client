@@ -18,10 +18,10 @@ app_license = "MIT"
 app_include_css = ['/assets/client/css/desk.css',"/assets/client/js/c3/c3.min.css"]
 app_include_js = ["/assets/client/js/c3/c3.min.js"]
 website_context = {
-	"favicon": 	"/assets/client/images/logo.png",
-	"splash_image": "/assets/client/images/logo.png"
-	# "favicon": 	"/assets/erpnext/images/favicon.png",
-	# "splash_image": "/assets/erpnext/images/erp-icon.svg"
+	"favicon": 	"/assets/client/images/logo_new.png",
+	"splash_image": "/assets/client/images/logo_new.png"
+# 	# "favicon": 	"/assets/erpnext/images/favicon.png",
+# 	# "splash_image": "/assets/erpnext/images/erp-icon.svg"
 }
 # include js, css files in header of web template
 # web_include_css = "/assets/client/css/client.css"

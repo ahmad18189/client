@@ -15,7 +15,6 @@
  "fields": [
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -43,17 +42,14 @@
    "reqd": 1, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
-   "fetch_from": "employee.employee_name", 
    "fieldname": "employee_name", 
    "fieldtype": "Read Only", 
    "hidden": 0, 
@@ -77,12 +73,10 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -110,12 +104,10 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -141,12 +133,10 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -173,12 +163,10 @@
    "reqd": 1, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -206,12 +194,10 @@
    "reqd": 1, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -237,12 +223,10 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -270,12 +254,10 @@
    "reqd": 1, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -302,12 +284,10 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -333,17 +313,15 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
-   "depends_on": "eval:doc.reward_type == \"Amount\"", 
+   "depends_on": "", 
    "fieldname": "reward_amount", 
    "fieldtype": "Currency", 
    "hidden": 0, 
@@ -366,17 +344,15 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
-   "depends_on": "eval:doc.reward_type == \"Days\"", 
+   "depends_on": "", 
    "fieldname": "reward_days", 
    "fieldtype": "Data", 
    "hidden": 0, 
@@ -399,18 +375,16 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
    "default": "0", 
-   "depends_on": "eval:doc.reward_type == \"Days\"", 
+   "depends_on": "", 
    "fieldname": "day_value", 
    "fieldtype": "Currency", 
    "hidden": 0, 
@@ -433,12 +407,10 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -467,12 +439,10 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }, 
   {
    "allow_bulk_edit": 0, 
-   "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -499,7 +469,6 @@
    "reqd": 0, 
    "search_index": 0, 
    "set_only_once": 0, 
-   "translatable": 0, 
    "unique": 0
   }
  ], 
@@ -513,7 +482,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2018-11-21 20:13:43.186476", 
+ "modified": "2019-01-03 12:33:34.803102", 
  "modified_by": "Administrator", 
  "module": "HR Services", 
  "name": "Reward", 
@@ -588,6 +557,5 @@
  "sort_field": "modified", 
  "sort_order": "DESC", 
  "track_changes": 1, 
- "track_seen": 0, 
- "track_views": 0
+ "track_seen": 0
 }

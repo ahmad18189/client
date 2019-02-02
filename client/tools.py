@@ -19,7 +19,63 @@ from dateutil.relativedelta import relativedelta
 from client.hr_services.doctype.end_of_service_award.end_of_service_award import get_award
 import math
 
+def get_salary(employee):    
+        result =frappe.db.sql("select net_pay from `tabSalary Slip` where employee='{0}' order by creation desc limit 1".format(employee))
+        if result:
+            return result[0][0]
+        else:
+            frappe.throw(_("No salary slip found for this employee"))
 
+def cancel_po():
+	je = frappe.get_all("Purchase Order")
+	for i in je:
+		print(i.name)
+		je_doc = frappe.get_doc("Purchase Order",i.name)
+		try:
+			je_doc.cancel()
+		except:
+			print("Error!!")
+
+def cancel_mr():
+	je = frappe.get_all("Material Request")
+	for i in je:
+		print(i.name)
+		je_doc = frappe.get_doc("Material Request",i.name)
+		try:
+			je_doc.cancel()
+		except:
+			print("Error!!")
+
+def cancel_rfq():
+	je = frappe.get_all("Request for Quotation")
+	for i in je:
+		print(i.name)
+		je_doc = frappe.get_doc("Request for Quotation",i.name)
+		try:
+			je_doc.cancel()
+		except:
+			print("Error!!")
+
+def cancel_sq():
+	je = frappe.get_all("Supplier Quotation")
+	for i in je:
+		print(i.name)
+		je_doc = frappe.get_doc("Supplier Quotation",i.name)
+		try:
+			je_doc.cancel()
+		except:
+			print("Error!!")
+
+def cancel_doctype():
+    doctype = "May Concern Letter"
+    je = frappe.get_all(doctype)
+    for i in je:
+		print(i.name)
+		je_doc = frappe.get_doc(doctype,i.name)
+		try:
+			je_doc.cancel()
+		except:
+			print("Error!!")
 
 def edit_emp():
     length=frappe.db.sql("select count(name) from `tabEmployee` ")
@@ -288,8 +344,9 @@ def edit_civil():
 def add_salary():
     from frappe.utils.csvutils import read_csv_content
     from frappe.core.doctype.data_import.importer import upload
-    with open('/home/frappe/frappe-bench/apps/client/client/sal.csv', "r") as infile:  
+    with open('/home/frappe/frappe-bench/apps/client/client/sal_new.csv', "r") as infile:  
         rows = read_csv_content(infile.read())
+        no_employees = []
         for index, row in enumerate(rows):
             if row[0]:
                 query = frappe.db.sql("select name, employee_name, date_of_joining, status from `tabEmployee` where civil_id='{0}'".format(row[1]), as_dict=1)
@@ -300,24 +357,26 @@ def add_salary():
                     idx = 1
                     for c, i in zip(comps, range(2,7)):
                         if row[i]:
-                            comp={ "doctype": "Salary Detail", "salary_component": c, "parenttype": "Salary Structure", "parentfield": "earnings", "formula": row[i], "idx": idx }
+                            formula = row[i]
+                            if(i == 2):
+                                formula = 'base'
+                            comp={ "doctype": "Salary Detail", "salary_component": c, "parenttype": "Salary Structure", "parentfield": "earnings", "formula": formula, "idx": idx }
                             idx += 1
                             earnings.append(comp)
 
-
-                if query[0].status == "Active":
+                if query and query[0].status == "Active":
                     print query[0].name
                     print row[2]
                     ss = frappe.new_doc("Salary Structure")
                     ss.update(
                         {
                         "doctype": "Salary Structure",
-                        "name": query[0].name + "-SS",
+                        "name": row[7],
                         "owner": "Administrator",
                         "from_date":query[0].date_of_joining,
-                        "company": "جمعية الخير",
+                        "company": "الجمعية الخيرية بحائل",
                         "is_active": "Yes",
-                        "payment_account": "42010001 - Salaries - الرواتب والاجور - CAMA",
+                        "payment_account": "الرواتب والأجور - CAMA",
                         "employees": [
                                       {
                                         "doctype": "Salary Structure Employee",
@@ -338,6 +397,10 @@ def add_salary():
                      }
                         )
                     ss.insert()
+                else:
+                    no_employees.append(row[1])
+        for emp in no_employees:
+            print(emp)
                     
 
 
@@ -358,6 +421,33 @@ def add_pen_component():
             print("*********************")
             print(x.name)
 
+def add_liv_expense_component():
+    emps = frappe.get_all("Employee",filters={},fields={'name','employee_name','emp_nationality'})
+    for emp in emps:
+        doc = frappe.db.sql("""select parent from `tabSalary Structure Employee` where employee = '{0}' """.format(emp.name))
+        if (doc):
+            x = frappe.get_doc("Salary Structure",doc[0][0])
+            amount = 0
+            if(emp.emp_nationality == "Bangladesh"):
+                print(emp.employee_name)
+                print(emp.emp_nationality)
+                amount = 100
+                x.append("earnings", {
+                                "salary_component": "غلاء معيشة",
+                                "amount_based_on_formula": 0,
+                                "amount": amount,
+                            })
+                x.save(ignore_permissions=True)
+            else:
+                print(emp.employee_name)
+                print(emp.emp_nationality)
+                amount = 250
+                x.append("earnings", {
+                                "salary_component": "غلاء معيشة",
+                                "amount_based_on_formula": 0,
+                                "amount": amount,
+                            })
+                x.save(ignore_permissions=True)
 
 def add_gosi_component():
     emps = frappe.get_all("Employee",filters={'emp_nationality': "Saudi Arabia" },fields={'name','employee_name'})
@@ -919,3 +1009,50 @@ def add_items_group():
             }).insert(ignore_permissions=True)
 
     print c
+
+def cancel_and_delete_multi_docs():
+	import functools
+	docs_name = ["Salary Slip","Payroll Entry","Penalty","Reward"]
+	for doc in docs_name:
+		je = frappe.get_all(doc)
+		print("------------------------------")
+		print(doc)
+		print("------------------------------")
+
+		for i in je:
+			print(i.name)			
+			je_doc = frappe.get_doc(doc,i.name)
+			try:
+				try : 
+					je_doc.cancel()
+					je_doc.delete()
+				except : 
+					try :
+						je_doc.delete()
+					except Exception as e: print(e)
+					
+			except Exception as e: print(e)
+		print("------------------------------")
+		print("Naming series reset "+doc)
+		print("------------------------------")
+
+		meta = frappe.get_meta(doc)
+		naming_series = meta.get_field("naming_series")
+		if naming_series and naming_series.options:
+			prefixes = sorted(naming_series.options.split("\n"),
+				key=functools.cmp_to_key(lambda a, b: len(b) - len(a)))
+
+			for prefix in prefixes:
+				print (prefix)
+				if prefix:
+					last = frappe.db.sql("""select max(name) from `tab{0}`
+						where name like %s""".format(doc), prefix + "%")
+					if last and last[0][0]:
+						last = cint(last[0][0].replace(prefix, ""))
+					else:
+						last = 0
+
+					frappe.db.sql("""update tabSeries set current = %s
+						where name=%s""", (last, prefix))		
+		print("______________________________")
+		

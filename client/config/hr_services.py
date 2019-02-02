@@ -101,6 +101,18 @@ def get_data():
 				{
 					"type": "report",
 					"is_query_report": True,
+					"name": "Leave Balance",
+					"doctype": "Leave Application"
+				},
+				{
+					"type": "report",
+					"is_query_report": True,
+					"name": "Salary Register",
+					"doctype": "Salary Slip"
+				},
+				{
+					"type": "report",
+					"is_query_report": True,
 					"name": "Monthly Attendance Sheet",
 					"doctype": "Attendance"
 				},

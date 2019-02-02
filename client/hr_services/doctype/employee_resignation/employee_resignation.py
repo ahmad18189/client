@@ -38,6 +38,14 @@ class EmployeeResignation(Document):
         else:
             emp.ticket_total_cost = 0
 
+
+        sal_structure = frappe.db.sql("select parent from `tabSalary Structure Employee` where parenttype='Salary Structure' and employee='{0}'".format(self.employee))
+        if sal_structure:
+            sal = frappe.get_doc("Salary Structure", sal_structure[0][0])
+            sal.is_active = 'No'
+            sal.save(ignore_permissions=True)
+
+            
         eos_award = frappe.new_doc("End of Service Award")
         eos_award.employee = self.employee
         eos_award.department = self.department
