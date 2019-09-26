@@ -14,6 +14,18 @@ def get_data():
 				},
 				{
 					"type": "doctype",
+					"name": "Cancel Leave Application",
+					"description":_("Cancel Leave Application"),
+					"hide_count": True
+				},
+				{
+					"type": "doctype",
+					"name": "Employee Balance Earning",
+					"description":_("Employee Balance Earning"),
+					"hide_count": True
+				},
+				{
+					"type": "doctype",
 					"name": "May Concern Letter",
 					"description":_("May Concern Letter"),
 					"hide_count": True
@@ -94,6 +106,12 @@ def get_data():
 			"items": [
 				{
 					"type": "report",
+					# "is_query_report": True,
+					"name": "Employee Information",
+					"doctype": "Employee"
+				},
+				{
+					"type": "report",
 					"is_query_report": True,
 					"name": "Salary Output Report",
 					"doctype": "Salary Slip"
@@ -103,6 +121,12 @@ def get_data():
 					"is_query_report": True,
 					"name": "Monthly Attendance Sheet",
 					"doctype": "Attendance"
+				},
+				{
+					"type": "report",
+					"is_query_report": True,
+					"name": "Leave Application Details",
+					"doctype": "Leave Application"
 				},
 				{
 					"type": "report",

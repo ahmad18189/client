@@ -66,10 +66,14 @@ def hooked_leave_allocation_builder():
 
 def increase_leave_balance():
     length=frappe.db.sql("select count(name) from `tabEmployee` where status!='left'")
-    emp=frappe.db.sql("select name,work_days from `tabEmployee` where status!='left'")
-
+    emp=frappe.db.sql("select name,work_days,designation from `tabEmployee` where status!='left'")
+    leaves=0
     for i in range(length[0][0]):
-        deserved_leave = round(flt(emp[i][1])/12, 2)
+    	if emp[i][2]=='فني':
+    		leaves = 18
+    	else:
+    		leaves = emp[i][1]
+        deserved_leave = round(flt(leaves)/12, 2)
         allocation = frappe.db.sql("select name from `tabLeave Allocation` where employee='{0}' order by creation desc limit 1".format( emp[i][0]))
         if allocation:
             if str(frappe.utils.get_last_day(nowdate())) == str(nowdate()):
@@ -79,3 +83,4 @@ def increase_leave_balance():
                 doc.save(ignore_permissions=True)
                 print 'Done'
                 
+

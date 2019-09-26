@@ -32,15 +32,15 @@ class EndofServiceAward(Document):
             "posting_date": nowdate(),
             "employee": self.employee,
             "expenses": [
-                        # {
-                        #     "doctype": "Expense Claim Detail",
-                        #     "parenttype": "Expense Claim",
-                        #     "parentfield": "expenses",
-                        #     "expense_date": nowdate(),
-                        #     "expense_type": 'بدل راتب',
-                        #     "claim_amount": round(self.month_salary) if self.month_salary else 0,
-                        #     "sanctioned_amount": round(self.month_salary) if self.month_salary else 0
-                        #   },
+                        {
+                            "doctype": "Expense Claim Detail",
+                            "parenttype": "Expense Claim",
+                            "parentfield": "expenses",
+                            "expense_date": nowdate(),
+                            "expense_type": 'بدل راتب',
+                            "claim_amount": round(self.total_month_salary) if self.total_month_salary else 0,
+                            "sanctioned_amount": round(self.total_month_salary) if self.total_month_salary else 0
+                          },
                           {
                             "doctype": "Expense Claim Detail",
                             "parenttype": "Expense Claim",

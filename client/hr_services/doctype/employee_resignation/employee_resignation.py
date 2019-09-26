@@ -10,15 +10,29 @@ from client.hr_services.doctype.end_of_service_award.end_of_service_award import
 from frappe.utils import cint, cstr, date_diff, flt, formatdate, getdate, get_link_to_form, \
     comma_or, get_fullname, add_years, add_months, add_days, nowdate, get_first_day, get_last_day
 import math
-
+import datetime
 
 class EmployeeResignation(Document):
+
+    # def validate(self):
+    #     frappe.throw(str(get_first_day(getdate(self.last_working_date))))
+    #     frappe.msgprint(str(self.last_working_date))
+    #     frappe.msgprint(str(self.last_working_date)-str(get_first_day(getdate(self.last_working_date))))
+
+    def diff_dates(date1, date2):
+        return abs(date2-date1).days
 
     def on_submit(self):
         emp = frappe.get_doc("Employee",self.employee)
         emp.status ="Left"
         emp.relieving_date =self.last_working_date
         emp.save(ignore_permissions=True)
+
+        sal_structure = frappe.db.sql("select parent from `tabSalary Structure Employee` where parenttype='Salary Structure' and employee='{0}'".format(self.employee))
+        if sal_structure:
+            sal = frappe.get_doc("Salary Structure", sal_structure[0][0])
+            sal.is_active = 'No'
+            sal.save(ignore_permissions=True)
 
         salary = frappe.get_list("Salary Slip", filters={"employee": self.employee}, fields=["net_pay"])
 
@@ -38,9 +52,15 @@ class EmployeeResignation(Document):
         else:
             emp.ticket_total_cost = 0
 
+
+        month_worked_days = datetime.datetime.strptime(self.last_working_date, '%Y-%m-%d')
+
         eos_award = frappe.new_doc("End of Service Award")
         eos_award.employee = self.employee
+        eos_award.employee_name = self.employee_name
         eos_award.department = self.department
+        eos_award.type_of_contract = self.employment_type
+        eos_award.work_start_date = self.date_of_joining
         eos_award.end_date = self.last_working_date
         eos_award.salary = salary[0].net_pay
         eos_award.reason = "استقالة الموظف"
@@ -54,7 +74,10 @@ class EmployeeResignation(Document):
         eos_award.leave_number = leave_balance
         eos_award.leave_cost = round(salary[0].net_pay/30)
         eos_award.leave_total_cost = eos_award.leave_number*eos_award.leave_cost
-        eos_award.total = flt(eos_award.leave_total_cost) + flt(eos_award.ticket_total_cost) + flt(eos_award.award)
+        eos_award.days_number = int(month_worked_days.day)
+        eos_award.day_value = round(salary[0].net_pay/30)
+        eos_award.total_month_salary = eos_award.days_number*eos_award.day_value
+        eos_award.total = flt(eos_award.leave_total_cost) + flt(eos_award.ticket_total_cost) + flt(eos_award.award) + flt(eos_award.total_month_salary)
         eos_award.insert()
         msg = """تم انشاء مكافأة نهاية الخدمة: <b><a href="#Form/End of Service Award/{0}">{0}</a></b>""".format(eos_award.name)
         frappe.msgprint(msg)
