@@ -37,8 +37,8 @@ def get_conditions(filters):
 
 	if filters.get("leave_type"): conditions += " and leave_type = '{0}' ".format(filters.get("leave_type"))
 
-	if filters.get("from_date"): conditions += " and from_date >= '{0}' ".format(filters.get("from_date"))
-	if filters.get("to_date"): conditions += " and to_date <= '{0}' ".format(filters.get("to_date"))
+	if filters.get("from_date"): conditions += " and (from_date >= '{0}' or '{0}' between from_date and to_date) ".format(filters.get("from_date"))
+	if filters.get("to_date"): conditions += " and (to_date <= '{0}' or '{0}' between from_date and to_date) ".format(filters.get("to_date"))
 
 	return conditions
 

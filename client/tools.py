@@ -19,6 +19,23 @@ from dateutil.relativedelta import relativedelta
 from client.hr_services.doctype.end_of_service_award.end_of_service_award import get_award
 from forex_python.converter import CurrencyRates
 
+from frappe.utils import (add_days, getdate, formatdate, date_diff,
+    add_years, get_timestamp, nowdate, flt, add_months, get_last_day)
+
+# def edit_allocation_to_date():
+#     emps=frappe.db.sql_list("select name from `tabEmployee` where status!='left' ")
+#     for emp in emps:
+#         allocation = frappe.db.sql("select name from `tabLeave Allocation` where docstatus=1 and leave_type='Annual Leave - اجازة اعتيادية' and employee='{0}' order by to_date desc limit 1".format(emp))
+        
+#         if allocation:
+#             doc = frappe.get_doc('Leave Allocation', allocation[0][0])
+#             doc.to_date = add_years(doc.to_date, 5)
+#             doc.flags.ignore_validate = True
+#             doc.save(ignore_permissions=True)
+
+#             print emp, doc.name, doc.to_date, add_years(doc.to_date, 5)
+
+
 
 def edit_allocation_new_balance():
     from frappe.utils.csvutils import read_csv_content
